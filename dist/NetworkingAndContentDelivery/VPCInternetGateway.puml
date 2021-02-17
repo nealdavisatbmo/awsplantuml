@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPCInternetGateway [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm0000000000mmyCF300000
+0003_m00003333FFFFF3330000m_3000
+00_y0000FympFFCCCCCF3my_0000y_00
+0_y00000_0__00000000_00_00000y_0
+0_000000_0__00000000_00_000000_0
+0y_00000_0__00000000_00_00000_y0
+00y_3000_0__00000000_00_0003_y00
+0000yF30mmmm00000000mmmm03Fy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(VPCInternetGateway)
+!define VPCInternetGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPCInternetGateway, VPCInternetGateway)
+!define VPCInternetGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPCInternetGateway, VPCInternetGateway)
+!define VPCInternetGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPCInternetGateway)
+!define VPCInternetGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPCInternetGateway, VPCInternetGateway)
+!define VPCInternetGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPCInternetGateway, VPCInternetGateway)

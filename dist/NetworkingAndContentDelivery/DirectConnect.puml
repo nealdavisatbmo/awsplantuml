@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DirectConnect [32x32/4] {
+________________________________
+____________yyy_________________
+_________mFF___FFpy_yy__________
+_______y0_____mpm_FF__0yy_______
+_____y3____yppC0Cppy_____3y_____
+_____Fmy___FFFF0_F0F_____mF_____
+_______FFFFF___3__3FFFFFF_______
+___________0FFFFFFF0____________
+__________0FFFFFFFFF0___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DirectConnect)
+!define DirectConnect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DirectConnect, DirectConnect)
+!define DirectConnect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DirectConnect, DirectConnect)
+!define DirectConnectParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DirectConnect)
+!define DirectConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DirectConnect, DirectConnect)
+!define DirectConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DirectConnect, DirectConnect)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SSLPadlock [32x32/4] {
+000003F30000003FF30000003F300000
+003Fym0mmyCCyym00myyCCymm0myF300
+0C_p000000003FCyyCF300000000p_C0
+000yF0000000_000000_0000000Fy000
+0003_0000__yyyyyyyyyy__0000_3000
+03Fy00000__000FyyF000__00000yF30
+0_m000000__000m__m000__000000m_0
+0_F000000__FFFFFFFFFF__000000F_0
+00myFF33300000000000000333FFym00
+0000000mmmmyCFF33FFCymmmm0000000
+000000000000000mm000000000000000
+}
+
+AWSEntityColoring(SSLPadlock)
+!define SSLPadlock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SSLPadlock, SSLPadlock)

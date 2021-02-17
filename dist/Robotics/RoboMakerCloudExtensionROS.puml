@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $RoboMakerCloudExtensionROS [32x32/4] {
+00330003FCF3000330000FFF30003300
+00mm000yFFFy000mm000myCym000mm00
+03FCF3003F3000FCCF000030003FCF30
+0_F3_y0m_Fym0m_33_m00mym00y_3F_0
+03333000000000000000033300033330
+0_33_y00yyC000CyC000C_p_y0y_33_0
+00mm000000000000000000000000mm00
+00FF000F_m_F00yyy000C_p_F000FF00
+00000000ppm0000000000mmm00000000
+00FF000_mm__00__p_000CFF000_m_F0
+0000000mmymm000mmm000000000mmm00
+}
+
+AWSEntityColoring(RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)

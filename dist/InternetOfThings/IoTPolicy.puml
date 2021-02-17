@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTPolicy [32x32/4] {
+00000000000000000000000000000000
+0_mmmmmmmmmmmmmmm_F0000000000000
+0_00m_F_m00000000__0000000000000
+0_00mm0my00000000__0000000000000
+0_00C_FFy00000000yy33FFFFF330000
+0_00CymyC00000003Fym000000mm_F00
+0_0000003F000003_3Fymy_FF3F33y_0
+0_00yFFym000000y_y_pp3FFCCCCy__0
+0yCCCCCCCCCCCCC0m_Fpmm000003Fy00
+000000000000000000mmyyCCyymm0000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTPolicy)
+!define IoTPolicy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPolicy, IoTPolicy)

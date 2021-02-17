@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DenseStorageNodeResource2 [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FF_p33000m_F3F__0000_0
+0_000FCF0FCC000_CyymmmyFy_FCCCy0
+0_000_0_0mmF000_0000000_y_300000
+0_333pp33ppp333_myyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(DenseStorageNodeResource2)
+!define DenseStorageNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)

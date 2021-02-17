@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Route53RouteTable [32x32/4] {
+0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
+0_0CF000CC0F00CF0F30030F00F030_0
+0_00y00y0Cm0C00y0y0yCmCy00y0m0_0
+0pppppppppppppppppppppppppppppp0
+0_mppmmmppmpmmppmpmmmmpmmmpmmm_0
+0_00_00F03Fp300_0_pC300030_3y0_0
+0_FFFFFFFFFFFFFFFFFFFFFFFFFFFF_0
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCCF0
+0_00_0mpmmpy00m_0_m300my00_mF0_0
+0_33p33p33p3333p3p3p33p333p333_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(Route53RouteTable)
+!define Route53RouteTable(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Route53RouteTable, Route53RouteTable)
+!define Route53RouteTable(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Route53RouteTable, Route53RouteTable)
+!define Route53RouteTableParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Route53RouteTable)
+!define Route53RouteTableParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Route53RouteTable, Route53RouteTable)
+!define Route53RouteTableParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Route53RouteTable, Route53RouteTable)

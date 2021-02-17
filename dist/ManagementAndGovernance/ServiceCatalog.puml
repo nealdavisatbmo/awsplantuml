@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ServiceCatalog [32x32/4] {
+________________________________
+______________yyyy______________
+_________ypFFF_yy_FFFpy_________
+_____mFFFm___pCCCCp___mFFFm_____
+______0FF__yyyy__yyyy__FFC______
+______0___FpyypFFpyypF___0______
+_______0y_ppyymppmyypp_y3_______
+________Fpyy__yppy__ympF________
+____________F_3yy3FF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ServiceCatalog)
+!define ServiceCatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ServiceCatalog, ServiceCatalog)
+!define ServiceCatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ServiceCatalog, ServiceCatalog)
+!define ServiceCatalogParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ServiceCatalog)
+!define ServiceCatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ServiceCatalog, ServiceCatalog)
+!define ServiceCatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ServiceCatalog, ServiceCatalog)

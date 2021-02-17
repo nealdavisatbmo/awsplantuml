@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $LakeFormation [32x32/4] {
+________________________________
+________________________________
+_________mm00_yppmyy____________
+_______303333p0F____FFpy________
+_______m_3y_m3_3pp3p3p_Fm_______
+_______F_y00C__yyyyyyyyyF_______
+_______0__FF____________0_______
+________3y__p3pp3p3p__y3________
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(LakeFormation)
+!define LakeFormation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, LakeFormation, LakeFormation)

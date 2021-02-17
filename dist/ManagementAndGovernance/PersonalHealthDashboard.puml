@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $PersonalHealthDashboard [32x32/4] {
+________________________________
+________________________________
+______ypFFFFFFpyypFFFFFFpy______
+_____mF________FF_mm_____Fm_____
+_____F3y_____m___mF3y___y0F_____
+_____p_33pppF_3yyF__3pp33pp_____
+__________3m___3F___m3__________
+____________Fpy__ypF____________
+______________F33F______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(PersonalHealthDashboard)
+!define PersonalHealthDashboard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, PersonalHealthDashboard)
+!define PersonalHealthDashboardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, PersonalHealthDashboard, PersonalHealthDashboard)
+!define PersonalHealthDashboardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, PersonalHealthDashboard, PersonalHealthDashboard)

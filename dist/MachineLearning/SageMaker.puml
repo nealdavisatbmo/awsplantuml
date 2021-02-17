@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SageMaker [32x32/4] {
+________________________________
+_____________y____y_____________
+________ymmFF_FFFF_FFpmy________
+________0_F__m______00p0________
+_____mpCFFmpFF__Fpmpy___Fpm_____
+_____0FFyp3pyyFF___F__mmy_0_____
+_____FFpmpFyy3pF_______ypFF_____
+________0y_Fy_____333_y0________
+_________FF3pyppppyppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SageMaker)
+!define SageMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMaker, SageMaker)
+!define SageMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMaker, SageMaker)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Toolkit [32x32/4] {
+00000000000000033000000000000000
+00000000033FCymmmmyCF33000000000
+000033FCypm0000000003pmyCF330000
+0000_000y__F000000_y____000_0000
+0000_00000mmyF333y_FF__y000_0000
+0000_00000003C__myFp0000000_0000
+0000_000F__yy_FmyF3pyF30000_0000
+0000_330____3_0000myF3_y033_0000
+000000mmyF_p000000003_Fymm000000
+00000000000mmyCFFCymm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(Toolkit)
+!define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Toolkit, Toolkit)
+!define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Toolkit, Toolkit)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CloudMap [32x32/4] {
+________________________________
+________________________________
+________________________________
+_________yp30F0Fp_mmC0m_________
+________m3pp3_0__03CpC0_________
+______mFFFFC3_CyyC_CmCyCCm______
+_____FyyypCp0_3pp3_0_____yF_____
+______FFp3pp3p3333p3ppppFF______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudMap)
+!define CloudMap(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudMap, CloudMap)
+!define CloudMap(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudMap, CloudMap)
+!define CloudMapParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, CloudMap)
+!define CloudMapParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudMap, CloudMap)
+!define CloudMapParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudMap, CloudMap)

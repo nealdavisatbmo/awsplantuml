@@ -1,0 +1,423 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Client [32x32/4] {
+03FFFFFFFFFFFFFFFFFFFFFFFFFFFF30
+0_0FFCCCCCCCCCCCCCCCCCCCCCCFF0_0
+0_0__0000000000000000000000__0_0
+0_0__0000000000000000000000__0_0
+0_0__0000000000000000000000__0_0
+0_0__0000000000000000000000__0_0
+0_0yyCCCCCCCCCCCCCCCCCCCCCCyy0_0
+0mmppppppppppppppppppppppppppmm0
+0_mmmmmmmmmmmmmmmmmmpppppppppm_0
+0_333333333333333333ppppppppp3_0
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(Client)
+!define Client(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Client, Client)
+!define Client(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Client, Client)
+!define ClientParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Client)
+!define ClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Client, Client)
+!define ClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Client, Client)
+
+sprite $Disk [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm0000000000mmyCF300000
+0003_m00000000000000000000m_3000
+00_y00000003FCyyyyCF30000000y_00
+0_y0000003_m0FCyyCF0m_3000000y_0
+0_0000000__0y_0000_y0__0000000_0
+0y_0000000yF3mmyymm3Fy0000000_y0
+00y_30000000mmyyyymm00000003_y00
+0000yF30000000000000000003Fy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(Disk)
+!define Disk(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Disk, Disk)
+!define Disk(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Disk, Disk)
+!define DiskParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Disk)
+!define DiskParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Disk, Disk)
+!define DiskParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Disk, Disk)
+
+sprite $Forums [32x32/4] {
+0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
+0_0000000000000CCCCCCCCCCCCCC0_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+0_mpppppppppppppppppmmmmmmmmmm_0
+0_3ppppppppppppppppp3333333333_0
+03333333333333333333333333333330
+0_0000000000000FFFFFFFFFFFFFF0_0
+0yCCCCCCCCCCCCCCCCCCCCCCCCCCCCy0
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCCF0
+0_3ppppppppppppppppp3333333333_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(Forums)
+!define Forums(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Forums, Forums)
+!define Forums(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Forums, Forums)
+!define ForumsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Forums)
+!define ForumsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Forums, Forums)
+!define ForumsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Forums, Forums)
+
+sprite $General [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0___________yyyy__________0__0
+__0______yyp_F____F_pyy_____0__0
+__0______FFp_y____y_pFF_____0__0
+__0___________FFFF__________0__0
+__0______yy__________yy_____0__0
+__0________F_pyyyyp_F_______0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(General)
+!define General(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, General, General)
+!define General(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, General, General)
+!define GeneralParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, General)
+!define GeneralParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, General, General)
+!define GeneralParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, General, General)
+
+sprite $GenericDatabase [32x32/4] {
+0000000333FFFCCCCCCFFF3330000000
+00003_pm0000000000000000mp_30000
+0000__myCCFF33333333FFCCym__0000
+0000__00000000000000000000__0000
+0000__00000000000000000000__0000
+0000__00000000000000000000__0000
+0000__00000000000000000000__0000
+0000__00000000000000000000__0000
+0000__00000000000000000000__0000
+00000yCF3333300000033333FCy00000
+0000000000mmmmmmmmmmmm0000000000
+}
+
+AWSEntityColoring(GenericDatabase)
+!define GenericDatabase(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, GenericDatabase, GenericDatabase)
+!define GenericDatabase(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, GenericDatabase, GenericDatabase)
+!define GenericDatabaseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, GenericDatabase)
+!define GenericDatabaseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, GenericDatabase, GenericDatabase)
+!define GenericDatabaseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, GenericDatabase, GenericDatabase)
+
+sprite $InternetAlt1 [32x32/4] {
+00000000333FFFF33000000000000000
+000000F_mm000000myF3003000000000
+00000_y000000000000yymmmyF000000
+003FCy0003F_yF30000000000yyCF300
+0_y00000ym0_00mm0000000000000y_0
+0_F00000000_00000000000000000F_0
+00myCCCCCC0y00CCCC00F0CCCCCCym00
+00000000000000000000_00000000000
+00000000000000003300_00300000000
+00000000000000000myF_Fym00000000
+00000000000000000000m00000000000
+}
+
+AWSEntityColoring(InternetAlt1)
+!define InternetAlt1(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, InternetAlt1, InternetAlt1)
+!define InternetAlt1(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, InternetAlt1, InternetAlt1)
+!define InternetAlt1Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, InternetAlt1)
+!define InternetAlt1Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, InternetAlt1, InternetAlt1)
+!define InternetAlt1Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, InternetAlt1, InternetAlt1)
+
+sprite $InternetAlt2 [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+000000033FCCyyCCF300000000000000
+000003_y000000000myF333330000000
+00000_m000033000000mm000m_300000
+03Fymm003Fy_myF30000_0000mmmyF30
+0_m00000m00_00003300_00300000m_0
+0y_30000000_0000my_F_Fym00003_y0
+000mmmyyyy0y00yyyy0mm0yyyymmm000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(InternetAlt2)
+!define InternetAlt2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, InternetAlt2, InternetAlt2)
+
+sprite $InternetGateway [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+000000033FCCyyCCF300000000000000
+000003_y000000000myF333330000000
+00000_m000000000000mm000m_300000
+03Fymm0033FCyypppmyCFF300mmmyF30
+0_m000000mCCyppppppyC00000000m_0
+0y_300000000ym000mmm000000003_y0
+000mmmyyyyyyyyyyyyyyyyyyyymmm000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(InternetGateway)
+!define InternetGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, InternetGateway, InternetGateway)
+!define InternetGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, InternetGateway, InternetGateway)
+!define InternetGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, InternetGateway)
+!define InternetGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, InternetGateway, InternetGateway)
+!define InternetGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, InternetGateway, InternetGateway)
+
+sprite $Marketplace [32x32/4] {
+________________________________
+________________________________
+______ymyFFFmmmFFFFmm___________
+______0__F0F_0_FFFF_0___________
+_______FFp0mF_FCmp3F__0_________
+______0___0_F0F______0__________
+______3y___Fp3pFF___y3__________
+_______FCCCCFFFFFCF0F___________
+________3pp3____Fp_3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Marketplace)
+!define Marketplace(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Marketplace, Marketplace)
+!define Marketplace(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Marketplace, Marketplace)
+
+sprite $MobileClient [32x32/4] {
+000000003FFCCCCCCCCCCFF300000000
+00000000__00yy0yyyy000__00000000
+00000000__mmmmmmmmmmmm__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__333333333333__00000000
+00000000__mmmmmmmmmmmm__00000000
+000000000mmmmmmmmmmmmmm000000000
+}
+
+AWSEntityColoring(MobileClient)
+!define MobileClient(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, MobileClient, MobileClient)
+!define MobileClient(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, MobileClient, MobileClient)
+
+sprite $Multimedia [32x32/4] {
+03333333333333333333333333333330
+0_00FFFF000FFFF00FFFF000FFFF00_0
+0_00yCCy000yCyy00yyCy000yCCy00_0
+0_0000000003FFCCCCF30000000000_0
+0_00000003_m0_yF3300yF00000000_0
+0_0000000__00_003p_y0_y0000000_0
+0_0000000myF3_yym003Fy00000000_0
+0_0000000000myyCyyym0000000000_0
+0_00_pp_000_p__00__p_000_pp_00_0
+0_33pppp333pppp33pppp333pppp33_0
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(Multimedia)
+!define Multimedia(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Multimedia, Multimedia)
+!define Multimedia(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Multimedia, Multimedia)
+!define MultimediaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Multimedia)
+!define MultimediaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Multimedia, Multimedia)
+!define MultimediaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Multimedia, Multimedia)
+
+sprite $OfficeBuilding [32x32/4] {
+00000000000FCCCCCCCCF00000000000
+00000000000_00____00_00000000000
+00000033333_00____00_33333000000
+000000__0303003333003030__000000
+000000__0y0y00yyyy00y0y0__000000
+000000__0_0_00____00_0_0__000000
+000000__0303003333003030__000000
+000000__0y0y00yyyy00y0y0__000000
+000000__0F0F00FFFF00F0F0__000000
+000000__0y0y00yyyy00y0y0__000000
+000000mmmmmmmmmmmmmmmmmmmm000000
+}
+
+AWSEntityColoring(OfficeBuilding)
+!define OfficeBuilding(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, OfficeBuilding, OfficeBuilding)
+!define OfficeBuilding(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, OfficeBuilding, OfficeBuilding)
+!define OfficeBuildingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, OfficeBuilding)
+!define OfficeBuildingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, OfficeBuilding, OfficeBuilding)
+!define OfficeBuildingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, OfficeBuilding, OfficeBuilding)
+
+sprite $SAMLToken [32x32/4] {
+000000000000000003FCCCCCCCCCCCF0
+000000000000003Fym000003FF3000_0
+000000000003Fym00000000y33_y00_0
+000000003Fym00000FCyy__0000000_0
+000003Fym033333_mm3Fym0000003Fy0
+003Fym00F_mm0mm0Fym0000003Fym000
+0y_30000_3_p_F00_y00003Fym000000
+000myF300yy__FCym003Fym000000000
+000000myF30000003Fym000000000000
+000000000myF33Fym000000000000000
+000000000000mm000000000000000000
+}
+
+AWSEntityColoring(SAMLToken)
+!define SAMLToken(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SAMLToken, SAMLToken)
+!define SAMLToken(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SAMLToken, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SAMLToken, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SAMLToken, SAMLToken)
+
+sprite $SDK [32x32/4] {
+00000000000000033000000000000000
+00000000033FCymmmmyCF33000000000
+000033FCymm0000330000mmyCF330000
+0000_yCF3333FymmmmyF3333FCy_0000
+0000_000m_yyF330033Fyy_m000_0000
+0000_0000_0000m__m0000_0000_0000
+0000_0000yF3300__0033Fy0000_0000
+0000_3300000myC__Cym0000033_0000
+000000mmyFF3000__0003FFymm000000
+00000000000mmyC__Cymm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SDK)
+!define SDK(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SDK, SDK)
+!define SDK(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SDK, SDK)
+!define SDKParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SDK, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SDK, SDK)
+
+sprite $SSLPadlock [32x32/4] {
+000003F30000003FF30000003F300000
+003Fym0mmyCCyym00myyCCymm0myF300
+0C_p000000003FCyyCF300000000p_C0
+000yF0000000_000000_0000000Fy000
+0003_0000__yyyyyyyyyy__0000_3000
+03Fy00000__000FyyF000__00000yF30
+0_m000000__000m__m000__000000m_0
+0_F000000__FFFFFFFFFF__000000F_0
+00myFF33300000000000000333FFym00
+0000000mmmmyCFF33FFCymmmm0000000
+000000000000000mm000000000000000
+}
+
+AWSEntityColoring(SSLPadlock)
+!define SSLPadlock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SSLPadlock, SSLPadlock)
+!define SSLPadlockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SSLPadlock, SSLPadlock)
+
+sprite $TapeStorage [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+003FC_pmmmyyF300003F__mmmmyCF300
+0F_m00y333000y_00_y00mp33000m_F0
+0_3000y___0mmm_yy_0000___y0mm3_0
+0m_F0Cym00003_y00y_30_y00000F_m0
+000mmyCCCCyyyyyyyyyyyyCCCCymm000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(TapeStorage)
+!define TapeStorage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, TapeStorage, TapeStorage)
+
+sprite $Toolkit [32x32/4] {
+00000000000000033000000000000000
+00000000033FCymmmmyCF33000000000
+000033FCypm0000000003pmyCF330000
+0000_000y__F000000_y____000_0000
+0000_00000mmyF333y_FF__y000_0000
+0000_00000003C__myFp0000000_0000
+0000_000F__yy_FmyF3pyF30000_0000
+0000_330____3_0000myF3_y033_0000
+000000mmyF_p000000003_Fymm000000
+00000000000mmyCFFCymm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(Toolkit)
+!define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Toolkit, Toolkit)
+!define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Toolkit, Toolkit)
+!define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Toolkit, Toolkit)
+
+sprite $TraditionalServer [32x32/4] {
+0000000FFCCCCCCCCCCCCCCFF0000000
+0000000__0CCCCCCCCCCCC0__0000000
+0000000__0CCCCCCCCCCCC0__0000000
+0000000__0CCCCCCCCCCCC0__0000000
+0000000__0CCCCCCCCCCCC0__0000000
+0000000__00000000000000__0000000
+0000000__00000000000000__0000000
+0000000__00000000000000__0000000
+0000000__00000000000000__0000000
+0000000__00000000000000__0000000
+0000000mmmmmmmmmmmmmmmmmm0000000
+}
+
+AWSEntityColoring(TraditionalServer)
+!define TraditionalServer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, TraditionalServer, TraditionalServer)
+!define TraditionalServer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, TraditionalServer, TraditionalServer)
+!define TraditionalServerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, TraditionalServer)
+!define TraditionalServerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, TraditionalServer, TraditionalServer)
+!define TraditionalServerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, TraditionalServer, TraditionalServer)
+
+sprite $User [32x32/4] {
+0000000000033FFCCFF3300000000000
+000000000Fym00000000m_F000000000
+00000000__000000000000__00000000
+00000000__000000000000_y00000000
+000000000myF30000003Fym000000000
+0000003FCymmmmmyymmmmmyCF3000000
+0003Fym000000000000000000myF3000
+00Fy000000000000000000000000yF00
+0_y00000000000000000000000000y_0
+0_0000000000000000000000000000_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(User)
+!define User(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, User, User)
+!define User(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, User, User)
+!define UserParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, User)
+!define UserParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, User, User)
+!define UserParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, User, User)
+
+sprite $Users [32x32/4] {
+0000033FCCF3000000003FCCF3300000
+0000F_m0000m_000000_m0000m_F0000
+00003_F333F_p000000p_3333F_30000
+00F_mm000003_FyyyyF_000000mm_F00
+0_y0000000F_00000000_F0000000y_0
+0yyyyyyyy0y_00000000_y0yyyyyyyy0
+00000000033_yCFFFFCy_33000000000
+0000000Fym00000000000mmyF0000000
+000003_m0000000000000000m_300000
+00000__000000000000000000__00000
+00000mmmmmmmmmmmmmmmmmmmmmm00000
+}
+
+AWSEntityColoring(Users)
+!define Users(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Users, Users)
+!define Users(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Users, Users)
+!define UsersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Users)
+!define UsersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Users, Users)
+!define UsersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Users, Users)
+

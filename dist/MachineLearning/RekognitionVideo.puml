@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $RekognitionVideo [32x32/4] {
+00000000000CCyymmmmyyyCF33000000
+0000000000033FFCCCCCF330mmyF3000
+000030003Fymm000000000myF300y_30
+000_y00Fy00__mmmmmmmmm_00m_300_F
+000_00F_000__00_yyF300_0000_00m_
+000_00y_000__00_Cymm00_0003_003_
+000yF00__30yyCCCCCCCCCy00F_m03_m
+00003Fym0yyF33000000033Fym03Fy00
+03Fym0003Fymmmmyyyymmm003Fyy0000
+_p0003Fym00myCCCCCCCCyymm0000000
+myyCym00000000000000000000000000
+}
+
+AWSEntityColoring(RekognitionVideo)
+!define RekognitionVideo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, RekognitionVideo, RekognitionVideo)

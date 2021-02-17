@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DMSDatabaseMigrationWorkflow [32x32/4] {
+000000003FFFCCCCCCCCFFF330000000
+000000F_p00000000000000p_F000000
+000000__mmyyCCCCCCCCyymm__000000
+000000__FF333333333333FF__000000
+000000__3000mmmmmmmm0003__000000
+000000__mmyyCCCCCCCCyymm__000000
+000000F_yyCCFFF33FFFCCyy_F000000
+000000__yCFF__3333FFFFCyyy000000
+000000__3300yy0000__0033__000000
+000000__mmmyyyCCCC__mmmm__000000
+000000000000000000mm000000000000
+}
+
+AWSEntityColoring(DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)

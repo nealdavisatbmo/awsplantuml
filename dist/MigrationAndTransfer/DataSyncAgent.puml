@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DataSyncAgent [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000000000000000000000000000000_
+_000000000000000000000330000000_
+_000FFFFFFFF0FFF0FFFFF_myF30000_
+_000003F__0000000000000003p_y00_
+_03FCym0mmmmmmmmmmmmmm_Fymm0000_
+_00myCF3FFCCCC0CCC0CCCCCCCCCC00_
+_000000myy000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSyncAgent, DataSyncAgent)

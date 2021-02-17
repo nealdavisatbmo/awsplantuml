@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SAMLToken [32x32/4] {
+000000000000000003FCCCCCCCCCCCF0
+000000000000003Fym000003FF3000_0
+000000000003Fym00000000y33_y00_0
+000000003Fym00000FCyy__0000000_0
+000003Fym033333_mm3Fym0000003Fy0
+003Fym00F_mm0mm0Fym0000003Fym000
+0y_30000_3_p_F00_y00003Fym000000
+000myF300yy__FCym003Fym000000000
+000000myF30000003Fym000000000000
+000000000myF33Fym000000000000000
+000000000000mm000000000000000000
+}
+
+AWSEntityColoring(SAMLToken)
+!define SAMLToken(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SAMLToken, SAMLToken)
+!define SAMLToken(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SAMLToken, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SAMLToken, SAMLToken)
+!define SAMLTokenParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SAMLToken, SAMLToken)

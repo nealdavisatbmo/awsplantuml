@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2ContainerRegistry [32x32/4] {
+________________________________
+______________ympyy_____________
+_________ympFF____FFppyy________
+______mFF_____________yy33______
+______0__________yyp3FmpF0______
+______0________0F________0______
+______0________0____ym___0______
+______3pyy_____0_mFF__yyp3______
+_________FFppyy0_0mpFF__________
+_______________F________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EC2ContainerRegistry)
+!define EC2ContainerRegistry(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2ContainerRegistry, EC2ContainerRegistry)
+!define EC2ContainerRegistry(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2ContainerRegistry, EC2ContainerRegistry)
+!define EC2ContainerRegistryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2ContainerRegistry)
+!define EC2ContainerRegistryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2ContainerRegistry, EC2ContainerRegistry)
+!define EC2ContainerRegistryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2ContainerRegistry, EC2ContainerRegistry)

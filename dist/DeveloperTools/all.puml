@@ -1,0 +1,255 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Cloud9 [32x32/4] {
+________________________________
+________________________________
+________________________________
+_________yppFFFFpy______________
+________mF____yyy_3FFFm_________
+_____ypFF_____0yy0_____FFmy_____
+_____3y_______yy_3_______y3_____
+______FFpppppppppppppppp3F______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Cloud9)
+!define Cloud9(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Cloud9, Cloud9)
+!define Cloud9(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Cloud9, Cloud9)
+!define Cloud9Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Cloud9)
+!define Cloud9Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Cloud9, Cloud9)
+!define Cloud9Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Cloud9, Cloud9)
+
+sprite $Cloud9Resource [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+0000000003FCCCCF3300000000000000
+0000000Fym0000000m_F333300000000
+000003_m000003FCCF0m000m_3300000
+000Fym0000000yF33p_0000000myF000
+000_0000000003333_m000000000_000
+000myCF3333333333333333333Fym000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(Cloud9Resource)
+!define Cloud9Resource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9Resource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Cloud9Resource, Cloud9Resource)
+
+sprite $CloudDevelopmentKit [32x32/4] {
+________________________________
+__________yypppyy_______________
+_______ypF_______Fmyyyy_________
+______y0___________F___0yy______
+____mF______mmFFFFmm______Fm____
+____0_______0_FFFF_0_______0____
+_____FppyppFF3pyyp3FFppy_pF_____
+________0FFpmFF__FFmpFF0________
+________3pyy0yppppy0yyp3________
+____________F______F____________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudDevelopmentKit)
+!define CloudDevelopmentKit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
+!define CloudDevelopmentKit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
+!define CloudDevelopmentKitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CloudDevelopmentKit)
+!define CloudDevelopmentKitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
+!define CloudDevelopmentKitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CloudDevelopmentKit, CloudDevelopmentKit)
+
+sprite $CodeBuild [32x32/4] {
+________________________________
+_____yy_________________________
+_____0_CC3F30CCC3F3CCC3Fpyy_____
+_____F_030CFFFFFFFFF0FFFFFF_____
+_______0__C0____yypp3ppyy_______
+_______0pF_____FFFCFFCCFFF0_____
+_______0Fpyy_____3_y3_C3__0_____
+_______0_ym3___pppp3pppppp3_____
+_______0CCyy____________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodeBuild)
+!define CodeBuild(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeBuild, CodeBuild)
+!define CodeBuild(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeBuild, CodeBuild)
+!define CodeBuildParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodeBuild)
+!define CodeBuildParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeBuild, CodeBuild)
+!define CodeBuildParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeBuild, CodeBuild)
+
+sprite $CodeCommit [32x32/4] {
+________________________________
+_______y________________________
+_____pC_Cpyyy___________________
+_______0__3Fp__FFFFFFFFFFFm_____
+_______0_____0FFm_________0_____
+_____mFFFp___F0F_yp__m_y__0_____
+______F0F__yyy3__Fpy3_ppF_0_____
+_____yy3mFF___0___________0_____
+_____FpypF____0yyyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodeCommit)
+!define CodeCommit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeCommit, CodeCommit)
+!define CodeCommit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeCommit, CodeCommit)
+!define CodeCommitParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodeCommit)
+!define CodeCommitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeCommit, CodeCommit)
+!define CodeCommitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeCommit, CodeCommit)
+
+sprite $CodeDeploy [32x32/4] {
+________________________________
+______________yyyy______________
+________ympFFC3__3CFFpmy________
+______y3F___y3____3y___F3y______
+_____y0ppppm0mppppy0ppppp0y_____
+_____Fppy___0______0___yppF_____
+__________m___y__y___m__________
+__________0_p3Cy3yCp_0__________
+__________0yyyyCyyyyy0__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodeDeploy)
+!define CodeDeploy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeDeploy, CodeDeploy)
+!define CodeDeploy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeDeploy, CodeDeploy)
+!define CodeDeployParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodeDeploy)
+!define CodeDeployParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeDeploy, CodeDeploy)
+!define CodeDeployParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeDeploy, CodeDeploy)
+
+sprite $CodePipeline [32x32/4] {
+________________________________
+_______yyyyyyyyyyyyyyyyyy_______
+_____mF__________________Fm_____
+_____0____________________0_____
+_____F3CCCCCCyyCyyCCCCCCC3F_____
+________0________m_____0________
+________0__mF__y0__Fm__0________
+________0___FFy3__FF___0________
+________0yyyyyyyyyyyyyy0________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodePipeline)
+!define CodePipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodePipeline, CodePipeline)
+!define CodePipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodePipeline, CodePipeline)
+!define CodePipelineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodePipeline)
+!define CodePipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodePipeline, CodePipeline)
+!define CodePipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodePipeline, CodePipeline)
+
+sprite $CodeStar [32x32/4] {
+________________________________
+________________yy______________
+_________y_my__0F_Cmym__________
+_______0F_F0____FFF___yyyy______
+________FFF__y__ypy___0yy0______
+______C0yy__3m_mF_y3____3p______
+______0yy0____F_____ypppy_______
+__________yyypppy__y0pyp3_______
+__________F_Fpym3___F___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodeStar)
+!define CodeStar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeStar, CodeStar)
+!define CodeStar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeStar, CodeStar)
+!define CodeStarParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodeStar)
+!define CodeStarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeStar, CodeStar)
+!define CodeStarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeStar, CodeStar)
+
+sprite $CommandLineInterface [32x32/4] {
+________________________________
+________________________________
+_____0F3F33FFFFFFFFFFFFFFF0_____
+_____0FFFFFFFFFFFFFFFFFFFF0_____
+_____0____py______________0_____
+_____0______Fm____________0_____
+_____0____ypF__ppppppp____0_____
+_____0____________________0_____
+_____3pppppppppppp_____ppp3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CommandLineInterface)
+!define CommandLineInterface(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterface(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterfaceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CommandLineInterface)
+!define CommandLineInterfaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterfaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CommandLineInterface, CommandLineInterface)
+
+sprite $DeveloperTools [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0______yy________yyy______0__0
+__0_____3y_Fm_____0_mCpm____0__0
+__0______FFFpCpypF_ypppF____0__0
+__0_________ypFmFF3y________0__0
+__0_____mFCC_ypFFpy_Fpy_____0__0
+__0_____FFmCy3_____Fpyy3____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(DeveloperTools)
+!define DeveloperTools(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DeveloperTools, DeveloperTools)
+!define DeveloperTools(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DeveloperTools, DeveloperTools)
+!define DeveloperToolsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DeveloperTools)
+!define DeveloperToolsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DeveloperTools, DeveloperTools)
+!define DeveloperToolsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DeveloperTools, DeveloperTools)
+
+sprite $ToolsAndSDKs [32x32/4] {
+________________________________
+_______________yy_______________
+_________yyppFF__FFppyy_________
+______m0C_____yppy_____C0m______
+______0__F_m0C____C0m_F__0______
+______0____0__FFFF__0____0______
+______0____Fppy__yppF____0______
+______F3pyy____FF____yyp3F______
+___________FFppyyppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ToolsAndSDKs)
+!define ToolsAndSDKs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
+!define ToolsAndSDKs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
+!define ToolsAndSDKsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ToolsAndSDKs)
+!define ToolsAndSDKsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
+!define ToolsAndSDKsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ToolsAndSDKs, ToolsAndSDKs)
+
+sprite $XRay [32x32/4] {
+________________________________
+________________________________
+_________ypFFFFFFmy_____________
+________0_________FFFF0y________
+_____y3F____yyyppyyy____Fpy_____
+_____3y___y3F_____yF3y___y3_____
+_______FF_C__m____0__C_FF_______
+__________3y_3pppp3_y3__________
+____________FppppppF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(XRay)
+!define XRay(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, XRay, XRay)
+!define XRay(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, XRay, XRay)
+!define XRayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, XRay)
+!define XRayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, XRay, XRay)
+!define XRayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, XRay, XRay)
+

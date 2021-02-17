@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $InternetAlt2 [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+000000033FCCyyCCF300000000000000
+000003_y000000000myF333330000000
+00000_m000033000000mm000m_300000
+03Fymm003Fy_myF30000_0000mmmyF30
+0_m00000m00_00003300_00300000m_0
+0y_30000000_0000my_F_Fym00003_y0
+000mmmyyyy0y00yyyy0mm0yyyymmm000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(InternetAlt2)
+!define InternetAlt2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, InternetAlt2, InternetAlt2)
+!define InternetAlt2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, InternetAlt2, InternetAlt2)

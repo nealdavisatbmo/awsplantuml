@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ShieldShieldAdvanced [32x32/4] {
+00000000333FCCFF3300000000000000
+0033FCymmm003300mmmyCFF300000000
+00__0033FCyy__myCCF3300_00000000
+00__00_00000__00000__00_00000000
+00__00_00000__00000__00_00000000
+00__00_00000__00000__00_00000000
+00y_00yF0000__00003_m03p33000000
+000yF00m_F30__003Fy3FymmpmmyF000
+0000m_F300mmyymmm00_0FFF_FF0__00
+0000000myyCCCCCCCy0yF300y03Fym00
+000000000000000000000mmmmmm00000
+}
+
+AWSEntityColoring(ShieldShieldAdvanced)
+!define ShieldShieldAdvanced(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
+!define ShieldShieldAdvanced(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
+!define ShieldShieldAdvancedParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, ShieldShieldAdvanced)
+!define ShieldShieldAdvancedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
+!define ShieldShieldAdvancedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $KeyManagementService [32x32/4] {
+________________________________
+__________y_____________________
+______m3FC3CF3m_________________
+_____0___pp3___0________________
+_____Fmy_____ymF_FFFFFFFFF0_____
+________C___Fmpm_yppy_____0_____
+_______F0____CCC_CCCC_yyy_0_____
+_______F3_________________3_____
+_________3pp____________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KeyManagementService)
+!define KeyManagementService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, KeyManagementService, KeyManagementService)
+!define KeyManagementService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, KeyManagementService, KeyManagementService)
+!define KeyManagementServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, KeyManagementService)
+!define KeyManagementServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, KeyManagementService, KeyManagementService)
+!define KeyManagementServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, KeyManagementService, KeyManagementService)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ManagedBlockchain [32x32/4] {
+________________________________
+________________________________
+________________________________
+_________yp_FFFFppy_____________
+_____ypm0pmmpmmpypp3pm_y________
+_____0___3003___0_3y3mp3pm______
+______FF3CFFFFFF_FC3FF__________
+__________F_ppppFF______________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ManagedBlockchain, ManagedBlockchain)

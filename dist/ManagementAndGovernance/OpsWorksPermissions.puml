@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $OpsWorksPermissions [32x32/4] {
+00000000000033FFFF33000000000000
+0000000000Fym000000myF0000000000
+000000000__0000000000__000000000
+000000000__0000000000__000000000
+000000333__3333333333__333000000
+000000_mmmmmmmmmmmmmmmmmm_000000
+000000_000000F_mm_F000000_000000
+000000_0000000m__m0000000_000000
+000000_00000000yy00000000_000000
+000000_333333333333333333_000000
+000000mmmmmmmmmmmmmmmmmmmm000000
+}
+
+AWSEntityColoring(OpsWorksPermissions)
+!define OpsWorksPermissions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissionsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, OpsWorksPermissions)
+!define OpsWorksPermissionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, OpsWorksPermissions, OpsWorksPermissions)
+!define OpsWorksPermissionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, OpsWorksPermissions, OpsWorksPermissions)

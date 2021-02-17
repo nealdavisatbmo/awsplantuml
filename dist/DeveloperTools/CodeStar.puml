@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CodeStar [32x32/4] {
+________________________________
+________________yy______________
+_________y_my__0F_Cmym__________
+_______0F_F0____FFF___yyyy______
+________FFF__y__ypy___0yy0______
+______C0yy__3m_mF_y3____3p______
+______0yy0____F_____ypppy_______
+__________yyypppy__y0pyp3_______
+__________F_Fpym3___F___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CodeStar)
+!define CodeStar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CodeStar, CodeStar)
+!define CodeStar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CodeStar, CodeStar)
+!define CodeStarParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CodeStar)
+!define CodeStarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CodeStar, CodeStar)
+!define CodeStarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CodeStar, CodeStar)

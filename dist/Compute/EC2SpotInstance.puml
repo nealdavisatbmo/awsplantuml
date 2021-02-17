@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2SpotInstance [32x32/4] {
+00000000000000033000000000000000
+0000FF303FCyymmyymmyyCF303FF0000
+00000pyy3300000033333330yyp00000
+0003_m00my_F000__mmmmm__00m_3000
+000_m0000000_mmmmmm_00__000m_000
+00y_y000F_yy_000000_yyym000y_y00
+000_F000__00yCCFFCCy3300000F_000
+0000yF00y_FFFFF_y000my_F00Fy0000
+00003F_y3300000000000033y_F30000
+0000mm000mmyCCC__CCCymm000mm0000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EC2SpotInstance)
+!define EC2SpotInstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2SpotInstance, EC2SpotInstance)
+!define EC2SpotInstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2SpotInstance, EC2SpotInstance)
+!define EC2SpotInstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2SpotInstance)
+!define EC2SpotInstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2SpotInstance, EC2SpotInstance)
+!define EC2SpotInstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2SpotInstance, EC2SpotInstance)

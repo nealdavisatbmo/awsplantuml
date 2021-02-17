@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DataSync [32x32/4] {
+________________________________
+________________________________
+_____________yyyyy______________
+__________y3F_____F3ppy_________
+_______yppF___________3ppy______
+______pCyyyyyyymy________0______
+_______ypyyyyyyyyC3_yyyypF______
+______Fpypppp_p33pp_____________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DataSync)
+!define DataSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSync, DataSync)
+!define DataSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSync, DataSync)

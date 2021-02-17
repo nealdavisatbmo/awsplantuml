@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTThermostat [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FCCCyCCCyCCyyCCyCCCyCCCF0000
+0333_0000033FFCCCCCF3300000_3330
+0000_000Fym00m0330mm0myF000_0000
+0mmm_00_my0000p__00000Cy_00_mmm0
+0yyy_00_000000___0000000_00_yyy0
+0CCC_00yF00000FyyF00000Fy00_CCC0
+0333_000myF330myym033Fym000_3330
+0000_0000000mmmmmmmm0000000_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTThermostat)
+!define IoTThermostat(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostat(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThermostat, IoTThermostat)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMDataEncryptionKey [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_03FC___yF3000000000000_0000
+0000_0__0yCy00_000000000000_0000
+0000_0myF303Fym000000000000_0000
+0000_0000_0p_C003FCCCF30000_0000
+0000_0000_0__000_m0000_0000_0000
+0000_0000yCy0F_yyyy_yyyy__0_0000
+0000_00000000__000_p_000__0_0000
+0000_00000000__0000y0000__0_0000
+0000_00000000myyyyyyyyyyym0_0000
+0000mmmmmmmmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(IAMDataEncryptionKey)
+!define IAMDataEncryptionKey(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKey(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)
+!define IAMDataEncryptionKeyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMDataEncryptionKey, IAMDataEncryptionKey)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTAlexaVoiceService [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_00000003FCymmmmmyyFF30000000_0
+0_00000Fym3FyymmmmyF30m_300000_0
+0_0000_m0_y000000000m_F0__0000_0
+0_000y_0y_000000000003_03_0000_0
+0_0000_F0y_3000000003_m3_m0000_0
+0_00000myF3my_F003F_p3Fy000000_0
+0_00000000mmyCyyyyyymm00000000_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(IoTAlexaVoiceService)
+!define IoTAlexaVoiceService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)

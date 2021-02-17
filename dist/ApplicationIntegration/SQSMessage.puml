@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SQSMessage [32x32/4] {
+0FFCCCCCCF0FF00CC00FF0FC0CCC0FF0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0pp000000pp0p000000pp0
+0__000000_0pp000000pp0p000000pp0
+0__000000_0yy000000yy0y000000yy0
+0__000000_0yy000000yy0y000000yy0
+0__000000_0__000000__0_000000__0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0pp000000pp0p000000pp0
+0mmmmmmmmm0mm00mm00mm0mm0mmm0mm0
+}
+
+AWSEntityColoring(SQSMessage)
+!define SQSMessage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQSMessage, SQSMessage)

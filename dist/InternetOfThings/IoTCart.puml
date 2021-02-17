@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTCart [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00330000000000000000_33300
+00mmm_00my_333333333333300_mmm00
+00mmm_0000_F0000000000_y00_mmm00
+00yyy_00000_300000000_y000_yyy00
+00CCC_000000__yyyyy__p0000_CCC00
+00FFF_00000_p__yyyy_p__000_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTCart)
+!define IoTCart(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCart, IoTCart)
+!define IoTCart(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCart, IoTCart)
+!define IoTCartParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCart)
+!define IoTCartParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCart, IoTCart)
+!define IoTCartParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCart, IoTCart)

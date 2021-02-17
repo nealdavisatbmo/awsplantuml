@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTMQTTProtocol [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000y0
+0_000000000_mmmmmmmmmmmmmmmmmm_0
+0_000000000_0_FF_0_00_0_000_00_0
+0yF30000000_0y00y0mCCp0y000y00_0
+000mmmmmmm0mmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(IoTMQTTProtocol)
+!define IoTMQTTProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)

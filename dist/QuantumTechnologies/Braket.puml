@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Braket [32x32/4] {
+________________________________
+________________________________
+__________m__m_m_m__m__FF0______
+_______pp0FFFFFFFFFFFF0_mF______
+_______pp0___________ymF________
+_______CC0______yppp0FmCC_______
+_______yy0_____y0yym3_0yy_______
+______y__3ppyp3Cpmppmp3_________
+______3pppFF___F_F__F___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Braket)
+!define Braket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Braket, Braket)
+!define Braket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Braket, Braket)
+!define BraketParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Braket)
+!define BraketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Braket, Braket)
+!define BraketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Braket, Braket)

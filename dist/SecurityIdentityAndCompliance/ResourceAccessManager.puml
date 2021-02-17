@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ResourceAccessManager [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyyy_____
+_____0_____m________yy____0_____
+_____0__ymF_Fmy___3C__Cp__0_____
+_____0__FFCCCFF___yy0Cy___0_____
+_____0___0___0____0___0___0_____
+_____0___F3p0Cy___F___F___0_____
+_____0____mCpyF3pppppm____0_____
+_____FFFF_FpCym3FFFFF__FFFF_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ResourceAccessManager)
+!define ResourceAccessManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, ResourceAccessManager)
+!define ResourceAccessManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, ResourceAccessManager, ResourceAccessManager)
+!define ResourceAccessManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, ResourceAccessManager, ResourceAccessManager)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ClientVPN [32x32/4] {
+________________________________
+________________________________
+__________yyppppy_______________
+________y3_______Fmpppy_________
+______yp3____yyppyy___3ppy______
+______0_____y0yyyy0y_____0______
+______Fpyyy0___mm___0yyypF______
+___________0__Fpp3__0___________
+____________FFFFFFFF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ClientVPN)
+!define ClientVPN(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ClientVPN, ClientVPN)
+!define ClientVPN(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClientVPN, ClientVPN)
+!define ClientVPNParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, ClientVPN)
+!define ClientVPNParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ClientVPN, ClientVPN)
+!define ClientVPNParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ClientVPN, ClientVPN)

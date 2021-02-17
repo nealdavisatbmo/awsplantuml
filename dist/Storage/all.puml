@@ -1,0 +1,591 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Backup [32x32/4] {
+________________________________
+________________________________
+_____________ymCCmy_____________
+_________yypFF____FFpyy_________
+_____pCF0y__mmpFFppy__y0FCp_____
+_______3m_F_y______0_F_m3_______
+________3y__3pyyyyp3__y3________
+_________0yy3______3yy0_________
+_________3ppFFFFFFFFpp3_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Backup)
+!define Backup(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Backup, Backup)
+!define Backup(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Backup, Backup)
+!define BackupParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Backup)
+!define BackupParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Backup, Backup)
+!define BackupParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Backup, Backup)
+
+sprite $CloudEndureDisasterRecovery [32x32/4] {
+________________________________
+________________________________
+_________yppFFFppy______________
+_______mF_________3mpppy________
+_____yp3________yyyyy__3pyy_____
+____0_________y3F_ypF_____Fm____
+____3y_______pF___FC3_____m3____
+______FFFFFF___0_mF___FFFF______
+_______________3F_______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecovery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecovery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecoveryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecoveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecoveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
+
+sprite $EBSSnapshot [32x32/4] {
+0000000003FCCCCCCCCCCF3000000000
+00000000yyCCCCCCCCCCCCyyC0000000
+00000000_yyyy______yyyy_00000000
+0000003FCyymmmmmmmmmmyyCF3000000
+000000__FF333333333333FF__000000
+000000__0000mmmppmmm0000__000000
+0000000_0000000mmmyCFF33_FF30000
+0000000_F00000000000000p_mmm0000
+0000000m_00000000000000_m0000000
+00000000_F333000000333F_00000000
+00000000000mmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSSnapshot, EBSSnapshot)
+
+sprite $EBSVolume [32x32/4] {
+00000003FCCCCCCCCCCCCCCF30000000
+00000F_m0000000000000000m_F00000
+0000yyyyyyyyyyyyyyyyyyyyyyyy0000
+0000_mmmmmmmmmmmmmmmmmmmmmm_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000mmmmmmmmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(EBSVolume)
+!define EBSVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSVolume, EBSVolume)
+!define EBSVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSVolume, EBSVolume)
+!define EBSVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EBSVolume)
+!define EBSVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSVolume, EBSVolume)
+!define EBSVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSVolume, EBSVolume)
+
+sprite $EFSFilesystem [32x32/4] {
+000F3F3F300003F3F3F300003F3F3F30
+0pp_mmmm_p00p__mmmm_p00p__mmm__p
+0CC_FFFF_C00Cy_FFFF_C00C__FFF__C
+000m0m0m000000m0m0m003FFF_3m0m00
+000003FCCCCCCCCCCCCCCy0000yCCCF3
+00FFCyCCCCCCCCCCCCCCCCCCCCCCF00_
+y_yyyyyyyyyyyyyyyyyyyyyyyy_3_F0_
+0y_300000000000000000000000yF_3_
+00m_300000000000000000000000y___
+0000_F00000000000000000000000m__
+00000mmmmmmmmmmmmmmmmmmmmmmmmmmm
+}
+
+AWSEntityColoring(EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSFilesystem, EFSFilesystem)
+
+sprite $EFSInfrequentAccess [32x32/4] {
+________________________________
+__________yy________yy__________
+______ympFFFFpp__ppFFFFpmy______
+______0_FFmpFF0FF3_FmpFF_0______
+______0___0___yFFm__0____0______
+_______F3p0ym_FppFpm0pp3F_______
+__________0_FFFmpFF_0___________
+__________0____0____0___________
+___________FFpp0mpFFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EFSInfrequentAccess)
+!define EFSInfrequentAccess(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccess(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccessParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EFSInfrequentAccess)
+!define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
+
+sprite $EFSStandard [32x32/4] {
+________________________________
+_________y______________________
+______y_ppFCyy______yyy_________
+______yFm3Cy__CC3m3Cy__CCp______
+_____my_0___0F___0___0F_________
+______yy3pyy0_yyp3pyy0yypp______
+________FF__F03ppyppF0F_________
+_____________0___0___0__________
+_____________FFpp0ppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSStandard, EFSStandard)
+
+sprite $ElasticBlockStoreEBS [32x32/4] {
+________________________________
+_____yyyy______________yyyy_____
+_____0Fpy______________ypF0_____
+_________F_mpFFFFFFpm_F_________
+___________0_FFFFFF_0___________
+___________0________0___________
+___________0________0___________
+_____y__yp_FFppppppFF_py__y_____
+_____0mCy______________yCm0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+
+sprite $ElasticFileSystemEFS [32x32/4] {
+________________________________
+_____yyyy______________yyyy_____
+_____0Fpy______________ypF0_____
+_________Fm3FFFFFpyyy_F_________
+________y0________F__Fmy________
+_______0__ypp__pppppy___0_______
+_______Fp_0_________003p3_______
+_____y__yp0yyyyyyyyy0Fpy__y_____
+_____0mCy______________yCm0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticFileSystemEFS)
+!define ElasticFileSystemEFS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+
+sprite $FSx [32x32/4] {
+________________________________
+________________________________
+________________________________
+_____yyyyyy__yyyyy______________
+_____0______0_______my__mp______
+_____0_______FF3pm___Fp0________
+_____0______yyyyy0FymF_F3y______
+________________________________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FSx)
+!define FSx(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSx, FSx)
+!define FSx(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSx, FSx)
+!define FSxParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, FSx)
+!define FSxParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSx, FSx)
+!define FSxParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSx, FSx)
+
+sprite $FSxforLustre [32x32/4] {
+________________________________
+________________________________
+________________________________
+________________________________
+______FFFFmFFF__y__y____________
+___________FFpy_ypCypyFymy______
+___________pppFpF__33ppF________
+________________________________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FSxforLustre)
+!define FSxforLustre(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSxforLustre, FSxforLustre)
+!define FSxforLustre(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforLustre, FSxforLustre)
+!define FSxforLustreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, FSxforLustre)
+!define FSxforLustreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSxforLustre, FSxforLustre)
+!define FSxforLustreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSxforLustre, FSxforLustre)
+
+sprite $FSxforWindowsFileServer [32x32/4] {
+________________________________
+________________________________
+________________________________
+________________________________
+__________pF__F_py__mp__________
+______FFF___F_py__pC_FFFF0______
+___________ppppFpF__ppppp3______
+________________________________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FSxforWindowsFileServer)
+!define FSxforWindowsFileServer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
+!define FSxforWindowsFileServer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
+!define FSxforWindowsFileServerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, FSxforWindowsFileServer)
+!define FSxforWindowsFileServerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
+!define FSxforWindowsFileServerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
+
+sprite $S3Bucket [32x32/4] {
+000000333FFFFCCCCCCFFF3333000000
+003Fymmm0000000000000000mmmyF000
+00y_CF3333330000000033333FFy_000
+000_0000mmmmmmmmmmmmmmm0000F_000
+000_F000000000C__F330000000_0000
+000m_00000000000000mmyCFF33_yFF0
+0000_300000000000000000000__mmm0
+0000__00000000000000000000_00000
+00000_0000000000000000000__00000
+00000yyF3333300000033333Fym00000
+000000000mmmmmmmmmmmmm0000000000
+}
+
+AWSEntityColoring(S3Bucket)
+!define S3Bucket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Bucket, S3Bucket)
+!define S3Bucket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Bucket, S3Bucket)
+!define S3BucketParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3Bucket)
+!define S3BucketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Bucket, S3Bucket)
+!define S3BucketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Bucket, S3Bucket)
+
+sprite $S3BucketwithObjects [32x32/4] {
+000003333FFFCCCCCCFFFF3330000000
+03Fymmm0000000000000000mmmyF3000
+00_yFF3333300000000333333FC_y000
+00__0000mmmmmmmmmmmmmmm0000_0000
+00m_00003FF300__F330000000__0000
+000_000FymmyF00000mmyyCF33_pyF30
+000y_0mmmmmmmm000FCyyF300F_mmm00
+0000_000__yyy_00y_3003_00_y00000
+0000_F00__333_0000mmmm000_000000
+0000myF3ppppmm000033333Fyy000000
+000000000mmmmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(S3BucketwithObjects)
+!define S3BucketwithObjects(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjects(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+
+sprite $S3Glacier [32x32/4] {
+________________________________
+____________yyyyyyy_____________
+______mpFFFF_______FFFFpy_______
+______03pppyyyyyyyyypppF0_______
+______3_______ymy______mF_______
+_______0_________FFFppy0Cm______
+_______0___________yyp_my_______
+_______Fm_________Cpp00pp0______
+________Fpppyyyyyy_pp0_0p_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(S3Glacier)
+!define S3Glacier(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Glacier, S3Glacier)
+!define S3Glacier(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Glacier, S3Glacier)
+!define S3GlacierParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3Glacier)
+!define S3GlacierParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Glacier, S3Glacier)
+!define S3GlacierParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Glacier, S3Glacier)
+
+sprite $S3GlacierArchive [32x32/4] {
+00000003FCCCCCFFFFCCCCCF30000000
+000003_m000000____000000m_300000
+0000yyCCCCCCCCyyyyCCCCCCCCyy0000
+0000_yyyyyyyyy_FF_yyyyyyyyy_0000
+0000_000000000____000000000_0000
+0000_000000000____000000000_0000
+0000_000000000____000000000_0000
+0000_000000000____000000000_0000
+0000_000000000____000000000_0000
+0000_000000000____000000000_0000
+0000mmmmmmmmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(S3GlacierArchive)
+!define S3GlacierArchive(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3GlacierArchive, S3GlacierArchive)
+!define S3GlacierArchive(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierArchive, S3GlacierArchive)
+!define S3GlacierArchiveParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3GlacierArchive)
+!define S3GlacierArchiveParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3GlacierArchive, S3GlacierArchive)
+!define S3GlacierArchiveParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3GlacierArchive, S3GlacierArchive)
+
+sprite $S3GlacierVault [32x32/4] {
+00000003FCCCCCCCCCCCCCCF30000000
+00000F_m0000000000000000m_F00000
+0000yyyyyyyyyyyyyyyyyyyyyyyy0000
+0000_mmmmmmmmmmmmmmmmmmmmmm_0000
+0000_00003003FFCCFF30030000_0000
+0000_0000mp_FFFCCFFF_pm0000_0000
+0000_00000__0_3333_0__00000_0000
+0000_000000yFFp__pFFy000000_0000
+0000_0000000000__0000000000_0000
+0000_0000000000000000000000_0000
+0000mmmmmmmmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(S3GlacierVault)
+!define S3GlacierVault(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVault(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVaultParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3GlacierVault, S3GlacierVault)
+
+sprite $S3Object [32x32/4] {
+00000000000000000000000000000000
+000000003FCCymmmmmmyCCF300000000
+000003Fym00000000000000myF300000
+0000_m00000000000000000000m_0000
+000_m0000000000000000000000m_000
+000_000000000000000000000000_000
+000yF0000000000000000000000Fy000
+0000yF30000000000000000003Fy0000
+000000myF30000000000003Fym000000
+000000000mmmyCCCCCCymmm000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(S3Object)
+!define S3Object(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Object, S3Object)
+!define S3Object(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Object, S3Object)
+!define S3ObjectParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3Object)
+!define S3ObjectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Object, S3Object)
+!define S3ObjectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Object, S3Object)
+
+sprite $SimpleStorageServiceS3 [32x32/4] {
+________________________________
+____________yyyyyyy_____________
+______mpFFFF_______FFFFpy_______
+______03pppyyyyyyyyypppF0_______
+______3_______ymy______mF_______
+_______0_________FFFppy0Cm______
+_______0_______________3________
+_______Fm_____________0_________
+________FpppyyyyyyppppF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SimpleStorageServiceS3)
+!define SimpleStorageServiceS3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
+
+sprite $SnowFamilyImportExport [32x32/4] {
+00000000000000000000000000000000
+03FFFFFFFFFFFFFFFFFFFFFFFFFFF300
+F_0FCCCCCCCF0CCCCC03FCCCCCCF0__0
+__0_0000000mmmmmmmmm0000000_0__0
+__0_000__mmmCF30mmmmmmm__0CF3yy0
+0FFFFFFFFFFFFF__F0FFFFFFFFFF__F0
+FF0F000FF3330Fym3333333FF0F_y_F0
+__0_00000000000000000000000F0__0
+m_3ppppppppppppppppppppppppp3_y0
+00mmmmmmmmmmmmmmmmmmmmmmmmmmm000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SnowFamilyImportExport)
+!define SnowFamilyImportExport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExportParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, SnowFamilyImportExport)
+!define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
+
+sprite $Snowball2 [32x32/4] {
+________________________________
+________________________________
+______yyyyyyyyyyyyyyyyyyyy______
+_____0_mFFFF3yCCCCy3FFFFm_0_____
+_____0_0__mppppppppppm__0_0_____
+_____0_0__0__________0__0_0_____
+_____0_0__3pppppppppp3__0_0_____
+_____3yCmmmmmmmmmmmmmmmmCy3_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Snowball2)
+!define Snowball2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Snowball2, Snowball2)
+!define Snowball2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowball2, Snowball2)
+!define Snowball2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Snowball2)
+!define Snowball2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Snowball2, Snowball2)
+!define Snowball2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Snowball2, Snowball2)
+
+sprite $SnowballEdge2 [32x32/4] {
+________________________________
+________________________________
+_____mFC33330F333FC33333C0______
+_____0_0__yyCCCCCCCyyy__00______
+_____0_0__0__________0__00______
+_____0_0__0yyyyyy_yyyppyC3______
+_____0_0yyyyyyyy_m3_yppy_0y_____
+______FFFFFFFFFF_0p_3ppF_m3_____
+__________________FF3ppFFF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SnowballEdge2)
+!define SnowballEdge2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SnowballEdge2, SnowballEdge2)
+!define SnowballEdge2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowballEdge2, SnowballEdge2)
+!define SnowballEdge2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, SnowballEdge2)
+!define SnowballEdge2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SnowballEdge2, SnowballEdge2)
+!define SnowballEdge2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SnowballEdge2, SnowballEdge2)
+
+sprite $Snowmobile2 [32x32/4] {
+________________________________
+________________________________
+_________yyp_FFFFFFFppy_________
+_______y3F_____________Fpy______
+______ppm___________myyy_3y_____
+_____FCC0_yy_yy_____0yyFm_0_____
+_______mF3p_3_p3____Fp_3F0______
+________3my___________ypF_______
+___________F_pppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Snowmobile2)
+!define Snowmobile2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Snowmobile2, Snowmobile2)
+!define Snowmobile2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowmobile2, Snowmobile2)
+!define Snowmobile2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Snowmobile2)
+!define Snowmobile2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Snowmobile2, Snowmobile2)
+!define Snowmobile2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Snowmobile2, Snowmobile2)
+
+sprite $Storage [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0________yyyyyy___________0__0
+__0________0_p___Fpy________0__0
+__0________0_CyyCCCF0_______0__0
+__0______pp3pppppppp3pp_____0__0
+__0__________0CCCC0_________0__0
+__0______yyyyyyyyyyyyyy_____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Storage)
+!define Storage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Storage, Storage)
+!define Storage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Storage, Storage)
+!define StorageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Storage)
+!define StorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Storage, Storage)
+!define StorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Storage, Storage)
+
+sprite $StorageGateway [32x32/4] {
+________________________________
+____________yyy_________________
+_________m3FF__FFpy_y___________
+_______y0_________FF__0y________
+_____y3___yppCCCCCC3pm__F3y_____
+_____Fmy_0__0______0_0___m3_____
+_______FF0__0______0_0_FF_______
+_________0__0______0_0__________
+_________3yy3______3y0__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(StorageGateway)
+!define StorageGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGateway, StorageGateway)
+!define StorageGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGateway, StorageGateway)
+!define StorageGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, StorageGateway)
+!define StorageGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGateway, StorageGateway)
+!define StorageGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGateway, StorageGateway)
+
+sprite $StorageGatewayCachedVolume [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_000CC00F00FCCF00F0CC00_0000
+0000_00y300_0_0_00_00_0mm00_0000
+0000_0000m000000m0000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000003FFFFFFFF3000000_0000
+0000_000000_00000000_000000_0000
+0000mmmmmmmm00000000mmmmmmmm0000
+}
+
+AWSEntityColoring(StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+
+sprite $StorageGatewayNonCachedVolume [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000003FFFFFFFF3000000_0000
+0000_000000_00000000_000000_0000
+0000mmmmmmmm00000000mmmmmmmm0000
+}
+
+AWSEntityColoring(StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+
+sprite $StorageGatewayVirtualTapeLibrary [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_000000F03CCFC0F0000000_0000
+0000_000000y3_00_00_0000000_0000
+0000_0000000m000m00mmm00000_0000
+0000_00033FF33000033FF33000_0000
+0000_03_m0000m_33_m0000m_30_0000
+0000_0y_300003_mm_300003_y0_0000
+0000_000myyyyyyyyyyyyyym000_0000
+0000_0000003FFFFFFFF3000000_0000
+0000_000000_00000000_000000_0000
+0000mmmmmmmm00000000mmmmmmmm0000
+}
+
+AWSEntityColoring(StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+

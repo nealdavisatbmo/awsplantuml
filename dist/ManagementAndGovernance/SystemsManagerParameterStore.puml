@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SystemsManagerParameterStore [32x32/4] {
+00003FCCCCCCCCCCCCF3000000000000
+003_m0000000000000myF30000000000
+0mpppppppppppppppppppp0000000000
+0__000000000000000000_0000000000
+0__0000_mmmmmmm__0000_0000000000
+0__0000_0ppppp0__0000FFymyF30000
+0__0000_0ppppp0__0000_00000_0000
+0__0000_3333333__0__mmmpppmmm__0
+0__000000000000000__000yFy000__0
+0mmmmmmmmmmmmmmmm0__0000m0000__0
+000000000000000000mmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(SystemsManagerParameterStore)
+!define SystemsManagerParameterStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SystemsManagerParameterStore, SystemsManagerParameterStore)
+!define SystemsManagerParameterStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SystemsManagerParameterStore, SystemsManagerParameterStore)

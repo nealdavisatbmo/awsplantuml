@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $S3BucketwithObjects [32x32/4] {
+000003333FFFCCCCCCFFFF3330000000
+03Fymmm0000000000000000mmmyF3000
+00_yFF3333300000000333333FC_y000
+00__0000mmmmmmmmmmmmmmm0000_0000
+00m_00003FF300__F330000000__0000
+000_000FymmyF00000mmyyCF33_pyF30
+000y_0mmmmmmmm000FCyyF300F_mmm00
+0000_000__yyy_00y_3003_00_y00000
+0000_F00__333_0000mmmm000_000000
+0000myF3ppppmm000033333Fyy000000
+000000000mmmmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(S3BucketwithObjects)
+!define S3BucketwithObjects(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjects(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)

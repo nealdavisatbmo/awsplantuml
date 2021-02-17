@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $KinesisVideoStreams2 [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyyy_____________
+_____FpmyyyFFFppppyCCCCCCCC_____
+_______yyyy33330000000yyyy______
+_____pFF_yyppp_0__myy_____0_____
+______ypF__ypF_0__0yy33___0_____
+_____mF___0____3yyCyyyyyym3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisVideoStreams2)
+!define KinesisVideoStreams2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)

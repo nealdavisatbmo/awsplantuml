@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $WorkMail [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyyy_____
+_____0Fpy______________ypF0_____
+_____0___Fpy________ypF___0_____
+_____0______Fpy__ypF______0_____
+_____0_________FF_________0_____
+_____0____________________0_____
+_____0____________________0_____
+_____0yyyyyyyyyyyyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WorkMail)
+!define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, WorkMail, WorkMail)
+!define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, WorkMail, WorkMail)

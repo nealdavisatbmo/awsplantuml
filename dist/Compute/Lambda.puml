@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Lambda [32x32/4] {
+________________________________
+_________yyyyyyyy_______________
+_________0______3m______________
+_________3pppm___F0_____________
+___________yyF0____3y___________
+__________mFFm_3y___Fm__________
+________y3____0_Fm____3y________
+_______m3___y0F___3y___FF0______
+______mCyyyy3______Fmyyyy0______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Lambda)
+!define Lambda(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Lambda, Lambda)
+!define Lambda(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Lambda, Lambda)
+!define LambdaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Lambda)
+!define LambdaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Lambda, Lambda)
+!define LambdaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Lambda, Lambda)

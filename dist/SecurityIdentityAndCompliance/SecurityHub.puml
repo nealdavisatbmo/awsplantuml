@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SecurityHub [32x32/4] {
+________________________________
+_______________yy_______________
+______________0CC0______________
+______pCF0y__yy0yyy__y0FCp______
+___________0FmCC0CmF0__F________
+___________0_00_000_0___________
+_______mpmp3pCm00mCpFpmppy______
+_______3p3____y0yy____FpF_______
+______________3mm3______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SecurityHub)
+!define SecurityHub(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SecurityHub, SecurityHub)
+!define SecurityHub(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SecurityHub, SecurityHub)
+!define SecurityHubParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, SecurityHub)
+!define SecurityHubParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SecurityHub, SecurityHub)
+!define SecurityHubParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SecurityHub, SecurityHub)

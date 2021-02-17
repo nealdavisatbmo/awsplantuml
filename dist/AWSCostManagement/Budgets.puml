@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Budgets [32x32/4] {
+________________________________
+__________yyyyyyyyyyyy__________
+___________________y____________
+___________________yy___________
+_______ym_______y33____my_______
+______0py___3F33_______yp0______
+______0__F3myy____yym3F__0______
+______0_ypF__FFppFF__Fpy_0______
+______0CCyyyyyyyyyyyyyyCC0______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Budgets)
+!define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Budgets, Budgets)
+!define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Budgets, Budgets)

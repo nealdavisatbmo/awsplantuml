@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $InternetofThings [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCCF0
+__0__________________________0__
+__0___________yyyy___________0__
+__0_________ypC__Cpy_________0__
+__0_____yypC___FF___Cpyy_____0__
+__0_____0y_y3______3y_y0_____0__
+__0_______Fpy______ypF_______0__
+__0__________FF__FF__________0__
+__0__________________________0__
+__0yyyyyyyyyyyyyyyyyyyyyyyyyy0__
+0myyyyyyyyyyyyyyyyyyyyyyyyyyyym0
+}
+
+AWSEntityColoring(InternetofThings)
+!define InternetofThings(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThings(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, InternetofThings, InternetofThings)

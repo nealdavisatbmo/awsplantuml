@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTShadow [32x32/4] {
+0000000033FCCCFF3300000000000000
+000000Fym0000000mm_F033300000000
+00000_m000000000000yymmmyF000000
+003Fy_3333333333333333333pyyF300
+0_y00__FCF30003F30000FCF0_000y_0
+0_F00__p__p33_____333___3_000F_0
+00myC__pppppppppppppppppppFCym00
+00FFCCCCCCCCCCCCCCCCCCCCCCCCFF00
+00__0Fyy_30000F__F00000_y__0__00
+00__0myym0000yyyyyy0000yyyy0__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTShadow)
+!define IoTShadow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTShadow, IoTShadow)

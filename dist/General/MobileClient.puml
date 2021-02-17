@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $MobileClient [32x32/4] {
+000000003FFCCCCCCCCCCFF300000000
+00000000__00yy0yyyy000__00000000
+00000000__mmmmmmmmmmmm__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000__333333333333__00000000
+00000000__mmmmmmmmmmmm__00000000
+000000000mmmmmmmmmmmmmm000000000
+}
+
+AWSEntityColoring(MobileClient)
+!define MobileClient(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, MobileClient, MobileClient)
+!define MobileClient(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, MobileClient, MobileClient)
+!define MobileClientParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, MobileClient, MobileClient)

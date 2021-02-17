@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMResource [32x32/4] {
+________________________________
+________________________________
+______yyyyyyyyyyyyyyyyyyyy______
+_____0___yppmy____________0_____
+_____0__0____0___yyyyy_y__0_____
+_____0_0FFC3CCC0_ppp__pp__0_____
+_____0_0__F3_pp0_FFFFFF___0_____
+_____3yCCCCCCCCCyyyyyyyyyy3_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IAMResource)
+!define IAMResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMResource, IAMResource)
+!define IAMResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMResource, IAMResource)
+!define IAMResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMResource)
+!define IAMResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMResource, IAMResource)
+!define IAMResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMResource, IAMResource)

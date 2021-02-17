@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTPoliceEmergency [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_0000000000000000000000_3330
+0000_00003FyF3F__F3FyF30000_0000
+0mmm_000myF0000000000Fym000_mmm0
+0yyy_0000Fy0000000000yF0000_yyy0
+0CCC_000y_000000000000_y000_CCC0
+0333_0000mmyCCF33FCCymm0000_3330
+0000_3000000000000000000003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTPoliceEmergency)
+!define IoTPoliceEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)

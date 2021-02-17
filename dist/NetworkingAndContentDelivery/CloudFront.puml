@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CloudFront [32x32/4] {
+________________________________
+______________yyyy______________
+________ympFFF3yppC33pmy________
+______y3F____ypFppC____F3y______
+_____y3__yppC______3y____3y_____
+_____0FF_Fpp3_ppyy__0_____0_____
+______0___0______FFmppy__0______
+_______3my0________FmFym3_______
+_________FFpppyyyyp3pFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudFront)
+!define CloudFront(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudFront, CloudFront)
+!define CloudFront(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudFront, CloudFront)
+!define CloudFrontParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, CloudFront)
+!define CloudFrontParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudFront, CloudFront)
+!define CloudFrontParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudFront, CloudFront)

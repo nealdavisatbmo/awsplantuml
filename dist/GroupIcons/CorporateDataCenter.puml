@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CorporateDataCenter [32x32/4] {
+________________________________
+____________y______y____________
+____________0___y__0____________
+____________0___C__0____________
+________0FFFF___3__FFFF0________
+________0__3____3___3__0________
+________0__m____m___m__0________
+________0__m____m___m__0________
+________0__F____F___F__0________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CorporateDataCenter)
+!define CorporateDataCenter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, CorporateDataCenter, CorporateDataCenter)

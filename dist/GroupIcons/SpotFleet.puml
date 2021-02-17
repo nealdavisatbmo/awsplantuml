@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SpotFleet [32x32/4] {
+________________________________
+______________yyyy______________
+______Fpy_p3FFFFFFFF3p_ypF______
+______ym_Fpy____pppppmF_my______
+_____y0_____Fmppppm__0___0y_____
+_____00___mp_0____0_pF___00_____
+______0y__0__FFFFFF_y___y0______
+_______FypFFFFFF_____FpyF_______
+______pF__F3ppmmmmpp3F__Fp______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SpotFleet)
+!define SpotFleet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, SpotFleet, SpotFleet)
+!define SpotFleet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, SpotFleet, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, SpotFleet, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, SpotFleet, SpotFleet)

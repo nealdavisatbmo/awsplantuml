@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxDraft [32x32/4] {
+________________________________
+______________yyyy______________
+_________ymm___00_FFpmy_________
+______m0F__0___00yy____F0m______
+______0___F0___FF__F33yy_0______
+______0____0y_F00F_y____F3______
+______0yyppFF__yyyy33ppyym______
+______F3p___ymp33____yyp3F______
+___________FppymmyppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxDraft)
+!define ThinkboxDraft(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxDraft, ThinkboxDraft)
+!define ThinkboxDraft(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxDraft, ThinkboxDraft)
+!define ThinkboxDraftParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxDraft)
+!define ThinkboxDraftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxDraft, ThinkboxDraft)
+!define ThinkboxDraftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxDraft, ThinkboxDraft)

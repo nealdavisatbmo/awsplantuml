@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CloudHSM [32x32/4] {
+________________________________
+________________________________
+_______0______________0_________
+_____0y0___m3CCCFpy___0_________
+_______0__0_0___0pppp_0_________
+_____0F0__FpyCCCCp3yyy3_________
+_____FF0_________mFmm_Fy________
+_______FFFFFFFFF_F3pppC3my______
+_______________________3p33_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudHSM)
+!define CloudHSM(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, CloudHSM, CloudHSM)
+!define CloudHSM(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, CloudHSM, CloudHSM)
+!define CloudHSMParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, CloudHSM)
+!define CloudHSMParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, CloudHSM, CloudHSM)
+!define CloudHSMParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, CloudHSM, CloudHSM)

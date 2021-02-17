@@ -1,0 +1,591 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Analytics [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0_______pppppppppppp______0__0
+__0_______________y3________0__0
+__0_________ypFFpF__________0__0
+__0_____y______________y____0__0
+__0______FFFFFFFFFFFFFF_____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Analytics)
+!define Analytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Analytics, Analytics)
+!define Analytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Analytics, Analytics)
+!define AnalyticsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Analytics)
+!define AnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Analytics, Analytics)
+!define AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Analytics, Analytics)
+
+sprite $Athena [32x32/4] {
+________________________________
+______________yyyy______________
+________yppFFF____FFppy_________
+_______3__ypFFFFFFFpy__3m_______
+______ppp0__03CCC30__3y_Fm______
+_________m__0__FFp0p__0__0______
+______FFFFmyFpppp3__y3yym_______
+_______FpyyFFpppppFFmy_Fpy______
+__________FFFpppppFFF_Fpym3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Athena)
+!define Athena(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Athena, Athena)
+!define Athena(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Athena, Athena)
+!define AthenaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Athena)
+!define AthenaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Athena, Athena)
+!define AthenaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Athena, Athena)
+
+sprite $CloudSearch [32x32/4] {
+________________________________
+____________yy__________________
+_______ypFFF_yCFFpm_____________
+______0___y3F__FFmpFmpy_________
+_____0__y3F_________0__Fm_______
+______3yFpyyyyyyyy_mCp3F________
+_______F3pyyyyyyymC__Fpy________
+__________________F3yy__Fpy_____
+_____________________F3pypF_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudSearch)
+!define CloudSearch(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearch, CloudSearch)
+!define CloudSearch(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearch, CloudSearch)
+!define CloudSearchParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, CloudSearch)
+!define CloudSearchParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearch, CloudSearch)
+!define CloudSearchParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearch, CloudSearch)
+
+sprite $CloudSearchSearchDocuments [32x32/4] {
+00000FFCCCCCCCCCCCCCCCCCCFF00000
+00000__0FFFFFFFFFFFFFFFF0__00000
+00033yy033333333333333330yy33000
+000_m_FF0000000000000000FF_m_000
+000yyp30mmmmmmmmmmmmmmmm03pyy000
+00000__0yyyyyyyyyyyyyyyy0__00000
+00000__0CCCCCCCCCCCCCCCC0__00000
+00000__033333333333333330__00000
+00000__033333333333333330__00000
+00000__0mmmmmmmmmmmmmmmm0__00000
+00000mmmmmmmmmmmmmmmmmmmmmm00000
+}
+
+AWSEntityColoring(CloudSearchSearchDocuments)
+!define CloudSearchSearchDocuments(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocuments(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+
+sprite $DataPipeline [32x32/4] {
+________________________________
+________________________________
+___________yyymmmyyyy___________
+___________3ppmppmpp3___________
+_____mCC0ppppp3pp3ppppp0CCm_____
+_____0__0FFFFFFFFFFFFFF0__0_____
+_____0__0______________0__0_____
+_____0pp0CCCCCCCCCCCCCC0pp0_____
+_____FppF______________FppF_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DataPipeline)
+!define DataPipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DataPipeline, DataPipeline)
+!define DataPipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DataPipeline, DataPipeline)
+!define DataPipelineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DataPipeline)
+!define DataPipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DataPipeline, DataPipeline)
+!define DataPipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DataPipeline, DataPipeline)
+
+sprite $DatalakeResourceIcon [32x32/4] {
+0033FFCCCyyyyyCCCFF3300000000000
+Fym00000000000000000m_F000000000
+_yCF333333333333333FC__000000000
+_00000mmmmmmmmmmm0000mm000000000
+_F30000000000m_3_my_F_m_FFym_3_y
+_0mmmyyCCCCC0F3m3FF3m3F300FF3m3F
+_0000000000000yCy0myyy0myym0yCym
+_yCFF33333330yF0Fy_F3Fy_33_yF0F_
+_0000000000000mmm00mmp30mm00mmm0
+myF33300000000000333Fym000000000
+0000mmmmmyyyyymmmmm0000000000000
+}
+
+AWSEntityColoring(DatalakeResourceIcon)
+!define DatalakeResourceIcon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIcon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+
+sprite $DenseComputeNodeResource [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FF_p33000m_F3F__0000_0
+0_000FCF03FC000_CyymmmyFy_FCCCy0
+0_000_0_0_30300_0000000_y_300000
+0_333pp333ppp33_myyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(DenseComputeNodeResource)
+!define DenseComputeNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
+!define DenseComputeNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
+!define DenseComputeNodeResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DenseComputeNodeResource)
+!define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
+!define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
+
+sprite $DenseStorageNodeResource [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FF_p33000m_F3F__0000_0
+0_000FCF0FCC000_CyymmmyFy_FCCCy0
+0_000_0_0mmF000_0000000_y_300000
+0_333pp33ppp333_myyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(DenseStorageNodeResource)
+!define DenseStorageNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DenseStorageNodeResource)
+!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
+!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
+
+sprite $EMR [32x32/4] {
+________________________________
+________________yy______________
+_______________0__0_____________
+________yyyyyymFFF3y__mFFpy_____
+______mF__y__F3yypp30FCpp3______
+_____3y___0____0y___y30_________
+______Fpyyyyym0__FF03p0FF0______
+______________Fmpp0___FFFF______
+_______________3yy3_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EMR)
+!define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMR, EMR)
+!define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMR, EMR)
+!define EMRParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMR, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMR, EMR)
+
+sprite $EMRCluster [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000333000003Fyyyy_yyy0p__F3330
+0F_pmmmmmm__ym00000m_F3F__0000_0
+0_mmmmmmmmm_33FFCyymmmyFy_FCCCy0
+0_000000000__3330000000_y_300000
+0_000000000_00mmmyyCFF_p__mmmm_0
+0yCFFFFFFFCyyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(EMRCluster)
+!define EMRCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRCluster, EMRCluster)
+!define EMRCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRCluster, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRCluster, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRCluster, EMRCluster)
+
+sprite $EMREngine [32x32/4] {
+00000000000000000000000000000000
+0000000000FFFFFFFF00000000000000
+0000000003333__33330000000000000
+0300FFCCCyy0000000yCCCF303FCCFF0
+0_00_000000000000000000yyyy000_0
+0_FF_0000000000000000000000000_0
+0_00_0000000000000000000000000_0
+0_00_333333333000000000FCFF000_0
+000000000000m_F3333333_y00myyym0
+000000000000000mmmmmm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EMREngine)
+!define EMREngine(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngine, EMREngine)
+!define EMREngine(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngine, EMREngine)
+!define EMREngineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMREngine)
+!define EMREngineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngine, EMREngine)
+!define EMREngineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngine, EMREngine)
+
+sprite $EMREngineMapRM3 [32x32/4] {
+00000000000000000000000000000000
+0000000000FFFFFFFF00000000000000
+0000000003333__33330000000000000
+0300FFCCCyy0000000yCCCF303FCCFF0
+0_00_000000000000000000yyyy000_0
+0_FF_00F0FF330330FCF0FF0F03F00_0
+0_00_00ym0yyy0_C0ymC0y0my0Cy00_0
+0_00_333333333000000000FCFF000_0
+000000000000m_F3333333_y00myyym0
+000000000000000mmmmmm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EMREngineMapRM3)
+!define EMREngineMapRM3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMREngineMapRM3)
+!define EMREngineMapRM3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
+!define EMREngineMapRM3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
+
+sprite $EMREngineMapRM5 [32x32/4] {
+00000000000000000000000000000000
+0000000000yyy__yyy00000000000000
+000000000F_yyyyyyyF0000000000000
+0_00_mmmmmm0000000mmmmy_3F_mmy_0
+0_00_000000000000000000mmmm000_0
+0_yy_00_Fy_3F0FC0__y0_yF_0yF00_0
+0_00_00m00mmm0ym0m0m0m00m0mm00_0
+0y00yCCCCCCCFF000000003_my_333_0
+0000000000000yyCCCCCCCym000mmm00
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EMREngineMapRM5)
+!define EMREngineMapRM5(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+
+sprite $EMREngineMapRM7 [32x32/4] {
+00000000000000000000000000000000
+0000000000FFFFFFFF00000000000000
+0000000003333__33330000000000000
+0300FFCCCyy0000000yCCCF303FCCFF0
+0_00_000000000000000000yyyy000_0
+0_FF_00F0FF330330FCF0FF0F00F00_0
+0_00_00ym0yyy0_C0ymC0y0my0Cm00_0
+0_00_333333333000000000FCFF000_0
+000000000000m_F3333333_y00myyym0
+000000000000000mmmmmm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EMREngineMapRM7)
+!define EMREngineMapRM7(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
+!define EMREngineMapRM7(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
+!define EMREngineMapRM7Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMREngineMapRM7)
+!define EMREngineMapRM7Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
+!define EMREngineMapRM7Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
+
+sprite $EMRHDFSCluster [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FFym00000m_F3F__0000_0
+0_000000000_33FFCyymmmyFy_FCCCy0
+0_000000000__3330000000_y_300000
+0_333333333_00mmmyyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(EMRHDFSCluster)
+!define EMRHDFSCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
+!define EMRHDFSCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
+!define EMRHDFSClusterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMRHDFSCluster)
+!define EMRHDFSClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
+!define EMRHDFSClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
+
+sprite $ElasticsearchService [32x32/4] {
+________________________________
+________________________________
+________________0FFF0_yyyyy_____
+___________0FFF33___0_0___0_____
+_____0___0_3ymFFCCFFpy3___0_____
+_____0___0__0_mF______0___0_____
+_____0___0_y3y_F____ymC___0_____
+_____0___0_0__F0mppF3myFpy3_____
+_____3ppp3_3ppp33ppp3_F3ppF_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticsearchService)
+!define ElasticsearchService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, ElasticsearchService)
+!define ElasticsearchServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ElasticsearchService, ElasticsearchService)
+!define ElasticsearchServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ElasticsearchService, ElasticsearchService)
+
+sprite $Glue [32x32/4] {
+________________________________
+________________yy______________
+____________mpm_p3______________
+_________yyyC33p0C0_yyy_________
+_________F3CFFFFFFFFC3F_________
+___________Fpy____ypF___________
+_____________Fm__mF_____________
+______________F00F______________
+_____________F3pp3F_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Glue)
+!define Glue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Glue, Glue)
+!define Glue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Glue, Glue)
+!define GlueParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Glue)
+!define GlueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Glue, Glue)
+!define GlueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Glue, Glue)
+
+sprite $GlueCrawlers [32x32/4] {
+_mm__mmmmmmmmmmmmmmmmmmmmmmmmm__
+_FF__FFFFFFFFFFFFFFFFFFFFFFFFF__
+_00__00000_0000000000000000000__
+_00__CCCCC_CCCCCCCCFFCCCCFFCCC__
+_00__00000_00000000y_m330__000yy
+_00__yyyyy_yyy00FF00__pp__000F00
+_33__33333_330000yFFym__mm_Fym00
+mmmmmmmmmmmmm00yF3_000__000y_3_y
+00000000000000000__003__3303_000
+000000000000000Fymy_pm00mm__myF3
+00000000000000000000myCCyym00000
+}
+
+AWSEntityColoring(GlueCrawlers)
+!define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueCrawlers, GlueCrawlers)
+
+sprite $GlueDataCatalog [32x32/4] {
+0F_mm0__mmmmmmmmmmmmmmmmmmmmm__0
+0__000__00mmmmmmmmmmmmmmmmmm0__0
+0__000__00mmmmmpppppppmmmmmm0__0
+0__000__0000_ppppppppppp_C000__0
+0__000__0000m_Fmmmmmmm3_m0000__0
+0__000__000000y_30003Fy000000__0
+0__000__0000000m_F03_m0000000__0
+0__000__000000000_3_000000000__0
+0__000__003333333333333333330__0
+0__000__00CCCCCCCCCCCCCCCCCC0__0
+0myCC0yyCCCCCCCCCCCCCCCCCCCCCyy0
+}
+
+AWSEntityColoring(GlueDataCatalog)
+!define GlueDataCatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueDataCatalog, GlueDataCatalog)
+
+sprite $Kinesis [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyy______________
+_____FpmyyyFFFppppyCCCCCCCC_____
+_______yyy_3333333000yyyyyy_____
+_____pFF_yypppFCCC_pppppppp_____
+______ypF__ypFF_________________
+_____mF___0_____________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Kinesis)
+!define Kinesis(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Kinesis, Kinesis)
+!define Kinesis(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Kinesis, Kinesis)
+!define KinesisParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Kinesis)
+!define KinesisParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Kinesis, Kinesis)
+!define KinesisParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Kinesis, Kinesis)
+
+sprite $KinesisDataAnalytics [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyy______________
+_____Fpmyy_FFFppppyCCCCCCCC_____
+_______yyy_333_mppppppppppm_____
+_____pFF_yyppp_0___yyy_m__0_____
+______ypF__ypF_0m_m0_0_0__0_____
+_____mF___0____00y00y0y0yy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisDataAnalytics)
+!define KinesisDataAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalyticsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, KinesisDataAnalytics)
+!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
+!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
+
+sprite $KinesisDataFirehose [32x32/4] {
+________________________________
+_____y__________________________
+_____0y_________________________
+______3my_______________________
+_____FFpp3CCC0FF0pppyyyyyyy_____
+_____y33330000__0___y0CC000_____
+_____ppCC3ppp3pp3FFF____________
+_____y0F________________________
+_____0__________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisDataFirehose)
+!define KinesisDataFirehose(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehose(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+
+sprite $KinesisDataStreams [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyy______________
+_____Fpmyy_FFFppppyCCCCCCCC_____
+_______yyy_33333CmmCCCCmmy______
+_____pFF_yypppFm3ppppp3ppFm_____
+______ypF__ypF_3y__m_m___mF_____
+_____mF___0_____F3pCCCp3F_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisDataStreams)
+!define KinesisDataStreams(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreams(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreamsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, KinesisDataStreams)
+!define KinesisDataStreamsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataStreams, KinesisDataStreams)
+!define KinesisDataStreamsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataStreams, KinesisDataStreams)
+
+sprite $KinesisVideoStreams [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyy______________
+_____FpmyyyFFFppppyCCCCCCCC_____
+_______yyy_3333000000yyyyy______
+_____pFF_yyppp_0__myy_____0_____
+______ypF__ypF_0__0yy33___0_____
+_____mF___0____3yyCyyyyyym3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisVideoStreams)
+!define KinesisVideoStreams(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
+!define KinesisVideoStreams(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
+!define KinesisVideoStreamsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, KinesisVideoStreams)
+!define KinesisVideoStreamsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
+!define KinesisVideoStreamsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
+
+sprite $LakeFormation [32x32/4] {
+________________________________
+________________________________
+_________mm00_yppmyy____________
+_______303333p0F____FFpy________
+_______m_3y_m3_3pp3p3p_Fm_______
+_______F_y00C__yyyyyyyyyF_______
+_______0__FF____________0_______
+________3y__p3pp3p3p__y3________
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(LakeFormation)
+!define LakeFormation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, LakeFormation, LakeFormation)
+!define LakeFormationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, LakeFormation, LakeFormation)
+
+sprite $ManagedStreamingforKafka [32x32/4] {
+________________________________
+_______________y________________
+______________0y0_______________
+____________m3y_y3m_____________
+_________yy3__03y__3myy_________
+________3y3_________3y0_________
+_____pyyypFFFpyyyypFFFpyyyp_____
+_____myyyp3FFpyyyypFF3pyyym_____
+_____pyyppFFFppyyppFFFpmyyp_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ManagedStreamingforKafka)
+!define ManagedStreamingforKafka(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafka(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
+!define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
+
+sprite $QuickSight [32x32/4] {
+________________________________
+________________________________
+______0FFFFFFFFFFFFFFFFFCCy_____
+______0________yy______y3p3_____
+______0______y3mpF__ypF__0______
+______0___ypF__0yypF_____0______
+_____yCypF____3_p3_______0______
+_____3p3_________________0______
+______3pppppppppppppppppp3______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(QuickSight)
+!define QuickSight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, QuickSight, QuickSight)
+!define QuickSight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, QuickSight, QuickSight)
+!define QuickSightParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, QuickSight)
+!define QuickSightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, QuickSight, QuickSight)
+!define QuickSightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, QuickSight, QuickSight)
+
+sprite $Redshift [32x32/4] {
+________________________________
+_____________yyyyyy_____________
+_________mFFF______FFFm_________
+_________0FppppppppppF0_________
+_________0_________0Cp0_________
+_________0__mFmyyyp0__0_________
+_________0yy0F___FFF__0_________
+_________0F3F_________0_________
+_________FpppyyyyyypppF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Redshift)
+!define Redshift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Redshift, Redshift)
+!define Redshift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Redshift, Redshift)
+!define RedshiftParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, Redshift)
+!define RedshiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Redshift, Redshift)
+!define RedshiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Redshift, Redshift)
+

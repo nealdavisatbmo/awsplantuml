@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DynamoDBItems [32x32/4] {
+0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
+0_000000000000____000FymyF3000_0
+0_000000000000____000yyFCym000_0
+0pppppppppppppppppppppppppppppp0
+0_mmmmmmmmmmmm____mmmp___pmmmm_0
+0_000000000000____000__33_y000_0
+0_FFFFFFFFFFFF____FFFF___FFFFF_0
+0FCCCCCCCCCCCCFFFFCCCCCFCCCCCCF0
+0_000000000000____000_ymm_F000_0
+0_333333333333____333p_F_p3333_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBItems)
+!define DynamoDBItems(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItems(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBItems, DynamoDBItems)

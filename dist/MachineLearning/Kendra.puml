@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Kendra [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyy______
+_____0__pp_p___pppppppp__0______
+_____0___________________0______
+_____0__ppppppppppppppp__0______
+_____0_________ypFCyyCFpy3______
+_____0__FFFFFF_0_0____0_0_______
+_____0_________FpyCppCyp3y______
+_____FFFFFFFFFFFF__FF__FpyCp____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Kendra)
+!define Kendra(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Kendra, Kendra)
+!define Kendra(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Kendra, Kendra)
+!define KendraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Kendra)
+!define KendraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Kendra, Kendra)
+!define KendraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Kendra, Kendra)

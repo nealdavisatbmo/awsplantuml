@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2ElasticIPAddress [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000333333000000000000003000000
+000Fym0000myF00000000000my_F0000
+000_00000000_yyyyyyyyyyyyy__y000
+000myF3333Fym00000000000C_ym0000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EC2ElasticIPAddress)
+!define EC2ElasticIPAddress(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2ElasticIPAddress, EC2ElasticIPAddress)
+!define EC2ElasticIPAddress(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2ElasticIPAddress, EC2ElasticIPAddress)
+!define EC2ElasticIPAddressParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2ElasticIPAddress)
+!define EC2ElasticIPAddressParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2ElasticIPAddress, EC2ElasticIPAddress)
+!define EC2ElasticIPAddressParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2ElasticIPAddress, EC2ElasticIPAddress)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Chime [32x32/4] {
+________________________________
+_______________yyyy_____________
+________yp3y__yF_mF___yy________
+________Fm_Fmy3_mCppFFyy3p______
+_____mpyyy3yy3FFFFpm3Cyy________
+_____3p_yyCF0______0mpyyyF0_____
+________yyp3FFmmpp0y_3y__FF_____
+______F3yyppFFmF_0_Fm_Fm________
+_____________mCym____3F_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Chime)
+!define Chime(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Chime, Chime)
+!define Chime(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Chime, Chime)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ECSService [32x32/4] {
+0000FCCCCCCCCCCCCCCCCF0000000000
+0000_00FCCCCCCCCCCCCCyCCF0000000
+0000_00_00FCCCCCCCCCCCCCyCCF0000
+0000_00_00_0Fyy_03333333330_0000
+0000_00_00_0yyyy00000000000_0000
+0000_00_00_0FFFF00000000000_0000
+0000_00_00_0yFF_0mmmmmmmmm0_0000
+0000_00_00_0333300000000000_0000
+0000mmm_00_0_33_0yyyyyyyyy0_0000
+0000000mmm_0000000000000000_0000
+0000000000mmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(ECSService)
+!define ECSService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ECSService, ECSService)
+!define ECSService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ECSService, ECSService)
+!define ECSServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ECSService)
+!define ECSServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ECSService, ECSService)
+!define ECSServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ECSService, ECSService)

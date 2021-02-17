@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SageMakerGroundTruth [32x32/4] {
+________________________________
+________________________________
+_________ymmFFFpmFFFpmy_________
+________0__3_m__0__pCpp0________
+______mFCF3mFF__Fpmp___FFm______
+______0F_ppFp_yyyy_F_pCpy0______
+______FFm___mFy00yFm___mFF______
+________3pyy00ymmy00yyp3________
+____________3pppppp3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SageMakerGroundTruth)
+!define SageMakerGroundTruth(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruth(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)

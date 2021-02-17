@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElastiCacheCacheNode [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000Fymm0__0Fmm0_33_0_pm0000_0
+0_0000mC0CymmymC0Cy00y0y000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(ElastiCacheCacheNode)
+!define ElastiCacheCacheNode(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNode(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)

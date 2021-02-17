@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Wavelength [32x32/4] {
+________________________________
+___________yyypppppyy__y________
+________ypF__yyyyyy__333________
+______m3__ymC0F__FmCmm___y______
+______3__mF__3FFFFFm__0___0_____
+______m__3CFF0F00FF3FF0___0_____
+______3m__Fpy3y33y3yp3__y3______
+________Fpyy_F0__0F__ym3F_______
+___________FF0pppp0FF___________
+_____________F____F_____________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Wavelength)
+!define Wavelength(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Wavelength, Wavelength)
+!define Wavelength(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Wavelength, Wavelength)
+!define WavelengthParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Wavelength)
+!define WavelengthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Wavelength, Wavelength)
+!define WavelengthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Wavelength, Wavelength)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElasticContainerService [32x32/4] {
+________________________________
+_____________yyyyyy_____________
+________yyppFF_00_FFppyy________
+______0F___yyppFFppyy___F0______
+______0___0F________F0___0______
+______0___0__________0___0______
+______0___3pyy____yyp3Cpp0______
+______Fppyy___FF3F___yy33_______
+__________FF3pyyyyppF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticContainerService)
+!define ElasticContainerService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElasticContainerService)
+!define ElasticContainerServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElasticContainerService, ElasticContainerService)
+!define ElasticContainerServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElasticContainerService, ElasticContainerService)

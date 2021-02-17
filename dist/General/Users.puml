@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Users [32x32/4] {
+0000033FCCF3000000003FCCF3300000
+0000F_m0000m_000000_m0000m_F0000
+00003_F333F_p000000p_3333F_30000
+00F_mm000003_FyyyyF_000000mm_F00
+0_y0000000F_00000000_F0000000y_0
+0yyyyyyyy0y_00000000_y0yyyyyyyy0
+00000000033_yCFFFFCy_33000000000
+0000000Fym00000000000mmyF0000000
+000003_m0000000000000000m_300000
+00000__000000000000000000__00000
+00000mmmmmmmmmmmmmmmmmmmmmm00000
+}
+
+AWSEntityColoring(Users)
+!define Users(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Users, Users)
+!define Users(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Users, Users)
+!define UsersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Users)
+!define UsersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Users, Users)
+!define UsersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Users, Users)

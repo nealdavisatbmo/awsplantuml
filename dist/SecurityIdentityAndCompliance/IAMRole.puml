@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMRole [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000033FFCCCCF33300000000
+000000003F___CCCCCFF330myFF30000
+0000003__mm0000000000my_30myF000
+00000F_y0000333333333300p_33m_00
+00033__30000ppp33333pmmy_pp_yy_0
+0__pp3pp__ymmmm0000mmmyyFFFCCCy0
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IAMRole)
+!define IAMRole(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMRole, IAMRole)
+!define IAMRole(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMRole, IAMRole)
+!define IAMRoleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMRole)
+!define IAMRoleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMRole, IAMRole)
+!define IAMRoleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMRole, IAMRole)

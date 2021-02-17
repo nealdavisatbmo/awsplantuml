@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $GlueCrawlers [32x32/4] {
+_mm__mmmmmmmmmmmmmmmmmmmmmmmmm__
+_FF__FFFFFFFFFFFFFFFFFFFFFFFFF__
+_00__00000_0000000000000000000__
+_00__CCCCC_CCCCCCCCFFCCCCFFCCC__
+_00__00000_00000000y_m330__000yy
+_00__yyyyy_yyy00FF00__pp__000F00
+_33__33333_330000yFFym__mm_Fym00
+mmmmmmmmmmmmm00yF3_000__000y_3_y
+00000000000000000__003__3303_000
+000000000000000Fymy_pm00mm__myF3
+00000000000000000000myCCyym00000
+}
+
+AWSEntityColoring(GlueCrawlers)
+!define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueCrawlers, GlueCrawlers)
+!define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueCrawlers, GlueCrawlers)

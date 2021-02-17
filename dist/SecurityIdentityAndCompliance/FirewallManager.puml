@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $FirewallManager [32x32/4] {
+________________________________
+___________yy___________________
+_________y0Cy0FFFFFF_mpm________
+_______mF____y_______3p3y_______
+_____0F0___y_F0Fmy______mFpy____
+_____F0F___3F33_0_0yy___F0F_____
+______3y__y3___mF_33_0__y3______
+_______Fp_3m___F____y3_FF_______
+____________Fpp0pppF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FirewallManager)
+!define FirewallManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, FirewallManager, FirewallManager)
+!define FirewallManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, FirewallManager, FirewallManager)
+!define FirewallManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, FirewallManager)
+!define FirewallManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, FirewallManager, FirewallManager)
+!define FirewallManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, FirewallManager, FirewallManager)

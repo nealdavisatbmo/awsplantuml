@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $QuantumTechnologies [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+0_0_________________________0__0
+0_0_________________________0__0
+0_0________yy_mF_30_y_______0__0
+0_0_______y__m33330y__3_____0__0
+0_0______y_330____yy33______0__0
+0_0______FFyyF03330_mp3_____0__0
+0_0___________Fp_p__________0__0
+0_0_________________________0__0
+0_3ppppppppppppppppppppppppp3__0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(QuantumTechnologies)
+!define QuantumTechnologies(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, QuantumTechnologies, QuantumTechnologies)
+!define QuantumTechnologies(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, QuantumTechnologies, QuantumTechnologies)
+!define QuantumTechnologiesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, QuantumTechnologies)
+!define QuantumTechnologiesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, QuantumTechnologies, QuantumTechnologies)
+!define QuantumTechnologiesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, QuantumTechnologies, QuantumTechnologies)

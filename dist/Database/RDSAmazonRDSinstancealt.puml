@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $RDSAmazonRDSinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000FF3033333033303330330033300_
+_003_y_0_0_0_0FC_03ym__3_0_0_00_
+_00m00mmm0m0m00mm0mmm0mm00m0m00_
+_000_m_0_myFC_pm000000000000000_
+_000_y_0_3Fy03p_000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)

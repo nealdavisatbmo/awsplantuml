@@ -1,0 +1,339 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $AppSync [32x32/4] {
+________________________________
+________________________________
+__________ymppFFFFppp___________
+_______ymF_____yy______mmpp_____
+______y3______CppC____F_3y______
+______0____yymF__Fmyy____0______
+______y0y3_3p3FFFF3p3___0_______
+_______FF____________ypF________
+___________FFFppppFFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AppSync)
+!define AppSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, AppSync, AppSync)
+!define AppSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, AppSync, AppSync)
+!define AppSyncParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, AppSync)
+!define AppSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, AppSync, AppSync)
+!define AppSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, AppSync, AppSync)
+
+sprite $ApplicationIntegration [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0______yyyyyyyyyyyyyy_____0__0
+__0_____0____ypp_______0____0__0
+__0_____0____Fpp__ypp__0____0__0
+__0_____0____m____F____0____0__0
+__0_____0__FF___Cy3____0____0__0
+__0_____3yyyyyyyyyyyyyy3____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(ApplicationIntegration)
+!define ApplicationIntegration(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegration(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ApplicationIntegration, ApplicationIntegration)
+
+sprite $EventBridge [32x32/4] {
+________________________________
+________ypppy___________________
+________3yyy3___FFFFFFm_y_______
+____________3myyyyy___0F_Fm_____
+_____y3____ypF____Fpy_FFp3y_____
+_____0_____0________0_____0_____
+_____y3FFp__FmyyyymF_____3______
+______ppp0_________Fmyyy________
+_________Fpppppp___pC__0________
+____________________FFF_________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EventBridge)
+!define EventBridge(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridge, EventBridge)
+!define EventBridge(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridge, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridge, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridge, EventBridge)
+
+sprite $EventBridgeCustomEventBusResource [32x32/4] {
+00000000000000000000000000000000
+000000000000m_00000FC00000000000
+000000myF3000y0000ym000033000000
+00333000003FCCCCCCF00CFym0000000
+000mmmm00Fym000000m_300003Fy_F00
+03333300y_0000000000mp3Fypp_ym00
+00mm00000m_F0000003FympFymm00000
+00003FFy000mmmpFF_p3Fym000000000
+0000m00000FC03_FFym0000000000000
+000000000yy000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
+
+sprite $EventBridgeDefaultEventBusResource [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+000000003300000__000003300000000
+000000000y_3000yy0003_y000000000
+000yFF30000F_mmmmmm_F00003FFy000
+000000m003_m00000000m_300m000000
+0FFFFF000yF0000000000Fy000FFFFF0
+0000000000myC000000Cym0000000000
+0000000CCCCCCCCCCCCCCCCCC0000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EventBridgeDefaultEventBusResource)
+!define EventBridgeDefaultEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeDefaultEventBusResource, EventBridgeDefaultEventBusResource)
+!define EventBridgeDefaultEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeDefaultEventBusResource, EventBridgeDefaultEventBusResource)
+!define EventBridgeDefaultEventBusResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridgeDefaultEventBusResource)
+!define EventBridgeDefaultEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeDefaultEventBusResource, EventBridgeDefaultEventBusResource)
+!define EventBridgeDefaultEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeDefaultEventBusResource, EventBridgeDefaultEventBusResource)
+
+sprite $EventBridgeSaasPartnerEventBusResource [32x32/4] {
+00000000000000300000000000000000
+0000000F300000_00000Fy0000000000
+00000000m_0000m0000mm00003FC0000
+000FF33000033FFyyFF3300mym000000
+00000mm000_y_330033_y_0000333300
+0033330000_000m__m000_0000000000
+0000000000yCF33__33FCy000FF33000
+000003FyC0000mmyymm00030000mm000
+0000mm00000FC0000F0000yF30000000
+0000000000ym00000_000000m0000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+
+sprite $ExpressWorkflows [32x32/4] {
+________________________________
+_______________yy_______________
+______________0_y0______________
+_________mppppppppppppm_________
+_____0FFFFFFC3____yyyyCyyyy_____
+_____y___3___y___mCyyyyyyy3_____
+_____3pppmpp3_________m_________
+_________FFFFFCFCCFFFFF_________
+______________3yy3______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ExpressWorkflows)
+!define ExpressWorkflows(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ExpressWorkflows, ExpressWorkflows)
+!define ExpressWorkflows(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ExpressWorkflows, ExpressWorkflows)
+!define ExpressWorkflowsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ExpressWorkflows)
+!define ExpressWorkflowsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ExpressWorkflows, ExpressWorkflows)
+!define ExpressWorkflowsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ExpressWorkflows, ExpressWorkflows)
+
+sprite $MQ [32x32/4] {
+________________________________
+________________________________
+_______mp_m_FFFFFFFF_m_pm_______
+_______C3pF__________Fp3C_______
+_____yCy__y_3mpppp0F____yyy_____
+____3yy0pp03_0____0pp3__0yy3____
+______py____3FFFFF3p____m_______
+_______mFF0__________0FFm_______
+________FFF_pppppppp_FFF________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(MQ)
+!define MQ(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, MQ, MQ)
+!define MQ(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, MQ, MQ)
+!define MQParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, MQ)
+!define MQParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, MQ, MQ)
+!define MQParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, MQ, MQ)
+
+sprite $SNS [32x32/4] {
+________________________________
+________________________________
+_________yppFFFFFFFFpp_yyy______
+_______mF____________m_0y0______
+_____y0y__30333303___0__yyy_____
+____30y0___Fm__mF____0__0y03____
+______3______y0______0_yyy______
+_______Fpy___________F3yy3______
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SNS)
+!define SNS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNS, SNS)
+!define SNS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNS, SNS)
+!define SNSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNS)
+!define SNSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNS, SNS)
+!define SNSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNS, SNS)
+
+sprite $SNSEmailNotification [32x32/4] {
+003FCCFF300000000000000000000000
+0_m0000m_00333333333333333333330
+0y_F333Fy00_yymymp_mp_mmm_mmmm_0
+0_000000000y0000mmy0m0y00y0000_0
+0ppmpppmppmpppmppmpppmppmpppmpp0
+0pm0mmm0mm0mmm0mm0mmm0mm0mmm0mp0
+0p0000000000000000000000000000p0
+0pp0ppp0pp0ppp0pp0ppp0pp0ppp0pp0
+0p0000000000000000000000000000p0
+0p0000000000000000000000000000p0
+0mm0mmm0mm0mmm0mm0mmm0mm0mmm0mm0
+}
+
+AWSEntityColoring(SNSEmailNotification)
+!define SNSEmailNotification(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotification(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotificationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNSEmailNotification)
+!define SNSEmailNotificationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNSEmailNotification, SNSEmailNotification)
+!define SNSEmailNotificationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNSEmailNotification, SNSEmailNotification)
+
+sprite $SNSHTTPNotification [32x32/4] {
+003FCCFF300000000000000000000000
+0_m0000m_00333333333333333333330
+0y_F333Fy00m_mmmy_ymy_y_y_mmmm_0
+0_0000000000y0000y000y0ymm0000_0
+0ppmpppmppmpppmppmpppmppmpppmpp0
+0pm0mmm0mm0mmm0mm0mmm0mm0mmm0mp0
+0p0000000000000000000000000000p0
+0pp0ppp0pp0ppp0pp0ppp0pp0ppp0pp0
+0p0000000000000000000000000000p0
+0p0000000000000000000000000000p0
+0mm0mmm0mm0mmm0mm0mmm0mm0mmm0mm0
+}
+
+AWSEntityColoring(SNSHTTPNotification)
+!define SNSHTTPNotification(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotification(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+
+sprite $SNSTopic [32x32/4] {
+00000000000000000000000000000000
+0_mmmmmmmmmmmmmmmmmmmmmmmmmmmm_0
+0_0000000000000000000000000000_0
+0yCCCCCCCCCCCCCCCCCCCCCCCCCCCCy0
+0ym0mmm0mm0mmm0mm0mmm0mm0mmm0my0
+0y0000000000000000000000000000y0
+0yC0CCC0CC0CCC0CC0CCC0CC0CCC0Cy0
+0ym0mmm0mm0mmm0mm0mmm0mm0mmm0my0
+0y0000000000000000000000000000y0
+0yC0CCC0CC0CCC0CC0CCC0CC0CCC0Cy0
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SNSTopic)
+!define SNSTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNSTopic, SNSTopic)
+!define SNSTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSTopic, SNSTopic)
+!define SNSTopicParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNSTopic)
+!define SNSTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNSTopic, SNSTopic)
+!define SNSTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNSTopic, SNSTopic)
+
+sprite $SQS [32x32/4] {
+________________________________
+________________________________
+_________yppFFFFFFFFppy_________
+_______mF______________Fm_______
+____yy3y____3mppppmF____yCyy____
+____0yyy3FF3_0____0FF333y_y0____
+______py____3FFFFFFp____y3______
+_______Fpy____________ypF_______
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SQS)
+!define SQS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQS, SQS)
+!define SQS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQS, SQS)
+!define SQSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SQS)
+!define SQSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQS, SQS)
+!define SQSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQS, SQS)
+
+sprite $SQSMessage [32x32/4] {
+0FFCCCCCCF0FF00CC00FF0FC0CCC0FF0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0pp000000pp0p000000pp0
+0__000000_0pp000000pp0p000000pp0
+0__000000_0yy000000yy0y000000yy0
+0__000000_0yy000000yy0y000000yy0
+0__000000_0__000000__0_000000__0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0FF000000FF0F000000FF0
+0__000000_0pp000000pp0p000000pp0
+0mmmmmmmmm0mm00mm00mm0mm0mmm0mm0
+}
+
+AWSEntityColoring(SQSMessage)
+!define SQSMessage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQSMessage, SQSMessage)
+!define SQSMessageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQSMessage, SQSMessage)
+
+sprite $SQSQueue [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+03333333333333333333333333333330
+0_0000000000F00FF00F0000000000_0
+0_0000F30000_00__00_00003F0000_0
+0_0000_p_C00_00__00_00C_p_0000_0
+0_0000ym0000_00__00_0000my0000_0
+0_0000000000y00yy00y0000000000_0
+0yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy0
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SQSQueue)
+!define SQSQueue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQSQueue, SQSQueue)
+
+sprite $StepFunctions [32x32/4] {
+________________________________
+_______________yy_______________
+______________0__0______________
+_________mppppp33pppppm_________
+_____m___F___m___yyyyyCyyyy_____
+_____033333330___0yyyyyyyy0_____
+_____F___m___F________m_________
+_________FFFFFC33CFFFFF_________
+______________3yy3______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(StepFunctions)
+!define StepFunctions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, StepFunctions, StepFunctions)
+!define StepFunctions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, StepFunctions, StepFunctions)
+!define StepFunctionsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, StepFunctions)
+!define StepFunctionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, StepFunctions, StepFunctions)
+!define StepFunctionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, StepFunctions, StepFunctions)
+

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $WAFFilteringrule [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm0000000000mmyCF300000
+0003_m00333333333333333300m_3000
+00_y000y_yFFFFFFFFFFFFy_y000y_00
+0_y00000m_F0000000000F_m00000y_0
+0_00000000m_30000003_m00000000_0
+0y_000000000y_3003_y000000000_y0
+00y_300000000__00__000000003_y00
+0000yF3000000yyCymm0000003Fy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(WAFFilteringrule)
+!define WAFFilteringrule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, WAFFilteringrule, WAFFilteringrule)
+!define WAFFilteringrule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, WAFFilteringrule, WAFFilteringrule)
+!define WAFFilteringruleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, WAFFilteringrule)
+!define WAFFilteringruleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, WAFFilteringrule, WAFFilteringrule)
+!define WAFFilteringruleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, WAFFilteringrule, WAFFilteringrule)

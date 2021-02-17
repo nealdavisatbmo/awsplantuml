@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Cloud9Resource [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+0000000003FCCCCF3300000000000000
+0000000Fym0000000m_F333300000000
+000003_m000003FCCF0m000m_3300000
+000Fym0000000yF33p_0000000myF000
+000_0000000003333_m000000000_000
+000myCF3333333333333333333Fym000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(Cloud9Resource)
+!define Cloud9Resource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9Resource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Cloud9Resource, Cloud9Resource)
+!define Cloud9ResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Cloud9Resource, Cloud9Resource)

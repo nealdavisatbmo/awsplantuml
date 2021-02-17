@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EventBridge [32x32/4] {
+________________________________
+________ypppy___________________
+________3yyy3___FFFFFFm_y_______
+____________3myyyyy___0F_Fm_____
+_____y3____ypF____Fpy_FFp3y_____
+_____0_____0________0_____0_____
+_____y3FFp__FmyyyymF_____3______
+______ppp0_________Fmyyy________
+_________Fpppppp___pC__0________
+____________________FFF_________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EventBridge)
+!define EventBridge(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridge, EventBridge)
+!define EventBridge(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridge, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridge, EventBridge)
+!define EventBridgeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridge, EventBridge)

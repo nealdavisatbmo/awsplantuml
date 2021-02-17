@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CustomerEngagement [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0___________yyyyyyyyyy____0__0
+__0_____________pppppp_0____0__0
+__0_____yyyyyyyyCCFFFF_0____0__0
+__0_____0_yyyy_y_0pmypp3____0__0
+__0_____0________0__________0__0
+__0_____FFFFFFp0FF__________0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(CustomerEngagement)
+!define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CustomerEngagement, CustomerEngagement)

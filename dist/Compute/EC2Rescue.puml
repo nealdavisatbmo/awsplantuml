@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2Rescue [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m0000000000FCCCCF0000000000m_0
+0_00000003FCy_0000_yCF30000000_0
+0_00000Fym033_3333_330myF00000_0
+0_00FCyyCCC_00000000_CCCyyCF00_0
+0_00_000000_00000000_000000_00_0
+0_00mmy_mmm_33333333_mmm_ymm00_0
+0_00000myF300_0000_003Fym00000_0
+0_00000000mmy_0000_ymm00000000_0
+0yF3000000000mmmmmm0000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(EC2Rescue)
+!define EC2Rescue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2Rescue, EC2Rescue)
+!define EC2Rescue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2Rescue, EC2Rescue)
+!define EC2RescueParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2Rescue)
+!define EC2RescueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2Rescue, EC2Rescue)
+!define EC2RescueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2Rescue, EC2Rescue)

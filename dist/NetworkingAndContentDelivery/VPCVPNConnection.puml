@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPCVPNConnection [32x32/4] {
+0000000000003FFCCFF3300000000000
+0000000000F_m000000myF3000000000
+00003FC000y0000000000my00CF30000
+000y__yyyyyyyyyyyyyyyyyyyy__y000
+00000mm000_00000000000_00mm00000
+000000_mmmmmmmmmpmmmmmmmm__00000
+000000_0000000_mm_F000000__00000
+000000_0000000my_ym000000__00000
+000000_000000000y00000000__00000
+000000_000000000000000000__00000
+000000mmmmmmmmmmmmmmmmmmmmm00000
+}
+
+AWSEntityColoring(VPCVPNConnection)
+!define VPCVPNConnection(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnection(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnectionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPCVPNConnection)
+!define VPCVPNConnectionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPCVPNConnection, VPCVPNConnection)
+!define VPCVPNConnectionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPCVPNConnection, VPCVPNConnection)

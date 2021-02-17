@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CustomerEnablement [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+0_0_________________________0__0
+0_0____________yy___________0__0
+0_0_______yppFF__FFppy______0__0
+0_0______0___yFFFFy___0_____0__0
+0_0______0___y3pp3y___0_____0__0
+0_0______3y_mF____Fm_y3_____0__0
+0_0________FFppyyppFF_______0__0
+0_0_________________________0__0
+0_3ppppppppppppppppppppppppp3__0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(CustomerEnablement)
+!define CustomerEnablement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CustomerEnablement, CustomerEnablement)
+!define CustomerEnablement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CustomerEnablement, CustomerEnablement)
+!define CustomerEnablementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, CustomerEnablement)
+!define CustomerEnablementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CustomerEnablement, CustomerEnablement)
+!define CustomerEnablementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CustomerEnablement, CustomerEnablement)

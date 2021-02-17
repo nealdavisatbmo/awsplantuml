@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMMFAToken [32x32/4] {
+00000000000000000000000000000000
+000000003FCCymmmmmmyCCF300000000
+000003Fym00000000000000myF300000
+0000_m00000000000000000000m_0000
+000_m00__303__0__mmm0_y3000m_000
+000_000_0yCy0_0__mm0_yCy3000_000
+000yF00m00000m0mm00mm000m00Fy000
+0000yF30000000000000000003Fy0000
+000000myF30000000000003Fym000000
+000000000mmmyCCCCCCymmm000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IAMMFAToken)
+!define IAMMFAToken(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMMFAToken, IAMMFAToken)
+!define IAMMFAToken(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMMFAToken, IAMMFAToken)
+!define IAMMFATokenParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMMFAToken)
+!define IAMMFATokenParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMMFAToken, IAMMFAToken)
+!define IAMMFATokenParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMMFAToken, IAMMFAToken)

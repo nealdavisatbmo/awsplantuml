@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElastiCacheForMemcached [32x32/4] {
+03333333333333333333333333333330
+0y_pppppppppppppppppppppppppp_y0
+03_y__00____00____00____00__y_30
+0_00__00ppFCCyyyyyyCCFpp00__00_0
+0_00__30_FF3333333333FF_03__00_0
+0_0FFFF0_000ppmmmmmp000_0FFFF3_0
+0yyyyyy0_my0_yF003__0mm_0yyyyyy0
+00000000_F30_0m_Fy0_00F_00000000
+00000000_000y000000y000_00000000
+00000000mmyCCCFFFFCCCymm00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(ElastiCacheForMemcached)
+!define ElastiCacheForMemcached(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcached(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)

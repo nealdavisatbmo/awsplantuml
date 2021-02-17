@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElasticInference [32x32/4] {
+________________________________
+________________________________
+_________ympFFpmpFFpyy__________
+________0_3__m_0___mmp0_________
+_____ypFF3mpFy_Fpmpy__F3m_______
+_____0FFyp3pyyFm__F__0my0_______
+______Fpm3Cyp3F0__yyyym0C_______
+________3yyyp__0C3CpFFm0Cm______
+__________FFppFFF33pp3F_FF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticInference)
+!define ElasticInference(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInference(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ElasticInference, ElasticInference)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxDeadline [32x32/4] {
+________________________________
+______________yyyy______________
+_________ymp3F_00_yym___________
+______mFF____yy00FF_0__C0m______
+______0__FF0FF_00yym0FF__0______
+______0____0yy0yy3__0____0______
+______0yypp0F__00ymp3pp__0______
+______F3p__0ymp00____yyppF______
+___________F__y00yp3FF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxDeadline)
+!define ThinkboxDeadline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxDeadline, ThinkboxDeadline)
+!define ThinkboxDeadline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxDeadline, ThinkboxDeadline)
+!define ThinkboxDeadlineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxDeadline)
+!define ThinkboxDeadlineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxDeadline, ThinkboxDeadline)
+!define ThinkboxDeadlineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxDeadline, ThinkboxDeadline)

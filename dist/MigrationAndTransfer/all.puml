@@ -1,0 +1,255 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $ApplicationDiscoveryService [32x32/4] {
+________________________________
+____________yyyy________________
+_______yp3CCymyCCFpm____________
+______0Fm3FpppppmFpyFm__________
+_____0_p0CCCCCC_0__0_0__________
+_____F0_3yppppp_3ymFy3__________
+_______3pyFpppppFCypF3my________
+_______0__FFFFFCF_F3my_F3y______
+_______0yyyyyyy0_____FFpy_F_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ApplicationDiscoveryService)
+!define ApplicationDiscoveryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+
+sprite $CloudEndureMigration [32x32/4] {
+________________________________
+________________________________
+________ympFFFFFpmy_____________
+_______mF_________FppFpm________
+_____yp3_________yyyyy__3pyy____
+____0______ppmm___ymF0_____3____
+____3y____ypF_3ym3F__3____y3____
+_____FF_pF___ypF__FFFFFFFF______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CloudEndureMigration)
+!define CloudEndureMigration(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, CloudEndureMigration, CloudEndureMigration)
+!define CloudEndureMigration(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, CloudEndureMigration, CloudEndureMigration)
+!define CloudEndureMigrationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, CloudEndureMigration)
+!define CloudEndureMigrationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, CloudEndureMigration, CloudEndureMigration)
+!define CloudEndureMigrationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, CloudEndureMigration, CloudEndureMigration)
+
+sprite $DataSync [32x32/4] {
+________________________________
+________________________________
+_____________yyyyy______________
+__________y3F_____F3ppy_________
+_______yppF___________3ppy______
+______pCyyyyyyymy________0______
+_______ypyyyyyyyyC3_yyyypF______
+______Fpypppp_p33pp_____________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DataSync)
+!define DataSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSync, DataSync)
+!define DataSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSync, DataSync)
+!define DataSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSync, DataSync)
+
+sprite $DataSyncAgent [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000000000000000000000000000000_
+_000000000000000000000330000000_
+_000FFFFFFFF0FFF0FFFFF_myF30000_
+_000003F__0000000000000003p_y00_
+_03FCym0mmmmmmmmmmmmmm_Fymm0000_
+_00myCF3FFCCCC0CCC0CCCCCCCCCC00_
+_000000myy000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
+
+sprite $DatabaseMigrationService2 [32x32/4] {
+________________________________
+____________yyyyyyyy____________
+__________0C________C0__________
+__________0_FFFFFFFF_0__________
+__________0ppyyyyyypp0__________
+__________0y________y0__________
+__________0_FFFFFFFF_0__________
+__________FFppppppppFF__________
+__________3___m__m___3__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DatabaseMigrationService2)
+!define DatabaseMigrationService2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+!define DatabaseMigrationService2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+!define DatabaseMigrationService2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DatabaseMigrationService2)
+!define DatabaseMigrationService2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+!define DatabaseMigrationService2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+
+sprite $MigrationHub [32x32/4] {
+________________________________
+_____________y____y_____________
+___________y0yCppCy0y___________
+______0FF0F___ymmy___F0FF0______
+_______0F__ym3CppC3my__F0_______
+______m3py__pFyppyFp__yp3m______
+______Fp3C_y_F____F_yyC3pF______
+________Fpp3pyyyyyyp3ppF________
+______________3mm3______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(MigrationHub)
+!define MigrationHub(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MigrationHub, MigrationHub)
+!define MigrationHub(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationHub, MigrationHub)
+!define MigrationHubParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, MigrationHub)
+!define MigrationHubParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MigrationHub, MigrationHub)
+!define MigrationHubParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MigrationHub, MigrationHub)
+
+sprite $MigrationandTransfer [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0________y_F__FFyy________0__0
+__0_____y_p3________F_y_____0__0
+__0_____0_____yppy_____0____0__0
+__0______F_pm0y__y0mppF_____0__0
+__0___________0yy0__________0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(MigrationandTransfer)
+!define MigrationandTransfer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransfer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+
+sprite $ServerMigrationService [32x32/4] {
+________________________________
+_____yyyyyyyyy__________________
+_____0_yyyyy_0__________________
+_____0_ppppp_0_FF3m_yy__________
+_____0_FFFFF_0_____F__Fmy_______
+_____0_______0___________3y_____
+_____0_______0_________yy3______
+______FFFFFFF0__m_0FFFF_________
+_____________3__0_3_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ServerMigrationService)
+!define ServerMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, ServerMigrationService)
+!define ServerMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ServerMigrationService, ServerMigrationService)
+
+sprite $Snowball [32x32/4] {
+________________________________
+________________________________
+______yyyyyyyyyyyyyyyyyyyy______
+_____0_mFFFF3yCCCCy3FFFFm_0_____
+_____0_0__mppppppppppm__0_0_____
+_____0_0__0__________0__0_0_____
+_____0_0__3pppppppppp3__0_0_____
+_____3yCmmmmmmmmmmmmmmmmCy3_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Snowball)
+!define Snowball(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Snowball, Snowball)
+!define Snowball(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowball, Snowball)
+!define SnowballParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Snowball)
+!define SnowballParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Snowball, Snowball)
+!define SnowballParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Snowball, Snowball)
+
+sprite $SnowballEdge [32x32/4] {
+________________________________
+________________________________
+_____mFC33330F333FC33333C0______
+_____0_0__yyCCCCCCCyyy__00______
+_____0_0__0__________0__00______
+_____0_0__0yyyyyy_yyyppyC3______
+_____0_0yyyyyyyy_m3_yppy_0y_____
+______FFFFFFFFFF_0p_3ppF_m3_____
+__________________FF3ppFFF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SnowballEdge)
+!define SnowballEdge(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SnowballEdge, SnowballEdge)
+!define SnowballEdge(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SnowballEdge, SnowballEdge)
+!define SnowballEdgeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SnowballEdge)
+!define SnowballEdgeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SnowballEdge, SnowballEdge)
+!define SnowballEdgeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SnowballEdge, SnowballEdge)
+
+sprite $Snowmobile [32x32/4] {
+________________________________
+________________________________
+_________yyp_FFFFFFFppy_________
+_______y3F_____________Fpy______
+______ppm___________myyy_3y_____
+_____FCC0_yy_yy_____0yyFm_0_____
+_______mF3p_3__3____Fp_3F0______
+________3my___________ypF_______
+___________F_pppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Snowmobile)
+!define Snowmobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Snowmobile, Snowmobile)
+!define Snowmobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowmobile, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Snowmobile, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Snowmobile, Snowmobile)
+
+sprite $TransferFamily [32x32/4] {
+________________________________
+_____________________y__________
+__________________ypF_3my_______
+______mpppppy____FF0__mFFF______
+______0_yyyyyyyy0__0_y0yy_______
+______0_0_____pm3__Fmm__0_______
+______0_0_______FpypF___0_______
+______0_0_______________0_______
+______3y0yyyyyyyyyyyyyyy0_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(TransferFamily)
+!define TransferFamily(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TransferFamily, TransferFamily)
+!define TransferFamily(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TransferFamily, TransferFamily)
+!define TransferFamilyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, TransferFamily)
+!define TransferFamilyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TransferFamily, TransferFamily)
+!define TransferFamilyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TransferFamily, TransferFamily)
+

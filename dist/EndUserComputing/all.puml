@@ -1,0 +1,108 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Appstream2_0 [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyyy_____
+______Fpy_________________0_____
+_________Fpy______________0_____
+____________F_____________0_____
+_____F3CFFFFFFFF0_________0_____
+________Fpy_____0__py_____0_____
+___________Fpy__0____Fpy__0_____
+______________Fp0_______Fp0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Appstream2_0)
+!define Appstream2_0(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Appstream2_0, Appstream2_0)
+!define Appstream2_0(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Appstream2_0, Appstream2_0)
+!define Appstream2_0Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Appstream2_0)
+!define Appstream2_0Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Appstream2_0, Appstream2_0)
+!define Appstream2_0Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Appstream2_0, Appstream2_0)
+
+sprite $EndUserComputing [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0_______F___yyy____F_y____0__0
+__0________yp3__F_y____0____0__0
+__0________FpppppyyC3__0____0__0
+__0_____3CCCCCCCCpppppp0____0__0
+__0____________________3____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(EndUserComputing)
+!define EndUserComputing(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, EndUserComputing, EndUserComputing)
+!define EndUserComputing(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, EndUserComputing, EndUserComputing)
+!define EndUserComputingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, EndUserComputing)
+!define EndUserComputingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, EndUserComputing, EndUserComputing)
+!define EndUserComputingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, EndUserComputing, EndUserComputing)
+
+sprite $WorkDocs [32x32/4] {
+________________________________
+_____yyyyyyyyyyy________________
+_____0__________Fpy_____________
+_____0_____________Fpy__________
+_____0________________Fpy_______
+_____0___________________Fm_____
+_____0____________________0_____
+_____0____________________0_____
+_____0yyyyyyyyyyyyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WorkDocs)
+!define WorkDocs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, WorkDocs, WorkDocs)
+
+sprite $WorkLink [32x32/4] {
+________________________________
+________________________________
+______0FFFFFFFFFFFF0____________
+______0_____yyyyyyy0____________
+______0____0________0FFFF0______
+______0____0________0____0______
+______3pppp3yyyyyyyy3____0______
+____________0____________0______
+____________3pppppppppppp3______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WorkLink)
+!define WorkLink(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, WorkLink, WorkLink)
+!define WorkLink(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, WorkLink, WorkLink)
+!define WorkLinkParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, WorkLink)
+!define WorkLinkParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, WorkLink, WorkLink)
+!define WorkLinkParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, WorkLink, WorkLink)
+
+sprite $Workspaces [32x32/4] {
+________________________________
+________________________________
+_______ympFFFmm__ymy____________
+_____03pyppFCppFF___FFppyy______
+_____0__0_0Fppy_______ympF0_____
+_____3py0_0_y_pFFpmmCF____0_____
+__________0_______0__Fp_y_0_____
+__________FFppyy__0__yyppFF_____
+________________Fp3pFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Workspaces)
+!define Workspaces(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Workspaces, Workspaces)
+!define Workspaces(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Workspaces, Workspaces)
+!define WorkspacesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Workspaces)
+!define WorkspacesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Workspaces, Workspaces)
+!define WorkspacesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Workspaces, Workspaces)
+

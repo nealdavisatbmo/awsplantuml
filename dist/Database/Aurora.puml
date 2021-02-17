@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Aurora [32x32/4] {
+________________________________
+__________________y_____________
+_____ypppppppppyyF3F____________
+____0yyy______yyp0____p0p_______
+____0____FFFF____0__my__________
+____0Fppp___ppppF3ypFFmy________
+____0yy_______ppmC_____FCmpp____
+____0_FFFFFFFFF__mFm_ypF________
+____FFpppp__ppppF___0F__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Aurora)
+!define Aurora(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Aurora, Aurora)
+!define Aurora(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Aurora, Aurora)

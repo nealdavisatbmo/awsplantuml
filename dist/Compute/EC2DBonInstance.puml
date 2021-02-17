@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2DBonInstance [32x32/4] {
+000000__00__00_00__00_0000000000
+000__mmmmmmmmmmmmmmmmmmm__000000
+0yy__0000000000000000000__yy0000
+0FF__0000000000000000000__FF0000
+033__0000000000000000000__330000
+033__00000000000000003333FF33330
+0mm__000000000000000___333333___
+0mm__000000000000000__000000000_
+000yyy__yy__yy_yy__0__000000000_
+000000mm00mm00m00mm0__000000000_
+00000000000000000000mmyyCCCCCyym
+}
+
+AWSEntityColoring(EC2DBonInstance)
+!define EC2DBonInstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2DBonInstance, EC2DBonInstance)
+!define EC2DBonInstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2DBonInstance, EC2DBonInstance)
+!define EC2DBonInstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2DBonInstance)
+!define EC2DBonInstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2DBonInstance, EC2DBonInstance)
+!define EC2DBonInstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2DBonInstance, EC2DBonInstance)

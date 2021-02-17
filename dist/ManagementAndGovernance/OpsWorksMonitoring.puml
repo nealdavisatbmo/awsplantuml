@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $OpsWorksMonitoring [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000003F30000000
+000000003000000000003FymmyyF3000
+0000003FyyyF300003Fym0000000myF0
+0000F_m00000mmyF_m000000000000_0
+03Fym0000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_FFFFFFFFFFFFFFFFFFFFFFFFFFFF_0
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(OpsWorksMonitoring)
+!define OpsWorksMonitoring(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoring(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoringParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, OpsWorksMonitoring)
+!define OpsWorksMonitoringParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, OpsWorksMonitoring, OpsWorksMonitoring)
+!define OpsWorksMonitoringParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, OpsWorksMonitoring, OpsWorksMonitoring)

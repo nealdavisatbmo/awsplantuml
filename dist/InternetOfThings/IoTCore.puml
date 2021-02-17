@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTCore [32x32/4] {
+________________________________
+________________________________
+_________ypFFFFF3my_____________
+_______y0_________FF_F0y________
+_____y3F_______ymppy____F3y_____
+_____3y_____ymF_F0F_Fpy__m3_____
+_______Fpp_0yC3pm0_mp0y0________
+_____________3py00y0m3__________
+________________33_3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTCore)
+!define IoTCore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCore, IoTCore)
+!define IoTCore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCore, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCore, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCore, IoTCore)

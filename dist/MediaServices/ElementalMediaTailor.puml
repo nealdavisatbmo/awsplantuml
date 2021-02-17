@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElementalMediaTailor [32x32/4] {
+________________________________
+________________________________
+_____________mpFFpm_____________
+_______yp3FF_0myym0_FF3py_______
+_______0_ym3F______F3my_0_______
+_______y__yC3ppyypp3Cy__y_______
+_______0_FFpmyy__yympFF_0_______
+_______FFppyy_FFFF_yyppFF_______
+____________FF____FF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaTailor)
+!define ElementalMediaTailor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)

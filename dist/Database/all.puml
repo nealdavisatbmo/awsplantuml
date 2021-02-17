@@ -1,0 +1,822 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $AmazonRedshift [32x32/4] {
+________________________________
+_____________yyyyyy_____________
+_________mFFF______FFFm_________
+_________0FppppppppppF0_________
+_________0_________CCp0_________
+_________0__mFmyyyp0__0_________
+_________0yy0F___FFF__0_________
+_________0F3F_________0_________
+_________FpppyyyyyypppF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AmazonRedshift)
+!define AmazonRedshift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, AmazonRedshift, AmazonRedshift)
+!define AmazonRedshift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, AmazonRedshift, AmazonRedshift)
+!define AmazonRedshiftParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, AmazonRedshift)
+!define AmazonRedshiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, AmazonRedshift, AmazonRedshift)
+!define AmazonRedshiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, AmazonRedshift, AmazonRedshift)
+
+sprite $Aurora [32x32/4] {
+________________________________
+__________________y_____________
+_____ypppppppppyyF3F____________
+____0yyy______yyp0____p0p_______
+____0____FFFF____0__my__________
+____0Fppp___ppppF3ypFFmy________
+____0yy_______ppmC_____FCmpp____
+____0_FFFFFFFFF__mFm_ypF________
+____FFpppp__ppppF___0F__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Aurora)
+!define Aurora(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Aurora, Aurora)
+!define Aurora(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Aurora, Aurora)
+!define AuroraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Aurora, Aurora)
+
+sprite $DMSDatabaseMigrationWorkflow [32x32/4] {
+000000003FFFCCCCCCCCFFF330000000
+000000F_p00000000000000p_F000000
+000000__mmyyCCCCCCCCyymm__000000
+000000__FF333333333333FF__000000
+000000__3000mmmmmmmm0003__000000
+000000__mmyyCCCCCCCCyymm__000000
+000000F_yyCCFFF33FFFCCyy_F000000
+000000__yCFF__3333FFFFCyyy000000
+000000__3300yy0000__0033__000000
+000000__mmmyyyCCCC__mmmm__000000
+000000000000000000mm000000000000
+}
+
+AWSEntityColoring(DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+
+sprite $Database [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________yy____yy________0__0
+__0_______0yy______yy0______0__0
+__0_______0__________0______0__0
+__0_______0FF_pppp_FF0______0__0
+__0_______0p__yyyy__p0______0__0
+__0_______3_yy____yy_3______0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Database)
+!define Database(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Database, Database)
+!define Database(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Database, Database)
+!define DatabaseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Database)
+!define DatabaseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Database, Database)
+!define DatabaseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Database, Database)
+
+sprite $DatabaseMigrationService [32x32/4] {
+________________________________
+____________yyyyyyyy____________
+__________0C________C0__________
+__________0_FFFFFFFF_0__________
+__________0ppyyyyyypp0__________
+__________0y________y0__________
+__________0_FFFFFFFF_0__________
+__________FFppppppppFF__________
+__________3___m__m___3__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DatabaseMigrationService)
+!define DatabaseMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DatabaseMigrationService)
+!define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
+
+sprite $DenseComputeNodeResource2 [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FF_p33000m_F3F__0000_0
+0_000FCF03FC000_CyymmmyFy_FCCCy0
+0_000_0_0_30300_0000000_y_300000
+0_333pp333ppp33_myyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(DenseComputeNodeResource2)
+!define DenseComputeNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
+
+sprite $DenseStorageNodeResource2 [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000000000003Fyyyy_yyy0p__F3330
+0333333333FF_p33000m_F3F__0000_0
+0_000FCF0FCC000_CyymmmyFy_FCCCy0
+0_000_0_0mmF000_0000000_y_300000
+0_333pp33ppp333_myyCFF_p__mmmm_0
+0000000000mmyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(DenseStorageNodeResource2)
+!define DenseStorageNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+
+sprite $DocumentDBwithMongoDBcompatibility [32x32/4] {
+________________________________
+________________________________
+_______mpFFFFFFFFFFpy___________
+_______0pppyyyyy_ppF3___________
+_______0________0_ppp30py_______
+_______0FFpppppp0___y_CF0_______
+_______0yy______0__F0_yF0_______
+_______0__FFFFFFF___y___3_______
+_______FFppppppppppF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+
+sprite $DynamoDB [32x32/4] {
+________________________________
+____________yyyyy_______________
+_______mFFF______033ppm_________
+_______0Fmpppppy3____y0yy_______
+_______0pppyy__F_m___ym3F_______
+_______0Fmppppp_m_ym3F__________
+_______0ppp_yy_mC3Fp0___________
+_______0Fmppppp3pppFF___________
+_______Fppp_yyyyypppF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DynamoDB)
+!define DynamoDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDB, DynamoDB)
+!define DynamoDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDB, DynamoDB)
+!define DynamoDBParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDB)
+!define DynamoDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDB, DynamoDB)
+!define DynamoDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDB, DynamoDB)
+
+sprite $DynamoDBAttribute [32x32/4] {
+0FCCCCCCCCCCCCFFFFCCCCCCCCCCCCF0
+0_003FCyyCFF00____000000000000_0
+0_0F_000000m_0____000000000000_0
+0_00_F30033_y0____000000000000_0
+0_3333ppppp333____333333333333_0
+0______________________________0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBAttribute)
+!define DynamoDBAttribute(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttribute(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttributeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBAttribute)
+!define DynamoDBAttributeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttributeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
+
+sprite $DynamoDBAttributes [32x32/4] {
+0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
+0_0003FymyF000____000000000000_0
+0_000myCFyy000____000000000000_0
+0pppppppppppppppppppppppppppppp0
+0_mmmmp___pmmm____mmmmmmmmmmmm_0
+0_000y_33__000____000000000000_0
+0_FFFFF___FFFF____FFFFFFFFFFFF_0
+0FCCCCCCFCCCCCFFFFCCCCCCCCCCCCF0
+0_000F_mmy_000____000000000000_0
+0_3333p_F_p333____333333333333_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBAttributes)
+!define DynamoDBAttributes(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
+!define DynamoDBAttributes(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
+!define DynamoDBAttributesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBAttributes)
+!define DynamoDBAttributesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
+!define DynamoDBAttributesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
+
+sprite $DynamoDBGSI [32x32/4] {
+0FCCCCF0FCCCCF0FFCCCCCCCCCCCCCF0
+0_0000_0_0000_0__0000000000000_0
+0yyyyyy0yyyyyy0yyyyyyyyyyyyyyyy0
+0_mmmm_0_mmmm_0__mmmmmmmmmmmmm_0
+0_3333_0_3333_0__3333333333333_0
+0______0______0________________0
+0_0000_0_0000_0__0000000000000_0
+0yCCCCy0yCCCCy0yyCCCCCCCCCCCCCy0
+0_yyyy_0_yyyy_0__yyyyyyyyyyyyy_0
+0_0000_0_0000_0__0000000000000_0
+0mmmmmm0mmmmmm0mmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBGSI)
+!define DynamoDBGSI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBGSI)
+!define DynamoDBGSIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBGSI, DynamoDBGSI)
+
+sprite $DynamoDBItem [32x32/4] {
+0FCCCCCCCCCCCCFFFFCCCCCCCCCCCCF0
+0_000000000000____00FFCyyCF300_0
+0_000000000000____0_m000000_F0_0
+0_000000000000____0y_33003F_00_0
+0_333333333333____333ppppp3333_0
+0______________________________0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0_000000000000____000000000000_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBItem)
+!define DynamoDBItem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBItem, DynamoDBItem)
+!define DynamoDBItem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItem, DynamoDBItem)
+!define DynamoDBItemParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBItem)
+!define DynamoDBItemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBItem, DynamoDBItem)
+!define DynamoDBItemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBItem, DynamoDBItem)
+
+sprite $DynamoDBItems [32x32/4] {
+0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0
+0_000000000000____000FymyF3000_0
+0_000000000000____000yyFCym000_0
+0pppppppppppppppppppppppppppppp0
+0_mmmmmmmmmmmm____mmmp___pmmmm_0
+0_000000000000____000__33_y000_0
+0_FFFFFFFFFFFF____FFFF___FFFFF_0
+0FCCCCCCCCCCCCFFFFCCCCCFCCCCCCF0
+0_000000000000____000_ymm_F000_0
+0_333333333333____333p_F_p3333_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBItems)
+!define DynamoDBItems(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItems(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItemsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBItems, DynamoDBItems)
+
+sprite $DynamoDBTable [32x32/4] {
+0FCCCCFF0FCCCCCCCCCCCCCCCCCCCCF0
+0_0000__0_00000000000000000000_0
+0yyyyyyy0yyyyyyyyyyyyyyyyyyyyyy0
+0_mmmm__0_mmmmmmmmmmmmmmmmmmmm_0
+0_3333__0_33333333333333333333_0
+0_______0______________________0
+0_0000__0_00000000000000000000_0
+0yCCCCyy0yCCCCCCCCCCCCCCCCCCCCy0
+0_yyyy__0_yyyyyyyyyyyyyyyyyyyy_0
+0_0000__0_00000000000000000000_0
+0mmmmmmm0mmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(DynamoDBTable)
+!define DynamoDBTable(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBTable, DynamoDBTable)
+!define DynamoDBTable(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBTable, DynamoDBTable)
+!define DynamoDBTableParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, DynamoDBTable)
+!define DynamoDBTableParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBTable, DynamoDBTable)
+!define DynamoDBTableParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBTable, DynamoDBTable)
+
+sprite $ElastiCache [32x32/4] {
+________________________________
+________________________________
+_____3CFCCCCCCCCCCCCCCCCFC3_____
+_____m3_0__03__33__30__0_3m_____
+_____0__0_mCFF____FFCm_0__0_____
+_____0ymm_0y_FFFFFF_y0_mmm0_____
+__________0_FFFFFFFF_0__________
+__________0FFFFFFFFFF0__________
+___________FF_pppp_FF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElastiCache)
+!define ElastiCache(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCache, ElastiCache)
+!define ElastiCache(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCache, ElastiCache)
+!define ElastiCacheParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCache)
+!define ElastiCacheParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCache, ElastiCache)
+!define ElastiCacheParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCache, ElastiCache)
+
+sprite $ElastiCacheCacheNode [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000Fymm0__0Fmm0_33_0_pm0000_0
+0_0000mC0CymmymC0Cy00y0y000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(ElastiCacheCacheNode)
+!define ElastiCacheCacheNode(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNode(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+
+sprite $ElastiCacheForMemcached [32x32/4] {
+03333333333333333333333333333330
+0y_pppppppppppppppppppppppppp_y0
+03_y__00____00____00____00__y_30
+0_00__00ppFCCyyyyyyCCFpp00__00_0
+0_00__30_FF3333333333FF_03__00_0
+0_0FFFF0_000ppmmmmmp000_0FFFF3_0
+0yyyyyy0_my0_yF003__0mm_0yyyyyy0
+00000000_F30_0m_Fy0_00F_00000000
+00000000_000y000000y000_00000000
+00000000mmyCCCFFFFCCCymm00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(ElastiCacheForMemcached)
+!define ElastiCacheForMemcached(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcached(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+
+sprite $ElastiCacheForRedis [32x32/4] {
+03333333333333333333333333333330
+0y_pppppppppppppppppppppppppp_y0
+03_y__00____00____00____00__y_30
+0_00__00ppFCCyyyyyyCCFpp00__00_0
+0_00__30_FF3333333333FF_03__00_0
+0_0FFFF0_000mppppmmm000_0FFFFF_0
+0mmmmmm0_myy0__mm__0yym_0mmmmmm0
+00000000_F330__yy_m033F_00000000
+00000000_0000yy00myC000_00000000
+00000000mmyCCCFFFFCCCymm00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(ElastiCacheForRedis)
+!define ElastiCacheForRedis(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
+!define ElastiCacheForRedis(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
+!define ElastiCacheForRedisParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ElastiCacheForRedis)
+!define ElastiCacheForRedisParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
+!define ElastiCacheForRedisParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
+
+sprite $ManagedApacheCassandraService [32x32/4] {
+________________________________
+_____yppppFFFFFppppy____________
+____0yy___________yy0___________
+____0__FFFFFFFFFFF__F___p_0p____
+____0y____________yppppp_F_F____
+____0_FFF_ppppp_Fy0_____________
+____0y____________0y____________
+____0_FFF_ppppp_F__FFFFF________
+____3y_____________y3___________
+______FFFFpppppFFFF_____________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ManagedApacheCassandraService)
+!define ManagedApacheCassandraService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
+!define ManagedApacheCassandraService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
+!define ManagedApacheCassandraServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, ManagedApacheCassandraService)
+!define ManagedApacheCassandraServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
+!define ManagedApacheCassandraServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
+
+sprite $Neptune [32x32/4] {
+________________________________
+__________yyyyy_________________
+_____ypFFF_____FFFpm____________
+_____0Fppppyyy_pppF0____________
+_____0y____________3___m00______
+_____0_FFppppppp_33myyy3________
+_____0my_______mpmppC_y0________
+_____0__FFFFFFFFFF_m_0yyymp_____
+______FpppyyyyypppFF3yy3________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Neptune)
+!define Neptune(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Neptune, Neptune)
+!define Neptune(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Neptune, Neptune)
+!define NeptuneParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Neptune)
+!define NeptuneParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Neptune, Neptune)
+!define NeptuneParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Neptune, Neptune)
+
+sprite $QLDB [32x32/4] {
+________________________________
+________________________________
+______pp_FFFFFF_ppy_____________
+______Fp_yyyyyy_pp0_____________
+______y___yyyyy_yy0yyyyyyy______
+_______FF_0mFF_m_CF000mFF_______
+______pyy_F____yy_y_FF__________
+______y____FF_____0_____________
+______FF_pppppp_FF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(QLDB)
+!define QLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, QLDB, QLDB)
+!define QLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB, QLDB)
+!define QLDBParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, QLDB)
+!define QLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, QLDB, QLDB)
+!define QLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, QLDB, QLDB)
+
+sprite $RDS [32x32/4] {
+________________________________
+_____yyyyy____________yyyyy_____
+_____0Fpy______________ypF0_____
+_____F___F_yyppppppy__F___F_____
+______ypFF_0FppppppF0_FFpy______
+_____3y____0FFppppFF0____y3_____
+_______FFp_0CFFFFFFC0_p3F_______
+_____m__yp___FFFFFF___py__m_____
+_____0mCyy____________yyCm0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(RDS)
+!define RDS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDS, RDS)
+!define RDS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDS, RDS)
+!define RDSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDS)
+!define RDSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDS, RDS)
+!define RDSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDS, RDS)
+
+sprite $RDSAmazonAurorainstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000__0FFCF0FFCF0FF0FF000000000_
+_0000mmmm0mmCmm00yy0mm000000000_
+_000__0FF0FCFC3FCCF000000000000_
+_0000mmym0m0mymm0ym03FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
+
+sprite $RDSAmazonAurorainstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0000F3000000000000000000000000_
+_000_p_3______pp_0p_m_m_F_m_000_
+_000m0mmmmmmmmmmm0mmmmmm0m0m000_
+_0003FF033333030330330330000000_
+_000_C_F______0_0_0_00F__000000_
+_00000000m000000m00000m00000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
+
+sprite $RDSAmazonRDSinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000FF3033333033303330330033300_
+_003_y_0_0_0_0FC_03ym__3_0_0_00_
+_00m00mmm0m0m00mm0mmm0mm00m0m00_
+_000_m_0_myFC_pm00003FFFCCCCFF3p
+_000_y_0_3Fy03p_000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+
+sprite $RDSAmazonRDSinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000FF3033333033303330330033300_
+_003_y_0_0_0_0FC_03ym__3_0_0_00_
+_00m00mmm0m0m00mm0mmm0mm00m0m00_
+_000_m_0_myFC_pm000000000000000_
+_000_y_0_3Fy03p_000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+
+sprite $RDSMariaDBinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_00F30FF0000000C00000FCF30FC300_
+_00_yFm_3p____m_0pm_0_03_0_C_00_
+_00m000mmmmmmm0m0mmm0mmm00mmm00_
+_00000000000000000003FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSMariaDBinstance)
+!define RDSMariaDBinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
+!define RDSMariaDBinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
+!define RDSMariaDBinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSMariaDBinstance)
+!define RDSMariaDBinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
+!define RDSMariaDBinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
+
+sprite $RDSMariaDBinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_00F30FF0000000C00000FCF30FC300_
+_00_yFm_3p____m_0pm_0_03_0_C_00_
+_00m000mmmmmmm0m0mmm0mmm00mmm00_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+
+sprite $RDSMySQLinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0000F30FF00003FC303FF30F000000_
+_0000_yFm_m_FymyF3C_00_0_000000_
+_0000m000m0p_0myym0myyp0mmm0000_
+_00000000000000000003FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSMySQLinstance)
+!define RDSMySQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSMySQLinstance)
+!define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
+
+sprite $RDSMySQLinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_000030033000003330333003000000_
+_0000__3y_0F3Fyy33F_0m_0_000000_
+_0000y0m0y0m_0CCyy0yCF_0yCC0000_
+_0000000000m0000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSMySQLinstancealt)
+!define RDSMySQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
+!define RDSMySQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
+!define RDSMySQLinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSMySQLinstancealt)
+!define RDSMySQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
+!define RDSMySQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
+
+sprite $RDSOracleinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0003FCF30000000000000FF0000000_
+_000_000_0__m0pp_0F_m0__3_p_000_
+_000yCFyy0yy0y_Cy0yyC0yy0yFC000_
+_00000000000000000003FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSOracleinstance)
+!define RDSOracleinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSOracleinstance, RDSOracleinstance)
+!define RDSOracleinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstance, RDSOracleinstance)
+!define RDSOracleinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSOracleinstance)
+!define RDSOracleinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSOracleinstance, RDSOracleinstance)
+!define RDSOracleinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSOracleinstance, RDSOracleinstance)
+
+sprite $RDSOracleinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0003FCF30000000000000FF0000000_
+_000_000_0__m0pp_0F_m0__3_p_000_
+_000yCFyy0yy0y_Cy0yyC0yy0yFC000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSOracleinstancealt)
+!define RDSOracleinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
+!define RDSOracleinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
+!define RDSOracleinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSOracleinstancealt)
+!define RDSOracleinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
+!define RDSOracleinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
+
+sprite $RDSPostgreSQLinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0FC3330333303303033FCC3CC30000_
+_0_m0y3ypF03y3_00y3p3pym33y0330_
+_000000000000mm00000000000m0000_
+_00000000000000000003FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+
+sprite $RDSPostgreSQLinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0FC3330333303303033FCC3CC30000_
+_0_m0y3ypF03y3_00y3p3pym33y0330_
+_000000000000mm00000000000m0000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+
+sprite $RDSSQLServerinstance [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0FCC3FC30F000FC033033303330330_
+_03pFyF3y0_300p_0_p0_0yF0_3m_00_
+_0000000m0000000000000000000000_
+_00000000000000000003FFFCCCCFF3p
+_000000000000000000__333333333__
+_000000000000000000__0mmmmmmm00_
+_000000000000000000__yCCCCCCCyy_
+_000000000000000000__333333333F_
+_300000000000000000__0mmmmmmm03_
+0myCCCCCCCCCCCCCCCC0mmyyyyyyymm0
+}
+
+AWSEntityColoring(RDSSQLServerinstance)
+!define RDSSQLServerinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
+!define RDSSQLServerinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
+!define RDSSQLServerinstanceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSSQLServerinstance)
+!define RDSSQLServerinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
+!define RDSSQLServerinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
+
+sprite $RDSSQLServerinstancealt [32x32/4] {
+3FymmmmmmmmmmmmmmmmmmmmmmmmmmyF3
+_0FCC3FC30F000FC033033303330330_
+_03pFyF3y0_300p_0_p0_0yF0_3m_00_
+_0000000m0000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_000000000000000000000000000000_
+_300000000000000000000000000003_
+0myCCCCCCCCCCCCCCCCCCCCCCCCCCym0
+}
+
+AWSEntityColoring(RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+
+sprite $RDSonVMware [32x32/4] {
+________________________________
+_____yyyy____________yyyy_______
+_____0Fpy____________ymF0_______
+________y__mppppppm__y__________
+_____ypF___0CFFFFCC___F3m_______
+_____Fpyy__0yyCCyyp__yypF_______
+___________Fpppppp3_yyyyyyy_____
+_____0ypF_______pFFp3__pp_0_____
+_____FFFF_______yyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(RDSonVMware)
+!define RDSonVMware(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSonVMware, RDSonVMware)
+!define RDSonVMware(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSonVMware, RDSonVMware)
+!define RDSonVMwareParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDSonVMware)
+!define RDSonVMwareParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSonVMware, RDSonVMware)
+!define RDSonVMwareParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSonVMware, RDSonVMware)
+
+sprite $Timestream [32x32/4] {
+________________________________
+_____________y__________________
+______ypFFF______FFpy___________
+______0Fppp_____pppF0___________
+______0_________myyy3y__yy______
+______0_FF_pppp_0y_y__33yy______
+______0yy_______0pFppFpp0_______
+______0___FFFFF_FFFF0FFFF_______
+_______Fppp__y___ppF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Timestream)
+!define Timestream(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Timestream, Timestream)
+!define Timestream(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Timestream, Timestream)
+!define TimestreamParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Timestream)
+!define TimestreamParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Timestream, Timestream)
+!define TimestreamParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Timestream, Timestream)
+

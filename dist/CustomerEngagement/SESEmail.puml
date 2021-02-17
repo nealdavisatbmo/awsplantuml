@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SESEmail [32x32/4] {
+00000333000000000000000000000000
+00Fyppppm_3000000000000000000000
+0__0_mF_0__033333333333333333330
+0y_3yCmyym0000000000000003FFy__0
+03mmmmm0F30000000000003Fym000__0
+0_0000000myF3300003Fymm000000__0
+0_000000033FymyFFymyF30000000__0
+0_00003Fym00000000000myFF3000__0
+0_3Fyym000000000000000000myF3__0
+0yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy0
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SESEmail)
+!define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, SESEmail, SESEmail)
+!define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, SESEmail)
+!define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, SESEmail, SESEmail)
+!define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, SESEmail, SESEmail)

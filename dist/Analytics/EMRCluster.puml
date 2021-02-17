@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EMRCluster [32x32/4] {
+0000000000000000FCCCCFF000000000
+0000000000000000_0000__F30000000
+00000333000003Fyyyy_yyy0p__F3330
+0F_pmmmmmm__ym00000m_F3F__0000_0
+0_mmmmmmmmm_33FFCyymmmyFy_FCCCy0
+0_000000000__3330000000_y_300000
+0_000000000_00mmmyyCFF_p__mmmm_0
+0yCFFFFFFFCyyF30000Fym0m__3333_0
+00000000000000my_yyyy__3Fyym0000
+0000000000000000_0000__m00000000
+0000000000000000mmmmmmm000000000
+}
+
+AWSEntityColoring(EMRCluster)
+!define EMRCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRCluster, EMRCluster)
+!define EMRCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRCluster, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRCluster, EMRCluster)
+!define EMRClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRCluster, EMRCluster)

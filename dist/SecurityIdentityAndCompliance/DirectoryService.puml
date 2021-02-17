@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DirectoryService [32x32/4] {
+________________________________
+________________________________
+______yyyyyyyyyyyyyyyyyyy_______
+_____0_yppppppppppppppppppy_____
+_____0_0yyyyyyyyFFC33CFF0y0_____
+_____0_0_yyyy_____0yy0y_0_0_____
+_____0_0_ppp_p__mF____F00_0_____
+______F3yyyyyyyyCCCCCCCCCy3_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DirectoryService)
+!define DirectoryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DirectoryService, DirectoryService)
+!define DirectoryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DirectoryService, DirectoryService)
+!define DirectoryServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, DirectoryService)
+!define DirectoryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DirectoryService, DirectoryService)
+!define DirectoryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DirectoryService, DirectoryService)

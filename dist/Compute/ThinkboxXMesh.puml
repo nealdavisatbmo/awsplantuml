@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxXMesh [32x32/4] {
+________________________________
+______________yyyy______________
+_____________3_ymp3_____________
+______mFF0FppyyFFyyppFFFFm______
+______3yyFFpmyFFFFympFFC03______
+_______yy33FyyppFFyyp33yy_______
+______03pppFFymppmyFFpm__0______
+______FppppFF__mm__FFp3ppF______
+_____________3CCyy3_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxXMesh)
+!define ThinkboxXMesh(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMesh(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMeshParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxXMesh)
+!define ThinkboxXMeshParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxXMesh, ThinkboxXMesh)
+!define ThinkboxXMeshParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxXMesh, ThinkboxXMesh)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTDeviceManagement [32x32/4] {
+_____________________________F30
+______________yyyy______________
+_________yyppFFyyFFppyy_________
+______m3F__ypFF__FFpy__F3m______
+______0__ym0FF0CC0FF0my__0______
+______0__0_F0F3yy3F0F_0__0______
+______0__3y_FF3yy3FF_y3__0______
+______F3pyyFFFFFFFFFFyyp3F______
+___________FFppyyppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTDeviceManagement)
+!define IoTDeviceManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)

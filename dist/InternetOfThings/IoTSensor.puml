@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTSensor [32x32/4] {
+0000000003FFCCCF3300000000000000
+0000003Fym000000mm_F333300000000
+000003__00000000000mm00m_3300000
+000Fymm000000000000000000mmyF000
+000_0000000003F__F3000000000_000
+000myF333333330__033333333Fym000
+0000000mmmmmmm0__0mmmmmmm0000000
+00FFCCCCCCCCCCCyyCCCCCCCCCCCFF00
+00__0Fyy_300003__30000000000__00
+00__0myym0000yyyyyy000000000__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTSensor)
+!define IoTSensor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSensor, IoTSensor)

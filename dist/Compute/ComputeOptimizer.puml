@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ComputeOptimizer [32x32/4] {
+________________________________
+________________________________
+________yyp0FFFp_F3yyyy_________
+________0__F_m_________0p_______
+______pFFFmpF_y__FF3y__Fpm______
+______FF_pFpy__C___y3___y0______
+______ppm3_yypF__FFyppy3________
+________0y_Fyy___ypF___F3p______
+__________F33ppF__FppppppF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ComputeOptimizer)
+!define ComputeOptimizer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ComputeOptimizer, ComputeOptimizer)
+!define ComputeOptimizer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ComputeOptimizer, ComputeOptimizer)
+!define ComputeOptimizerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ComputeOptimizer)
+!define ComputeOptimizerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ComputeOptimizer, ComputeOptimizer)
+!define ComputeOptimizerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ComputeOptimizer, ComputeOptimizer)

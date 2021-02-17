@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $TrustedAdvisorCheckCost [32x32/4] {
+0FCCCCCCCCCCCCCCCCCF000000000000
+0_03003_00000000000_000000000000
+0_0myym000mmmmmmmm0_000000000000
+0_00003FC0000000000_000000000000
+0_0my_y000yyyyyyyy0y000000000000
+0_00003FC000000_p__pmy_F30000000
+0_0myFym00yyyy0_myym000my_F30000
+0_3333333333333__F30000000my_F30
+00000000000000000my_F3000003Fym0
+00000000000000000000my_F3Fym0000
+00000000000000000000000mm0000000
+}
+
+AWSEntityColoring(TrustedAdvisorCheckCost)
+!define TrustedAdvisorCheckCost(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, TrustedAdvisorCheckCost, TrustedAdvisorCheckCost)
+!define TrustedAdvisorCheckCost(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, TrustedAdvisorCheckCost, TrustedAdvisorCheckCost)
+!define TrustedAdvisorCheckCostParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, TrustedAdvisorCheckCost)
+!define TrustedAdvisorCheckCostParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, TrustedAdvisorCheckCost, TrustedAdvisorCheckCost)
+!define TrustedAdvisorCheckCostParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, TrustedAdvisorCheckCost, TrustedAdvisorCheckCost)

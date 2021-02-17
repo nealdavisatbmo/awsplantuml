@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ELBNetworkLoadBalancer [32x32/4] {
+000000033FCyyymmmmyyyCF330000000
+00003Fym0000000000000000myF30000
+00Fym000000000003330F_yy_F0myF00
+3_m000000000033Fy__0y_FF_y000m_3
+_y0_mmmmmm_0mm000F303FFFF30000y_
+_00_000000_0yyyyy__y__33__00000_
+__0yCCCCCCy0CF330p300pppp00000__
+0yF000000000000m___0__mm__000Fy0
+00myF300000000000000myyyym3Fym00
+00000myF3300000000000033Fym00000
+000000000mmyyyCCCCyyymm000000000
+}
+
+AWSEntityColoring(ELBNetworkLoadBalancer)
+!define ELBNetworkLoadBalancer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ELBNetworkLoadBalancer, ELBNetworkLoadBalancer)
+!define ELBNetworkLoadBalancer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ELBNetworkLoadBalancer, ELBNetworkLoadBalancer)
+!define ELBNetworkLoadBalancerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, ELBNetworkLoadBalancer)
+!define ELBNetworkLoadBalancerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ELBNetworkLoadBalancer, ELBNetworkLoadBalancer)
+!define ELBNetworkLoadBalancerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ELBNetworkLoadBalancer, ELBNetworkLoadBalancer)

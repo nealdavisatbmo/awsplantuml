@@ -1,0 +1,150 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $APIGateway [32x32/4] {
+________________________________
+________________________________
+______ymppF0________0Fppmy______
+_____0_____0y_y_yy_y0_____0_____
+_____0_____0__y_my__0_____0_____
+_____0_____0F3_mF_3F0_____0_____
+_____0_____0y_yFyy_y0_____0_____
+_____0_____0________0_____0_____
+______FFFpp3________3ppFFF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(APIGateway)
+!define APIGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGateway, APIGateway)
+!define APIGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGateway, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGateway, APIGateway)
+!define APIGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGateway, APIGateway)
+
+sprite $APIGatewayEndpoint [32x32/4] {
+000000003FFFFFFFFFFFFFF300000000
+000003FFym000000000000myFF300000
+0033_ym03FCy_000000_yCF30my_3300
+0__m00Fym000_000000_000myF00m__0
+0__000_00000_000000_00000_000__0
+0__000_00000_yyyyyy_00000_000__0
+0__000_00000_000000_00000_000__0
+0y_F30myF300_000000_003Fym03F_y0
+0000y_F30myyy000000yyym03F_y0000
+000000mm_F333333333333F_mm000000
+000000000mmmmmmmmmmmmmm000000000
+}
+
+AWSEntityColoring(APIGatewayEndpoint)
+!define APIGatewayEndpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+
+sprite $Amplify [32x32/4] {
+________________________________
+________________________________
+______________yyyy______________
+____________y0m3yFm_____________
+___________mCm_3CmyFm___________
+_________m3_0_FmFpCm_3y_________
+_______y3_y0yyyy3yFm3y_3y_______
+______mCyyyyyyyy0Cmy003yCm______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Amplify)
+!define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Amplify, Amplify)
+!define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify, Amplify)
+!define AmplifyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Amplify)
+!define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Amplify, Amplify)
+!define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Amplify, Amplify)
+
+sprite $AppSync2 [32x32/4] {
+________________________________
+________________________________
+__________ymppFFFFppp___________
+_______ymF_____yy______mmpp_____
+______y3______CppC____F_3y______
+______0____yymF__Fmyy____0______
+______y0y3_3p3FFFF3p3___0_______
+_______FF____________ypF________
+___________FFFppppFFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AppSync2)
+!define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AppSync2, AppSync2)
+!define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AppSync2, AppSync2)
+!define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AppSync2, AppSync2)
+
+sprite $DeviceFarm [32x32/4] {
+________________________________
+_______________yy_______________
+_________yyppFCppCFppyy_________
+______m3Cyy_pp_FF_pp_yyC3m______
+______0_Fp3pmy____ymp3p3_0______
+______0__3____FCy3____3__0______
+______0_mC0__________0Cm_0______
+______F3pyy_FFyppyFF_yyp3F______
+___________FFppCCppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DeviceFarm)
+!define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DeviceFarm, DeviceFarm)
+
+sprite $Mobile [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_____yyyyyyyyyyy_________0__0
+__0_____0________m_0________0__0
+__0_____0_______0______0____0__0
+__0_____0_______0______0____0__0
+__0_____0_yyyyyy0yyyyyy0____0__0
+__0_____3ppppppp0yyyyyy0____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Mobile)
+!define Mobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Mobile, Mobile)
+!define Mobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Mobile, Mobile)
+!define MobileParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Mobile)
+!define MobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Mobile, Mobile)
+!define MobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Mobile, Mobile)
+
+sprite $Pinpoint2 [32x32/4] {
+________________________________
+________________________________
+_________yppFFFFFFFFypppm_______
+_______mF__ymp3FF3pmCpyy3_______
+______0___0F_ypppmmFF0y__0______
+______0__3y__0__F_0__y0__0______
+______3y__3my_FFFF_ym3__y3______
+_______Fpy__FFFppFFF__ypF_______
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Pinpoint2)
+!define Pinpoint2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Pinpoint2, Pinpoint2)
+!define Pinpoint2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Pinpoint2, Pinpoint2)
+!define Pinpoint2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Pinpoint2)
+!define Pinpoint2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Pinpoint2, Pinpoint2)
+!define Pinpoint2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Pinpoint2, Pinpoint2)
+

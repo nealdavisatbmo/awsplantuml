@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $AppConfig [32x32/4] {
+________________________________
+________________________________
+__________ymyym3FF3mymmy________
+_________30____yyyy____03_______
+_______mm3___mF____Fm__F3m______
+_______33____3y____y3___m3______
+_______ym3Fyp__FFFF____0y_______
+______FFypFyypFyyympF33F________
+______pF__3F___FFFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AppConfig)
+!define AppConfig(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, AppConfig, AppConfig)
+!define AppConfig(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, AppConfig, AppConfig)
+!define AppConfigParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, AppConfig)
+!define AppConfigParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, AppConfig, AppConfig)
+!define AppConfigParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, AppConfig, AppConfig)

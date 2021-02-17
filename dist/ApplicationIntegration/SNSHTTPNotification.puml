@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SNSHTTPNotification [32x32/4] {
+003FCCFF300000000000000000000000
+0_m0000m_00333333333333333333330
+0y_F333Fy00m_mmmy_ymy_y_y_mmmm_0
+0_0000000000y0000y000y0ymm0000_0
+0ppmpppmppmpppmppmpppmppmpppmpp0
+0pm0mmm0mm0mmm0mm0mmm0mm0mmm0mp0
+0p0000000000000000000000000000p0
+0pp0ppp0pp0ppp0pp0ppp0pp0ppp0pp0
+0p0000000000000000000000000000p0
+0p0000000000000000000000000000p0
+0mm0mmm0mm0mmm0mm0mmm0mm0mmm0mm0
+}
+
+AWSEntityColoring(SNSHTTPNotification)
+!define SNSHTTPNotification(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotification(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNSHTTPNotification, SNSHTTPNotification)
+!define SNSHTTPNotificationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNSHTTPNotification, SNSHTTPNotification)

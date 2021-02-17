@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxSequoia [32x32/4] {
+________________________________
+______________yyyy______________
+__________mp___mm___pm__________
+______m0F__0y__00__y0__F0m______
+______0__y3_Fy3__3yF_3y__0______
+______0_FFmp0_FFFF_0pmFF_0______
+______0yF3pyy__33__yyp3Fy0______
+______F3pyy_FFppppFF_yyp3F______
+__________FFppyyyyppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxSequoia)
+!define ThinkboxSequoia(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoia(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoiaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxSequoia)
+!define ThinkboxSequoiaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxSequoia, ThinkboxSequoia)
+!define ThinkboxSequoiaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxSequoia, ThinkboxSequoia)

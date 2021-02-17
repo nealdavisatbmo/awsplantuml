@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Snowmobile [32x32/4] {
+________________________________
+________________________________
+_________yyp_FFFFFFFppy_________
+_______y3F_____________Fpy______
+______ppm___________myyy_3y_____
+_____FCC0_yy_yy_____0yyFm_0_____
+_______mF3p_3__3____Fp_3F0______
+________3my___________ypF_______
+___________F_pppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Snowmobile)
+!define Snowmobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Snowmobile, Snowmobile)
+!define Snowmobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowmobile, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Snowmobile, Snowmobile)
+!define SnowmobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Snowmobile, Snowmobile)

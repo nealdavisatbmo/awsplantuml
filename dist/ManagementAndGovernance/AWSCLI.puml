@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $AWSCLI [32x32/4] {
+________________________________
+________________________________
+_____0F3F33FFFFFFFFFFFFFFF0_____
+_____0FFFFFFFFFFFFFFFFFFFF0_____
+_____0____py______________0_____
+_____0______Fm____________0_____
+_____0____ypF__ppppppp____0_____
+_____0____________________0_____
+_____3pppppppppppp_____ppp3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AWSCLI)
+!define AWSCLI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, AWSCLI, AWSCLI)
+!define AWSCLI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, AWSCLI, AWSCLI)
+!define AWSCLIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, AWSCLI)
+!define AWSCLIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, AWSCLI, AWSCLI)
+!define AWSCLIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, AWSCLI, AWSCLI)

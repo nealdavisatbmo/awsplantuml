@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $RDS [32x32/4] {
+________________________________
+_____yyyyy____________yyyyy_____
+_____0Fpy______________ypF0_____
+_____F___F_yyppppppy__F___F_____
+______ypFF_0FppppppF0_FFpy______
+_____3y____0FFppppFF0____y3_____
+_______FFp_0CFFFFFFC0_p3F_______
+_____m__yp___FFFFFF___py__m_____
+_____0mCyy____________yyCm0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(RDS)
+!define RDS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDS, RDS)
+!define RDS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDS, RDS)
+!define RDSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, RDS)
+!define RDSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDS, RDS)
+!define RDSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDS, RDS)

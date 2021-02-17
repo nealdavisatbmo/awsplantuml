@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ADConnector [32x32/4] {
+00000000000FF3000000000000000000
+0000000003_m0mF30000000000000000
+00000003_m00000yF000000000000000
+000000Fy00000000myF0000000000000
+0000Fy000000000000my033333300000
+003_m0000000000003Fymm000mmyCF00
+3_m0000000000000ym00003FFF3330_3
+yCCCCCCCCCCCCCCCCCCCCC_0__33000_
+0000000000000000_30000myyymmm3_m
+00000000000000000myF3333333Fym00
+000000000000000000000mmmmm000000
+}
+
+AWSEntityColoring(ADConnector)
+!define ADConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, ADConnector, ADConnector)
+!define ADConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ADConnector, ADConnector)
+!define ADConnectorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, ADConnector)
+!define ADConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, ADConnector, ADConnector)
+!define ADConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, ADConnector, ADConnector)

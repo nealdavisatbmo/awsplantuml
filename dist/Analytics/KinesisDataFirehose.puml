@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $KinesisDataFirehose [32x32/4] {
+________________________________
+_____y__________________________
+_____0y_________________________
+______3my_______________________
+_____FFpp3CCC0FF0pppyyyyyyy_____
+_____y33330000__0___y0CC000_____
+_____ppCC3ppp3pp3FFF____________
+_____y0F________________________
+_____0__________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisDataFirehose)
+!define KinesisDataFirehose(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehose(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
+!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)

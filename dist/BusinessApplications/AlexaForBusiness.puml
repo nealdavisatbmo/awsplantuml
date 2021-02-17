@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $AlexaForBusiness [32x32/4] {
+________________________________
+______________yyyy______________
+_________yppCCyppyCCppy_________
+_______y0_m3________3m_0y_______
+_______0_0__CCCCCCCyy_0_0_______
+_______3yFm_ppppp____y3y3_______
+________FpyFpyy____ypFy3________
+___________F0_FyppFCpF__________
+____________0ypppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AlexaForBusiness)
+!define AlexaForBusiness(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusiness(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)

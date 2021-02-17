@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Cloudalt [32x32/4] {
+________________________________
+________________________________
+________________________________
+_____p333my30__m0y__0_mm333_____
+____ymppp00_3my0_0_0F_FF3pmy____
+____F3pp333__33__F3F__pppp3F____
+___pyy__________________ppppm___
+_____FF33mmmmyyyyyymmmmp3F_3____
+______________FFFF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloudalt, Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloudalt, Cloudalt)

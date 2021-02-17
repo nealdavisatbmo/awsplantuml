@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPC [32x32/4] {
+________________________________
+________________________________
+_________ypFFFFFFpy_____________
+________mF_________3FFFm________
+_____ymFF________yyypppCC3p_____
+_____3y_________0_mpFFFpm_0_____
+______FFpppppppp0_0_____0_0_____
+________________FmFmy_ymFmF_____
+__________________Fpp3ppF_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(VPC)
+!define VPC(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPC, VPC)
+!define VPC(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPC, VPC)
+!define VPCParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPC)
+!define VPCParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPC, VPC)
+!define VPCParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPC, VPC)

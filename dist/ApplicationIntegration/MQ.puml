@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $MQ [32x32/4] {
+________________________________
+________________________________
+_______mp_m_FFFFFFFF_m_pm_______
+_______C3pF__________Fp3C_______
+_____yCy__y_3mpppp0F____yyy_____
+____3yy0pp03_0____0pp3__0yy3____
+______py____3FFFFF3p____m_______
+_______mFF0__________0FFm_______
+________FFF_pppppppp_FFF________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(MQ)
+!define MQ(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, MQ, MQ)
+!define MQ(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, MQ, MQ)
+!define MQParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, MQ)
+!define MQParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, MQ, MQ)
+!define MQParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, MQ, MQ)

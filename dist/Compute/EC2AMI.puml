@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EC2AMI [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_00__mmmmmm_mmmmmm_mmmmmm__00_0
+0_00__000000_000000_000000__00_0
+0_00yyCCCCCCyCCCCCCyCCCCCCyy00_0
+0_003FFFFFFFFFFFFFFFFFFFFFF300_0
+0_00__000000_000000_000000__00_0
+0_00__000000_000000_000000__00_0
+0_00__FFFFFF_FFFFFF_FFFFFF__00_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(EC2AMI)
+!define EC2AMI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, EC2AMI, EC2AMI)
+!define EC2AMI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, EC2AMI, EC2AMI)
+!define EC2AMIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, EC2AMI)
+!define EC2AMIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, EC2AMI, EC2AMI)
+!define EC2AMIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, EC2AMI, EC2AMI)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTThingsGraph [32x32/4] {
+________________________________
+________________________________
+__________00CCCCCCCmmy__________
+______mpm_00_00y00y0__3y________
+______3y0F00FF_____pm03C3m______
+______3yypyyF3pp0p_33Cm03p______
+_______0y3_mFFFmFmm__Fy3________
+_______FF0_3pppCp0_ppF__________
+_________F3FFm3_FF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTThingsGraph)
+!define IoTThingsGraph(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraph(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)

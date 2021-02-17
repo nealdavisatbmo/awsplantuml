@@ -1,0 +1,87 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $AlexaForBusiness [32x32/4] {
+________________________________
+______________yyyy______________
+_________yppCCyppyCCppy_________
+_______y0_m3________3m_0y_______
+_______0_0__CCCCCCCyy_0_0_______
+_______3yFm_ppppp____y3y3_______
+________FpyFpyy____ypFy3________
+___________F0_FyppFCpF__________
+____________0ypppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AlexaForBusiness)
+!define AlexaForBusiness(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusiness(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AlexaForBusiness, AlexaForBusiness)
+!define AlexaForBusinessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AlexaForBusiness, AlexaForBusiness)
+
+sprite $BusinessApplications [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0____________FF___________0__0
+__0_________F______F________0__0
+__0_________________________0__0
+__0_________________________0__0
+__0_____F3CCCCCCCCCCCC3F____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(BusinessApplications)
+!define BusinessApplications(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, BusinessApplications, BusinessApplications)
+!define BusinessApplications(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, BusinessApplications, BusinessApplications)
+!define BusinessApplicationsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, BusinessApplications, BusinessApplications)
+
+sprite $Chime [32x32/4] {
+________________________________
+_______________yyyy_____________
+________yp3y__yF_mF___yy________
+________Fm_Fmy3_mCppFFyy3p______
+_____mpyyy3yy3FFFFpm3Cyy________
+_____3p_yyCF0______0mpyyyF0_____
+________yyp3FFmmpp0y_3y__FF_____
+______F3yyppFFmF_0_Fm_Fm________
+_____________mCym____3F_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Chime)
+!define Chime(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Chime, Chime)
+!define Chime(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Chime, Chime)
+!define ChimeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Chime, Chime)
+
+sprite $WorkMail [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyyy_____
+_____0Fpy______________ypF0_____
+_____0___Fpy________ypF___0_____
+_____0______Fpy__ypF______0_____
+_____0_________FF_________0_____
+_____0____________________0_____
+_____0____________________0_____
+_____0yyyyyyyyyyyyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WorkMail)
+!define WorkMail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, WorkMail, WorkMail)
+!define WorkMail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, WorkMail, WorkMail)
+!define WorkMailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, WorkMail, WorkMail)
+

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $GlueDataCatalog [32x32/4] {
+0F_mm0__mmmmmmmmmmmmmmmmmmmmm__0
+0__000__00mmmmmmmmmmmmmmmmmm0__0
+0__000__00mmmmmpppppppmmmmmm0__0
+0__000__0000_ppppppppppp_C000__0
+0__000__0000m_Fmmmmmmm3_m0000__0
+0__000__000000y_30003Fy000000__0
+0__000__0000000m_F03_m0000000__0
+0__000__000000000_3_000000000__0
+0__000__003333333333333333330__0
+0__000__00CCCCCCCCCCCCCCCCCC0__0
+0myCC0yyCCCCCCCCCCCCCCCCCCCCCyy0
+}
+
+AWSEntityColoring(GlueDataCatalog)
+!define GlueDataCatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueDataCatalog, GlueDataCatalog)
+!define GlueDataCatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueDataCatalog, GlueDataCatalog)

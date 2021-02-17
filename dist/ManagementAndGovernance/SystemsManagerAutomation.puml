@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SystemsManagerAutomation [32x32/4] {
+000000000000FFCCCCF0000000000000
+00003FFyFFCymm0000myCFFyyF300000
+000C_p00000003333330000000p_C000
+0003_m0003Fymmm0mmmyF303Fm_F0000
+0_yy0000C_00000000myC__y000yy__0
+0_000000333333000000003000000__0
+0mmyF003_yF3m00000003_m0003_mmm0
+0003_y0mm00myyCCCCymm0000C_F0000
+000myF303F330000000033F33Fym0000
+000000mym0mm__3333_mm0mmm0000000
+000000000000mmmmmmm0000000000000
+}
+
+AWSEntityColoring(SystemsManagerAutomation)
+!define SystemsManagerAutomation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SystemsManagerAutomation)
+!define SystemsManagerAutomationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SystemsManagerAutomation, SystemsManagerAutomation)
+!define SystemsManagerAutomationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SystemsManagerAutomation, SystemsManagerAutomation)

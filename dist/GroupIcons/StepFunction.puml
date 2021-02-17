@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $StepFunction [32x32/4] {
+________________________________
+______________yyyy______________
+______________0yy0______________
+_________mppppppppppppm_________
+_____FFFFFFFF0___yyyyyCyyyy_____
+_____333333330___0yyyyyyyyy_____
+_____ppppmppp3________m_________
+_________FFFFFCCCCFFFFF_________
+______________0yy0______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(StepFunction)
+!define StepFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, StepFunction, StepFunction)
+!define StepFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, StepFunction, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, StepFunction, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, StepFunction, StepFunction)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Fargate [32x32/4] {
+________________________________
+______________yyyy______________
+__________mmCFF__FFCmm__________
+__________0__FFppFFF_0__________
+_____mpFF_0__________0_FFpm_____
+_____FppyyCC0pppppp0CCyyppF_____
+_________ympmCFFFFFympmy________
+_________0y0C0mmmmyyC0y3________
+______________3y0y3_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Fargate)
+!define Fargate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Fargate, Fargate)
+!define Fargate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Fargate, Fargate)
+!define FargateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Fargate)
+!define FargateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Fargate, Fargate)
+!define FargateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Fargate, Fargate)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTDoorLock [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00003FCCCCCCCCF30000_33300
+00mmm_0000__0FFyyFF0__0000_mmm00
+00mmm_0000__y_3003_y__0000_mmm00
+00yyy_0000__0mmmmmm0__0000_yyy00
+00CCC_0000__00F__F00__0000_CCC00
+00FFF_0000__000yy000__0000_FFF00
+00000_3333p__________p3333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTDoorLock)
+!define IoTDoorLock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDoorLock, IoTDoorLock)

@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTLightbulb [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000003333330000000_33300
+00mmm_00003Fym0000myF30000_mmm00
+00mmm_0000_p00000000p_0000_mmm00
+00yyy_0000m_330__033_m0000_yyy00
+00CCC_000000m_3__3_m000000_CCC00
+00FFF_0000000F_yy_F0000000_FFF00
+00000_3333333pppppp3333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLightbulb, IoTLightbulb)

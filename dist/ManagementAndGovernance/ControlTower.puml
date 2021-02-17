@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ControlTower [32x32/4] {
+________________________________
+________________________________
+______________p00m______________
+___________yyFCmmyF_y___________
+_______yym_C__yppy__y_p_y_______
+______303_30_3y__y3_03_003______
+_________F_y__yCCy__y_F_________
+_____________pyCC_p_____________
+______________F33F______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ControlTower)
+!define ControlTower(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ControlTower, ControlTower)
+!define ControlTower(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ControlTower, ControlTower)
+!define ControlTowerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ControlTower)
+!define ControlTowerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ControlTower, ControlTower)
+!define ControlTowerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ControlTower, ControlTower)

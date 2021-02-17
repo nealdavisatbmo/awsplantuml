@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SimpleAD [32x32/4] {
+0000000000000FF30000000000000000
+000000000003_m0yF300000000000000
+0000000003_m00000yF0000000000000
+00000000Fy00000000myF00000000000
+000000Fym00000000000p33333333330
+00003_m00000000000__p333003333__
+003_m0000000000000__00mmmmmmm00_
+0Fy000000000000000__00000000000_
+mmmmmmmmmmmmmmmmmm__00000000000_
+000000000000000000__00000000003_
+0000000000000000000mmmmmyymmmmm0
+}
+
+AWSEntityColoring(SimpleAD)
+!define SimpleAD(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SimpleAD, SimpleAD)
+!define SimpleAD(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SimpleAD, SimpleAD)
+!define SimpleADParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, SimpleAD)
+!define SimpleADParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SimpleAD, SimpleAD)
+!define SimpleADParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SimpleAD, SimpleAD)

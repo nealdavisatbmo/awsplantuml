@@ -1,0 +1,570 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $ApacheMXNetonAWS [32x32/4] {
+________________________________
+_______________yy_______________
+_________ypFFFF__FFFFpy_________
+________F__yyppFFppyy__F________
+_____y____3pyy____yyp3____y_____
+_____0________FFFF________0_____
+______0___pyy______yyp___0______
+_______3my__FFppppFF__ym3_______
+_________FFppy____yppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ApacheMXNetonAWS)
+!define ApacheMXNetonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
+!define ApacheMXNetonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ApacheMXNetonAWS, ApacheMXNetonAWS)
+
+sprite $AugmentedAI [32x32/4] {
+________________________________
+__________yypppyyyppyyy_________
+_______mpF_0_m__0____pCy________
+_____yy0y___y0__0yy____FFF0_____
+____0_yy_F0F____0__Fm____pp3____
+____0F__ppFFp_mpFFpy3_____Cy____
+____Fppypp___3y____0______mF____
+_______0_____y33pp3py__pFFF_____
+________F3_mF________3__________
+___________FFFFFFFFFFFF_________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AugmentedAI)
+!define AugmentedAI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, AugmentedAI, AugmentedAI)
+
+sprite $Comprehend [32x32/4] {
+________________________________
+_____yyyyyyyyy__________________
+_____0_______0Fpy_______________
+_____0_ppppp_3ppp3m_____________
+_____0____________0__yyy________
+_____0_FFFFFFFFFF_y3F___F3y_____
+_____0_CCCCCCFFFF_3y_pmp_y3_____
+_____0____________mF0y0y0_______
+_____FFFFFFFFFFFFFF__mym________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Comprehend)
+!define Comprehend(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Comprehend, Comprehend)
+!define Comprehend(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Comprehend, Comprehend)
+!define ComprehendParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Comprehend)
+!define ComprehendParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Comprehend, Comprehend)
+!define ComprehendParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Comprehend, Comprehend)
+
+sprite $DeepLearningAMIs [32x32/4] {
+________________________________
+___________yy_________yy________
+__________0__0ppppppm0C_0_______
+_________y3_0_Fmyp3FyyyF________
+______yymCyp0FF__pCFCyCFCp______
+_____3yyy0y_y___3_y3yyy3y_3_____
+________Fm_F0ppyyFppmymppF______
+__________0_3ypF_F3pyyypy_______
+__________3yy3FFFFFFF3my3_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DeepLearningAMIs)
+!define DeepLearningAMIs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+!define DeepLearningAMIsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLearningAMIs, DeepLearningAMIs)
+
+sprite $DeepLearningContainers [32x32/4] {
+________________________________
+________________________________
+______yyym3FFCmyyy______________
+____y33p_y3_0__ym_0y__y_________
+____FmyCCCyyyC0CyCm3_0_3m_______
+____mpppppppppppppppp3__CCC3____
+____3y________________y3________
+_____Fpyy__________ym3F_________
+________FFFppppppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DeepLearningContainers)
+!define DeepLearningContainers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLearningContainers, DeepLearningContainers)
+!define DeepLearningContainersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLearningContainers, DeepLearningContainers)
+
+sprite $DeepLens [32x32/4] {
+________________________________
+____________yyyy_y_y____________
+___________0___yy___0___________
+___________0_mFppFm_0___________
+___________0__FFFF__0___________
+___________FyymppmyyF___________
+___________0________0___________
+___________3___CC___0___________
+____________________0___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DeepLens)
+!define DeepLens(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepLens, DeepLens)
+!define DeepLens(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepLens, DeepLens)
+!define DeepLensParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DeepLens)
+!define DeepLensParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepLens, DeepLens)
+!define DeepLensParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepLens, DeepLens)
+
+sprite $DeepRacer [32x32/4] {
+________________________________
+________________________________
+________________________________
+_______ppmmmmpFFFFF033ppmy______
+______pmmmpF_yyyy____0m0_0______
+_____y0_yy__3Cmm____F33F_3______
+_____mF0_0___00_m3mypppm30______
+_____Fp3FFFF_3p3FFFFFF33pF______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(DeepRacer)
+!define DeepRacer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DeepRacer, DeepRacer)
+!define DeepRacer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DeepRacer, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DeepRacer, DeepRacer)
+!define DeepRacerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DeepRacer, DeepRacer)
+
+sprite $ElasticInference [32x32/4] {
+________________________________
+________________________________
+_________ympFFpmpFFpyy__________
+________0_3__m_0___mmp0_________
+_____ypFF3mpFy_Fpmpy__F3m_______
+_____0FFyp3pyyFm__F__0my0_______
+______Fpm3Cyp3F0__yyyym0C_______
+________3yyyp__0C3CpFFm0Cm______
+__________FFppFFF33pp3F_FF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticInference)
+!define ElasticInference(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInference(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ElasticInference, ElasticInference)
+!define ElasticInferenceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ElasticInference, ElasticInference)
+
+sprite $Forecast [32x32/4] {
+________________________________
+________________________________
+______mpppppppppppppp__yym______
+______0__________y3CCCCFy_______
+______0_____0CCCC__0__0_0_______
+______0_CCCC_0__0__0__0_0_______
+______0_0__0_0__0__0__0_0_______
+______0_0yy0_0yy0__0yy0_0_______
+______F_________________F_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Forecast)
+!define Forecast(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Forecast, Forecast)
+!define Forecast(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Forecast, Forecast)
+!define ForecastParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Forecast, Forecast)
+
+sprite $FraudDetector [32x32/4] {
+________________________________
+____yppy________________________
+____3yy3py______________________
+_______3y_F0F_0____m___m________
+_____yy_CmFC3F_Fpmpppppmy_F_____
+____0yy0__0C____0y3Fm_FmFm______
+________C3pCmyyy0Cpyyyy3y3______
+_______mFyy3yy0__FFpppp3CFpy____
+____0FF0F________________FFF____
+____FFFF________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FraudDetector)
+!define FraudDetector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, FraudDetector, FraudDetector)
+
+sprite $Kendra [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyyyy______
+_____0__pp_p___pppppppp__0______
+_____0___________________0______
+_____0__ppppppppppppppp__0______
+_____0_________ypFCyyCFpy3______
+_____0__FFFFFF_0_0____0_0_______
+_____0_________FpyCppCyp3y______
+_____FFFFFFFFFFFF__FF__FpyCp____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Kendra)
+!define Kendra(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Kendra, Kendra)
+!define Kendra(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Kendra, Kendra)
+!define KendraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Kendra)
+!define KendraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Kendra, Kendra)
+!define KendraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Kendra, Kendra)
+
+sprite $Lex [32x32/4] {
+________________________________
+______yyyyyyyyyyyyy_____________
+_____0_pppppppp_p_______________
+_____0_pppp__pppp_______________
+_____0yCFFFFCp33ppppppppppy_____
+________0p3_0____mpCpm____0_____
+____________0___Fm0pCmF___0_____
+____________0yyyyyyC__yyyy3_____
+____________________Fp0_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Lex)
+!define Lex(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Lex, Lex)
+!define Lex(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Lex, Lex)
+!define LexParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Lex)
+!define LexParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Lex, Lex)
+!define LexParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Lex, Lex)
+
+sprite $MachineLearning [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0__________yy__y__________0__0
+__0_______m_F__F___3C_y_____0__0
+__0_____yp3p_p___py__FFm____0__0
+__0_____0Fyppp_F__y3__0y____0__0
+__0_____FFmFyp_F__F_y_yF____0__0
+__0_______FppCy__my_3_______0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(MachineLearning)
+!define MachineLearning(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MachineLearning, MachineLearning)
+!define MachineLearning(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MachineLearning, MachineLearning)
+!define MachineLearningParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MachineLearning, MachineLearning)
+
+sprite $Personalize [32x32/4] {
+________________________________
+________________________________
+___________yppm3___py___________
+________y3F_yppppppy_F3y________
+_______F__mF__0FFm__Fm__0y______
+______mmy_0__mpFFpm__0__FF______
+_______3y_FpyFFFFFFypF_yp_______
+_________3my_FFFFCF_ym3F________
+____________F___3FFF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Personalize)
+!define Personalize(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Personalize, Personalize)
+!define Personalize(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Personalize, Personalize)
+!define PersonalizeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Personalize)
+!define PersonalizeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Personalize, Personalize)
+!define PersonalizeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Personalize, Personalize)
+
+sprite $Polly [32x32/4] {
+________________________________
+_____yyyyyyyy___________________
+_____0______03my________________
+_____0______3pp33_______________
+_____0_ppp_pp___pFFFFppy________
+_____F_CCCCCCFF_CFCy_m__3y______
+_____0______y___0300_00__0______
+______FFFFFF_3y______F__0_______
+_______________FFppppFFFp3y_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Polly)
+!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Polly, Polly)
+!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Polly, Polly)
+!define PollyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Polly, Polly)
+
+sprite $Rekognition [32x32/4] {
+________________________________
+_______________yyyy_____________
+_____________FCyyyyCF3py________
+________m__mFCy____yC3m_3m______
+_______0__0__F_p__p_F__0_Fm_____
+_______0__0__y____p_y__0_y3_____
+________Cm3pyFF____FCy3_y3______
+______y3F_ym3CFFFFFFyypF________
+_____FpypFF___FFFFFF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Rekognition)
+!define Rekognition(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Rekognition, Rekognition)
+!define Rekognition(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Rekognition, Rekognition)
+!define RekognitionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Rekognition)
+!define RekognitionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Rekognition, Rekognition)
+!define RekognitionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Rekognition, Rekognition)
+
+sprite $RekognitionImage [32x32/4] {
+00000000000CCyymmmmyyyCF33000000
+0000000000033FFCCCCCF330mmyF3000
+000030003Fymm000000000myF300y_30
+000_y00Fy00F_mmmmmmpmm_00m_300_F
+000_00F_000__003F30m3F_0000_00m_
+000_00y_000__F_y0myCym_0003_003_
+000yF00__30myyCCCCCCCCy00F_m03_m
+00003Fym0yyF33000000033Fym03Fy00
+03Fym0003Fymmmmyyyymmm003Fyy0000
+_p0003Fym00myCCCCCCCCyymm0000000
+myyCym00000000000000000000000000
+}
+
+AWSEntityColoring(RekognitionImage)
+!define RekognitionImage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, RekognitionImage, RekognitionImage)
+!define RekognitionImage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, RekognitionImage, RekognitionImage)
+!define RekognitionImageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, RekognitionImage)
+!define RekognitionImageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, RekognitionImage, RekognitionImage)
+!define RekognitionImageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, RekognitionImage, RekognitionImage)
+
+sprite $RekognitionVideo [32x32/4] {
+00000000000CCyymmmmyyyCF33000000
+0000000000033FFCCCCCF330mmyF3000
+000030003Fymm000000000myF300y_30
+000_y00Fy00__mmmmmmmmm_00m_300_F
+000_00F_000__00_yyF300_0000_00m_
+000_00y_000__00_Cymm00_0003_003_
+000yF00__30yyCCCCCCCCCy00F_m03_m
+00003Fym0yyF33000000033Fym03Fy00
+03Fym0003Fymmmmyyyymmm003Fyy0000
+_p0003Fym00myCCCCCCCCyymm0000000
+myyCym00000000000000000000000000
+}
+
+AWSEntityColoring(RekognitionVideo)
+!define RekognitionVideo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, RekognitionVideo, RekognitionVideo)
+!define RekognitionVideoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, RekognitionVideo, RekognitionVideo)
+
+sprite $SageMaker [32x32/4] {
+________________________________
+_____________y____y_____________
+________ymmFF_FFFF_FFpmy________
+________0_F__m______00p0________
+_____mpCFFmpFF__Fpmpy___Fpm_____
+_____0FFyp3pyyFF___F__mmy_0_____
+_____FFpmpFyy3pF_______ypFF_____
+________0y_Fy_____333_y0________
+_________FF3pyppppyppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SageMaker)
+!define SageMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMaker, SageMaker)
+!define SageMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMaker, SageMaker)
+!define SageMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMaker, SageMaker)
+
+sprite $SageMakerGroundTruth [32x32/4] {
+________________________________
+________________________________
+_________ymmFFFpmFFFpmy_________
+________0__3_m__0__pCpp0________
+______mFCF3mFF__Fpmp___FFm______
+______0F_ppFp_yyyy_F_pCpy0______
+______FFm___mFy00yFm___mFF______
+________3pyy00ymmy00yyp3________
+____________3pppppp3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SageMakerGroundTruth)
+!define SageMakerGroundTruth(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruth(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+!define SageMakerGroundTruthParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerGroundTruth, SageMakerGroundTruth)
+
+sprite $SageMakerModel [32x32/4] {
+000000000033F330033F330000000000
+0000033Fymm000m__m000ppyF3300000
+00000_3333FCF00__000y__y00_00000
+0033Fy0_00mmm00__yy_yym000yF3300
+0__m00F__C0_mmm__C_p_0000000m__0
+0__0000mm03_300__00m000_mmmmm__0
+0y_FFCCCF0y_ym0__0_p_CCy0003F_y0
+0000m_00_000300__00333FF30_m0000
+00000_33yyy__y0__00_00myp3_00000
+0000000myCF333FyyF3_3FCym0000000
+000000000000m000000m000000000000
+}
+
+AWSEntityColoring(SageMakerModel)
+!define SageMakerModel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerModel, SageMakerModel)
+!define SageMakerModel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerModel, SageMakerModel)
+!define SageMakerModelParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMakerModel)
+!define SageMakerModelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerModel, SageMakerModel)
+!define SageMakerModelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerModel, SageMakerModel)
+
+sprite $SageMakerNotebook [32x32/4] {
+00000FFFFFFFFFFFFFFFFFFFFFFFF000
+00003__330033333333333330000_000
+00003__330000000000000000000_000
+0000m__mm00yyyyyyyyyyyyy0000_000
+0000m__mm00FFFFFFFFFFFFF0000_000
+0000y__yy0033333330000000000_000
+0000C__CC00mmmmmmm0000000000_000
+0000F__FF0000000000000000000_000
+00003__330000000000000000000_000
+00000__333333333333333333333_000
+00000mmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(SageMakerNotebook)
+!define SageMakerNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerNotebook, SageMakerNotebook)
+!define SageMakerNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerNotebook, SageMakerNotebook)
+
+sprite $SageMakerTrain [32x32/4] {
+00000000000000000000000000000000
+000000000000033FCCCCCFF300000000
+000000000003_ym00000000m_F000000
+00000000000_00000003Fym00_F00000
+0_mmmmmmmmm_F00myFym00003_m00000
+0_00CCCCCCCCyyF33000033FyyF30000
+0_0033333333333pppmm_m0myF3myF30
+0_003333333333333300_00000myFFy0
+0_00mmmmmmmmmmmmmm00_00000000000
+0mmmmmmmmmmmmmmmmmmmm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SageMakerTrain)
+!define SageMakerTrain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, SageMakerTrain)
+!define SageMakerTrainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SageMakerTrain, SageMakerTrain)
+!define SageMakerTrainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SageMakerTrain, SageMakerTrain)
+
+sprite $TensorFlowonAWS [32x32/4] {
+________________________________
+_______________yy_______________
+_________ypFFFF__FFFFpy_________
+________F__yyppFFppyy__F________
+_____y____3pyy____yyp3____y_____
+_____0________FFFF________0_____
+______0___pyy______yyp___0______
+_______3my__FFppppFF__ym3_______
+_________FFppy____yppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(TensorFlowonAWS)
+!define TensorFlowonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+
+sprite $Textract [32x32/4] {
+________________________________
+________________________________
+_____________ymmmmmmmmmpy_______
+______________________0CmFm_____
+_________mm3pppFmmppppp___0_____
+______my00CyCCCyC_myCCC___0_____
+_______FF30_yyyp0p__ppp___0_____
+___________FFFFF_________y0_____
+_____________FFFFFFFFFFFF_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Textract)
+!define Textract(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Textract, Textract)
+!define Textract(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Textract, Textract)
+!define TextractParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Textract)
+!define TextractParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Textract, Textract)
+!define TextractParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Textract, Textract)
+
+sprite $Transcribe [32x32/4] {
+________________________________
+______________yyyyyyyy__________
+______________0______0Fpy_______
+______________3_CCCFyCyy_Fm_____
+________yppFFFFpp_pppppp__F_____
+______y3ym_mmy_mymy_______0_____
+______0_30_003_0303_______0_____
+_______0____F__F_yppppppppF_____
+_____y3pFFFppppFF_______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Transcribe)
+!define Transcribe(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Transcribe, Transcribe)
+!define Transcribe(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Transcribe, Transcribe)
+!define TranscribeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Transcribe)
+!define TranscribeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Transcribe, Transcribe)
+!define TranscribeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Transcribe, Transcribe)
+
+sprite $Translate [32x32/4] {
+________________________________
+______yyyyyyy____yyy____________
+______0_____0Fpy____0___________
+______0___yyFFFF3__F3pF_________
+______0__y0ym__0FFFFF0py________
+______y__3___3_0____yF__Fm______
+______3pppppppp0__pmFmp__0______
+_________pF0p__0__ppFpp__0______
+___________3yyy0yyyyyyyyy0______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Translate)
+!define Translate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Translate, Translate)
+!define Translate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Translate, Translate)
+

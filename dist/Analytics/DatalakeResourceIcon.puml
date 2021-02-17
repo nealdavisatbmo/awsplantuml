@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $DatalakeResourceIcon [32x32/4] {
+0033FFCCCyyyyyCCCFF3300000000000
+Fym00000000000000000m_F000000000
+_yCF333333333333333FC__000000000
+_00000mmmmmmmmmmm0000mm000000000
+_F30000000000m_3_my_F_m_FFym_3_y
+_0mmmyyCCCCC0F3m3FF3m3F300FF3m3F
+_0000000000000yCy0myyy0myym0yCym
+_yCFF33333330yF0Fy_F3Fy_33_yF0F_
+_0000000000000mmm00mmp30mm00mmm0
+myF33300000000000333Fym000000000
+0000mmmmmyyyyymmmmm0000000000000
+}
+
+AWSEntityColoring(DatalakeResourceIcon)
+!define DatalakeResourceIcon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIcon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)
+!define DatalakeResourceIconParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DatalakeResourceIcon, DatalakeResourceIcon)

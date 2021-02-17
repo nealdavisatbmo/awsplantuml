@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTAnalyticsChannel [32x32/4] {
+000000000FCCFF000000000000000000
+00000000m_33F_300000000000000000
+0003_mmyF0000my_3300000000000000
+0000yFFCyyyFF330myF3333333000000
+0000003FFF3000mmyyF_m0000my_0000
+00000y_333_yyyyymmy_0000000_m000
+0000033mmm0333FCyyp_yCFFFCym0000
+0003_mmm_yymm003F_m0000000000000
+0000yCCym3333F_y0000000000000000
+00000000C_00p_000000000000000000
+000000000mmmmm000000000000000000
+}
+
+AWSEntityColoring(IoTAnalyticsChannel)
+!define IoTAnalyticsChannel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)

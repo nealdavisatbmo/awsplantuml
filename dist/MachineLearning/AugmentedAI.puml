@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $AugmentedAI [32x32/4] {
+________________________________
+__________yypppyyyppyyy_________
+_______mpF_0_m__0____pCy________
+_____yy0y___y0__0yy____FFF0_____
+____0_yy_F0F____0__Fm____pp3____
+____0F__ppFFp_mpFFpy3_____Cy____
+____Fppypp___3y____0______mF____
+_______0_____y33pp3py__pFFF_____
+________F3_mF________3__________
+___________FFFFFFFFFFFF_________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AugmentedAI)
+!define AugmentedAI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, AugmentedAI, AugmentedAI)
+!define AugmentedAIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, AugmentedAI, AugmentedAI)

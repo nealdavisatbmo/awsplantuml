@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EFSStandard [32x32/4] {
+________________________________
+_________y______________________
+______y_ppFCyy______yyy_________
+______yFm3Cy__CC3m3Cy__CCp______
+_____my_0___0F___0___0F_________
+______yy3pyy0_yyp3pyy0yypp______
+________FF__F03ppyppF0F_________
+_____________0___0___0__________
+_____________FFpp0ppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSStandard, EFSStandard)

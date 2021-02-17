@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CloudSearchSearchDocuments [32x32/4] {
+00000FFCCCCCCCCCCCCCCCCCCFF00000
+00000__0FFFFFFFFFFFFFFFF0__00000
+00033yy033333333333333330yy33000
+000_m_FF0000000000000000FF_m_000
+000yyp30mmmmmmmmmmmmmmmm03pyy000
+00000__0yyyyyyyyyyyyyyyy0__00000
+00000__0CCCCCCCCCCCCCCCC0__00000
+00000__033333333333333330__00000
+00000__033333333333333330__00000
+00000__0mmmmmmmmmmmmmmmm0__00000
+00000mmmmmmmmmmmmmmmmmmmmmm00000
+}
+
+AWSEntityColoring(CloudSearchSearchDocuments)
+!define CloudSearchSearchDocuments(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocuments(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
+!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)

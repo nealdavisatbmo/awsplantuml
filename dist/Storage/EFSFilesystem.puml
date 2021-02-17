@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EFSFilesystem [32x32/4] {
+000F3F3F300003F3F3F300003F3F3F30
+0pp_mmmm_p00p__mmmm_p00p__mmm__p
+0CC_FFFF_C00Cy_FFFF_C00C__FFF__C
+000m0m0m000000m0m0m003FFF_3m0m00
+000003FCCCCCCCCCCCCCCy0000yCCCF3
+00FFCyCCCCCCCCCCCCCCCCCCCCCCF00_
+y_yyyyyyyyyyyyyyyyyyyyyyyy_3_F0_
+0y_300000000000000000000000yF_3_
+00m_300000000000000000000000y___
+0000_F00000000000000000000000m__
+00000mmmmmmmmmmmmmmmmmmmmmmmmmmm
+}
+
+AWSEntityColoring(EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSFilesystem, EFSFilesystem)

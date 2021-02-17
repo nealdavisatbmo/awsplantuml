@@ -1,0 +1,255 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $AutoScalingGroup [32x32/4] {
+________________________________
+______________yyyy______________
+_____________FF__FF_____________
+________________________________
+___________y________y___________
+_____ppppppm3______3mpppppp_____
+________________________________
+________________________________
+_____________pmyymp_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AutoScalingGroup)
+!define AutoScalingGroup(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroup(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroupParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, AutoScalingGroup)
+!define AutoScalingGroupParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, AutoScalingGroup, AutoScalingGroup)
+!define AutoScalingGroupParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, AutoScalingGroup, AutoScalingGroup)
+
+sprite $Cloud [32x32/4] {
+________________________________
+________________________________
+____________yyy_________________
+________yp3FF__F3py_____________
+________3_________FFFF3m________
+_____mFF_______________FF3m_____
+_____y____________________y_____
+_____F3pyyyyyyyyyyyyyyyyppF_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Cloud)
+!define Cloud(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloud, Cloud)
+!define Cloud(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud, Cloud)
+!define CloudParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Cloud)
+!define CloudParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloud, Cloud)
+!define CloudParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud, Cloud)
+
+sprite $Cloudalt [32x32/4] {
+________________________________
+________________________________
+________________________________
+_____p333my30__m0y__0_mm333_____
+____ymppp00_3my0_0_0F_FF3pmy____
+____F3pp333__33__F3F__pppp3F____
+___pyy__________________ppppm___
+_____FF33mmmmyyyyyymmmmp3F_3____
+______________FFFF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloudalt, Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloudalt, Cloudalt)
+!define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloudalt, Cloudalt)
+
+sprite $CorporateDataCenter [32x32/4] {
+________________________________
+____________y______y____________
+____________0___y__0____________
+____________0___C__0____________
+________0FFFF___3__FFFF0________
+________0__3____3___3__0________
+________0__m____m___m__0________
+________0__m____m___m__0________
+________0__F____F___F__0________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CorporateDataCenter)
+!define CorporateDataCenter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, CorporateDataCenter, CorporateDataCenter)
+!define CorporateDataCenterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, CorporateDataCenter, CorporateDataCenter)
+
+sprite $ElasticBeanstalkContainer [32x32/4] {
+________________________________
+________________________________
+________ym3FFFFF3my_____________
+________0____ypppyF3FF3m________
+_____m3FF__yy3mym3_____FF3m_____
+_____0___m0FF0_0_mppmy____0_____
+_____F3pppFm0Cy0_3mymF_pp3F_____
+_______________0mmm0____________
+_______________3________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+!define ElasticBeanstalkContainerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElasticBeanstalkContainer, ElasticBeanstalkContainer)
+
+sprite $Region [32x32/4] {
+________________________________
+________yyy_____________________
+________F0Cyyyyyyyyyyyyyy_______
+_________0___________ym3________
+_________0__________F3m_________
+_________0ppppppppppppp3p_______
+_________0______________________
+_________0______________________
+_________0______________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Region)
+!define Region(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Region, Region)
+!define Region(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Region, Region)
+!define RegionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, Region)
+!define RegionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Region, Region)
+!define RegionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Region, Region)
+
+sprite $ServerContents [32x32/4] {
+________________________________
+_________y____________y_________
+_________0_yyyyyyyyyy_0_________
+_________0____________0_________
+_________0_FFFFFFFFFF_0_________
+_________0_pppppppppp_0_________
+_________0____________0_________
+_________0____________0_________
+_________0____________0_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ServerContents)
+!define ServerContents(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, ServerContents, ServerContents)
+!define ServerContents(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, ServerContents, ServerContents)
+!define ServerContentsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, ServerContents)
+!define ServerContentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, ServerContents, ServerContents)
+!define ServerContentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, ServerContents, ServerContents)
+
+sprite $SpotFleet [32x32/4] {
+________________________________
+______________yyyy______________
+______Fpy_p3FFFFFFFF3p_ypF______
+______ym_Fpy____pppppmF_my______
+_____y0_____Fmppppm__0___0y_____
+_____00___mp_0____0_pF___00_____
+______0y__0__FFFFFF_y___y0______
+_______FypFFFFFF_____FpyF_______
+______pF__F3ppmmmmpp3F__Fp______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SpotFleet)
+!define SpotFleet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, SpotFleet, SpotFleet)
+!define SpotFleet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, SpotFleet, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, SpotFleet, SpotFleet)
+!define SpotFleetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, SpotFleet, SpotFleet)
+
+sprite $StepFunction [32x32/4] {
+________________________________
+______________yyyy______________
+______________0yy0______________
+_________mppppppppppppm_________
+_____FFFFFFFF0___yyyyyCyyyy_____
+_____333333330___0yyyyyyyyy_____
+_____ppppmppp3________m_________
+_________FFFFFCCCCFFFFF_________
+______________0yy0______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(StepFunction)
+!define StepFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, StepFunction, StepFunction)
+!define StepFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, StepFunction, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, StepFunction, StepFunction)
+!define StepFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, StepFunction, StepFunction)
+
+sprite $VPCSubnetPrivate [32x32/4] {
+________________________________
+________________________________
+____________m3FFFF3m____________
+___________0________0___________
+________mpp3pppppppp3ppm________
+________0_____yppy_____0________
+________0_____3mm3_____0________
+________0_______0______0________
+________3pppppppppppppp3________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(VPCSubnetPrivate)
+!define VPCSubnetPrivate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3B48CC, VPCSubnetPrivate)
+!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, VPCSubnetPrivate, VPCSubnetPrivate)
+!define VPCSubnetPrivateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, VPCSubnetPrivate, VPCSubnetPrivate)
+
+sprite $VPCSubnetPublic [32x32/4] {
+________________________________
+________________________________
+____________m3FFFF3m____________
+___________0________0___________
+________mpp3pppppppp3ppm________
+________0_____yppy_____0________
+________0_____3mm3_____0________
+________0_______0______0________
+________3pppppppppppppp3________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(VPCSubnetPublic)
+!define VPCSubnetPublic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, VPCSubnetPublic, VPCSubnetPublic)
+!define VPCSubnetPublic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, VPCSubnetPublic, VPCSubnetPublic)
+!define VPCSubnetPublicParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, VPCSubnetPublic)
+!define VPCSubnetPublicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, VPCSubnetPublic, VPCSubnetPublic)
+!define VPCSubnetPublicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, VPCSubnetPublic, VPCSubnetPublic)
+
+sprite $VirtualPrivateCloudVPC [32x32/4] {
+________________________________
+________________________________
+___________yyyyy________________
+________y3FF___FFpy__y__________
+_______mF_____ymy_FFFFFm________
+____ypFF____m33p33m____FFFpy____
+____0_______3mmmmm0________0____
+_____3pyyyyyyyyyyyyyyyyyyp3_____
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(VirtualPrivateCloudVPC)
+!define VirtualPrivateCloudVPC(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, VirtualPrivateCloudVPC, VirtualPrivateCloudVPC)
+!define VirtualPrivateCloudVPC(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, VirtualPrivateCloudVPC, VirtualPrivateCloudVPC)
+!define VirtualPrivateCloudVPCParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, VirtualPrivateCloudVPC)
+!define VirtualPrivateCloudVPCParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, VirtualPrivateCloudVPC, VirtualPrivateCloudVPC)
+!define VirtualPrivateCloudVPCParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, VirtualPrivateCloudVPC, VirtualPrivateCloudVPC)
+

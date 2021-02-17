@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Compute [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0______mFFFFFFFFFFFFm_____0__0
+__0______0__0FFFFFF0__0_____0__0
+__0______0__0______0__0_____0__0
+__0______0__3pppppp3__0_____0__0
+__0______FppppppppppppF_____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Compute)
+!define Compute(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Compute, Compute)
+!define Compute(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Compute, Compute)
+!define ComputeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Compute)
+!define ComputeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Compute, Compute)
+!define ComputeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Compute, Compute)

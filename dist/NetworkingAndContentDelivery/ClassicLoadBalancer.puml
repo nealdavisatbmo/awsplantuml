@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ClassicLoadBalancer [32x32/4] {
+000000033FCyyymmmmyyyCF330000000
+00003FymFFFFFFFFFFFFF300myF30000
+00Fym000_00000000000_p_F300myF00
+3_m00000_0003FCCCCFFpmmm_0000m_3
+_y000000_0Fyp303F_p_m_F0_00000y_
+_0000000_0_y_p__3pp300_0_000000_
+__000000_0yF3000y_Fy3_m0_00000__
+0yF00000_000myyCCCymm000_0000Fy0
+00myF300_333333333333333_03Fym00
+00000myF3300000000000033Fym00000
+000000000mmyyyCCCCyyymm000000000
+}
+
+AWSEntityColoring(ClassicLoadBalancer)
+!define ClassicLoadBalancer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, ClassicLoadBalancer)
+!define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)

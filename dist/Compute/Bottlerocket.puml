@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Bottlerocket [32x32/4] {
+________________________________
+_______________mpy______________
+____________ypF__F3m____________
+___________33ppppppp3p__________
+___________0__yyyy______________
+_________ym0_0FmpF0_Fmy_________
+________0F_3__F33F____F0________
+________0_yp3yy__yy3py_0________
+________FF___p0pp0p___FF________
+______________FFFF______________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Bottlerocket)
+!define Bottlerocket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Bottlerocket, Bottlerocket)
+!define Bottlerocket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Bottlerocket, Bottlerocket)
+!define BottlerocketParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Bottlerocket)
+!define BottlerocketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Bottlerocket, Bottlerocket)
+!define BottlerocketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Bottlerocket, Bottlerocket)

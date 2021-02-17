@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPCPeering [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm003FFFF300mmyCF300000
+0003_m000000mym__mym000000m_3000
+00_y00000000000yy00000000000y_00
+0_y03F_C0000_ymmyFFF0000C_F30y_0
+0_00___yy0F_m000000m_F0yy___00_0
+0y_00mym00mmyyyyyyyyym00mym00_y0
+00y_30000000000__00000000003_y00
+0000yF300000C_F__F_C000003Fy0000
+000000mmyFF333mmmm333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(VPCPeering)
+!define VPCPeering(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPCPeering, VPCPeering)
+!define VPCPeering(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPCPeering, VPCPeering)
+!define VPCPeeringParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPCPeering)
+!define VPCPeeringParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPCPeering, VPCPeering)
+!define VPCPeeringParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPCPeering, VPCPeering)

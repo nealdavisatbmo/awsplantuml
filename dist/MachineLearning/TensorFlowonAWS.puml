@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $TensorFlowonAWS [32x32/4] {
+________________________________
+_______________yy_______________
+_________ypFFFF__FFFFpy_________
+________F__yyppFFppyy__F________
+_____y____3pyy____yyp3____y_____
+_____0________FFFF________0_____
+______0___pyy______yyp___0______
+_______3my__FFppppFF__ym3_______
+_________FFppy____yppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(TensorFlowonAWS)
+!define TensorFlowonAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)
+!define TensorFlowonAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TensorFlowonAWS, TensorFlowonAWS)

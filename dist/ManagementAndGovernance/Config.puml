@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Config [32x32/4] {
+________________________________
+_____yyyyyyyyyyyyyyyyyyy________
+_____0__mp___mpm___mpm_0________
+_____0_m3pm__0_0__0CCC_0________
+_____0_F0FF__0y0y__0_3_0________
+_____0__0____m_pCpp3F3ppmy______
+_____0__0y___0_m3__pFFmmFpm_____
+_____F_________F0_33yypFy0F_____
+________________F3Fmymp3F_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Config)
+!define Config(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, Config, Config)
+!define Config(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Config, Config)
+!define ConfigParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, Config)
+!define ConfigParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, Config, Config)
+!define ConfigParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, Config, Config)

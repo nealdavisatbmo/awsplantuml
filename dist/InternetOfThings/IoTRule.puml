@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTRule [32x32/4] {
+0000000FCCCF00000003FCCF30000000
+0000000_333_3000000_3003_0000000
+0000000mmmmmmyCFFCymmmmm00000000
+000000000003333__333300000000000
+00000000033_myF33Fym_33000000000
+00000000__Fp333pp333pF__00000000
+00000000__000mmmmmm0000_00000000
+00000000__0000000000000_00000000
+00000000__0000000000000_00000000
+00000000y_333000000333Fy00000000
+00000000000mmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(IoTRule)
+!define IoTRule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTRule, IoTRule)
+!define IoTRule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTRule, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTRule, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTRule, IoTRule)

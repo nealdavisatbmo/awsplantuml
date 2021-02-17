@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPCNATGateway [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm0000000000mmyCF300000
+0003_m00_F3000000000000000m_3000
+00_y0000_Fymmmmmm__000000000y_00
+0_y00000330000000__00000F3000y_0
+0_000000_p_CCCCCC__CCCCC_p_F00_0
+0y_00000_m0000000__00000yym00_y0
+00y_3000_yFF33333__000000003_y00
+0000yF30ymm000000000000003Fy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(VPCNATGateway)
+!define VPCNATGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPCNATGateway, VPCNATGateway)
+!define VPCNATGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPCNATGateway, VPCNATGateway)
+!define VPCNATGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPCNATGateway)
+!define VPCNATGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPCNATGateway, VPCNATGateway)
+!define VPCNATGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPCNATGateway, VPCNATGateway)

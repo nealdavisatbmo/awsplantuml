@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Cognito [32x32/4] {
+________________________________
+________________________________
+_____y3FFFFFFFCCCCCCCCCFm_______
+_____0yyyyyyyy0_ypppy_0y0_______
+_____0_yyyyy__0yCpypCy0_0_______
+_____0_ppp_p__0Cyy__yCyyF_______
+_____Fp___________mF___yF3y_____
+__________________0yFp3__mF_____
+___________________FFppFF_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Cognito)
+!define Cognito(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Cognito, Cognito)
+!define Cognito(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Cognito, Cognito)
+!define CognitoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, Cognito)
+!define CognitoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Cognito, Cognito)
+!define CognitoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Cognito, Cognito)

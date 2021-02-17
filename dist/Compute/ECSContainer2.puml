@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ECSContainer2 [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+0_mmmmmmmmmmmmmmmmmmmmmmmmmmmm_0
+0_00_000_033F3FFFF3F330_000_00_0
+0_00_000_0p_00000000_p0_000_00_0
+0_00_000_0F_00000000_F0_000_00_0
+0_00_000_0CyFFFFFFFFyC0_000_00_0
+0_00m000m000m0mmmm0m000m000m00_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(ECSContainer2)
+!define ECSContainer2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ECSContainer2, ECSContainer2)
+!define ECSContainer2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ECSContainer2, ECSContainer2)
+!define ECSContainer2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ECSContainer2)
+!define ECSContainer2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ECSContainer2, ECSContainer2)
+!define ECSContainer2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ECSContainer2, ECSContainer2)

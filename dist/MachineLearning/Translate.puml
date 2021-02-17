@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Translate [32x32/4] {
+________________________________
+______yyyyyyy____yyy____________
+______0_____0Fpy____0___________
+______0___yyFFFF3__F3pF_________
+______0__y0ym__0FFFFF0py________
+______y__3___3_0____yF__Fm______
+______3pppppppp0__pmFmp__0______
+_________pF0p__0__ppFpp__0______
+___________3yyy0yyyyyyyyy0______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Translate)
+!define Translate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Translate, Translate)
+!define Translate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Translate, Translate)
+!define TranslateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Translate, Translate)

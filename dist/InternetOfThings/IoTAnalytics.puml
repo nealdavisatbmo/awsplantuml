@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTAnalytics [32x32/4] {
+________________________________
+_______________yy_______________
+___________yymF_F0___mpFp_______
+_______ymFF__y3FF_FFm0pp3_______
+______mF____mF___ypF__3yyy______
+_____0____y3__ypF___yy0y_C3_____
+_____Fm__mFypF_yyppFF__0F_______
+______0FFpCppFF_____ym3_________
+______Fpp3pppyyymppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTAnalytics)
+!define IoTAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalytics, IoTAnalytics)

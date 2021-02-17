@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $NetworkingandContentDelivery [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0__________yyyy___________0__0
+__0_________3____Fpp________0__0
+__0______mFF________F_m_____0__0
+__0______3_yyyyyyyyyyy3_____0__0
+__0_______ypmpF__Fpmpy______0__0
+__0_______F_F_pCCp_F_F______0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(NetworkingandContentDelivery)
+!define NetworkingandContentDelivery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDelivery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)
+!define NetworkingandContentDeliveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, NetworkingandContentDelivery, NetworkingandContentDelivery)

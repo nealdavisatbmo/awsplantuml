@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $WorkDocs [32x32/4] {
+________________________________
+_____yyyyyyyyyyy________________
+_____0__________Fpy_____________
+_____0_____________Fpy__________
+_____0________________Fpy_______
+_____0___________________Fm_____
+_____0____________________0_____
+_____0____________________0_____
+_____0yyyyyyyyyyyyyyyyyyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WorkDocs)
+!define WorkDocs(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocs(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, WorkDocs, WorkDocs)
+!define WorkDocsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, WorkDocs, WorkDocs)

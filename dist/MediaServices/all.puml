@@ -1,0 +1,192 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $ElasticTranscoder [32x32/4] {
+________________________________
+____________yyy_________________
+_________m3F___Fpyyyy___________
+_______ypF__________3py_________
+______0____________ypFCCFmy_____
+_____mpppppppp_yypp3y_33FmF_____
+_____0__FFmm__F_____yC33Cy______
+_____0yyCCyyyyFF3ppmF_0mmFm_____
+____________________3pCyp3______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElasticTranscoder)
+!define ElasticTranscoder(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoder(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElasticTranscoder, ElasticTranscoder)
+!define ElasticTranscoderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElasticTranscoder, ElasticTranscoder)
+
+sprite $ElementalMediaConnect [32x32/4] {
+________________________________
+________________________________
+___________yyppCCppyy___________
+_______ppC33_0F__F0_33Cpp_______
+_______mFFFF0F3pp3F0FFFFm_______
+_______3pympF_ppmp_Fpmyp3_______
+_______yyppF____0___Fppyy_______
+_______FFppyy_pp3p_yyppFF_______
+_____________FFppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaConnect)
+!define ElementalMediaConnect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnectParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaConnect)
+!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaConnect, ElementalMediaConnect)
+!define ElementalMediaConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaConnect, ElementalMediaConnect)
+
+sprite $ElementalMediaConvert [32x32/4] {
+________________________________
+________________________________
+_____________ppFFpp_____________
+_______mmF__ympFFpmy__Fmm_______
+_______3_F0FyyyppyyyF0F_3_______
+__________0__0y__y0__0__________
+_______0__3pyy_FF_yyp3__0_______
+_______FFp___FFppFF___pFF_______
+_____________FFppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaConvert)
+!define ElementalMediaConvert(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvertParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+
+sprite $ElementalMediaLive [32x32/4] {
+________________________________
+________________________________
+_____________mpFFpm_____________
+_______mmFF__3pyyp3__FFmm_______
+_______0_FF__0Fpmy___FF_0_______
+________ymyy_0__yy33yymy________
+_______0____03pFF__0____0_______
+_______FFp3F____m___F3pFF_______
+_____________FFp3FF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaLive)
+!define ElementalMediaLive(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLive(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLiveParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaLive)
+!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaLive, ElementalMediaLive)
+!define ElementalMediaLiveParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaLive, ElementalMediaLive)
+
+sprite $ElementalMediaPackage [32x32/4] {
+________________________________
+_______________yy_______________
+__________yyppFCCFppyy__________
+_______m0F___0F__F0___F0m_______
+_________FF__3pyyp3__FF_________
+_________mpFFpm__mpFFpm_________
+_______yy3yyyy3__3yyyy3yy_______
+_______F3pyyF_______yyp3F_______
+____________FFpmmpFF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaPackage)
+!define ElementalMediaPackage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaPackage, ElementalMediaPackage)
+!define ElementalMediaPackageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaPackage, ElementalMediaPackage)
+
+sprite $ElementalMediaStore [32x32/4] {
+________________________________
+________________________________
+___________yyppFFppyy___________
+_______mmFF0FFppmmFF_FFmm_______
+_______0_FF3my___FF3mFF_0_______
+_______Fymyy__FF__yy0yyp0_______
+_______0____0______F0___0_______
+_______FFp3Fy___FFpm0ppFF_______
+_____________FFppFF_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaStore)
+!define ElementalMediaStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaStore)
+!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaStore, ElementalMediaStore)
+!define ElementalMediaStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaStore, ElementalMediaStore)
+
+sprite $ElementalMediaTailor [32x32/4] {
+________________________________
+________________________________
+_____________mpFFpm_____________
+_______yp3FF_0myym0_FF3py_______
+_______0_ym3F______F3my_0_______
+_______y__yC3ppyypp3Cy__y_______
+_______0_FFpmyy__yympFF_0_______
+_______FFppyy_FFFF_yyppFF_______
+____________FF____FF____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ElementalMediaTailor)
+!define ElementalMediaTailor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+!define ElementalMediaTailorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaTailor, ElementalMediaTailor)
+
+sprite $KinesisVideoStreams2 [32x32/4] {
+________________________________
+_____y____y_____________________
+_____Fm___3y____________________
+_______Fpyy_Fppyyyy_____________
+_____FpmyyyFFFppppyCCCCCCCC_____
+_______yyyy33330000000yyyy______
+_____pFF_yyppp_0__myy_____0_____
+______ypF__ypF_0__0yy33___0_____
+_____mF___0____3yyCyyyyyym3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(KinesisVideoStreams2)
+!define KinesisVideoStreams2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+!define KinesisVideoStreams2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, KinesisVideoStreams2, KinesisVideoStreams2)
+
+sprite $MediaServices [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0_____mpppppppppp_________0__0
+__0_____0___ppy____yp0F0____0__0
+__0_____0_____y33__y_0_0____0__0
+__0_____0___F_______F3p3____0__0
+__0_____FFFFFFFFFFF_________0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(MediaServices)
+!define MediaServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, MediaServices, MediaServices)
+!define MediaServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, MediaServices, MediaServices)
+!define MediaServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, MediaServices, MediaServices)
+

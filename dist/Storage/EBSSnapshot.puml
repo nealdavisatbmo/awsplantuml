@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EBSSnapshot [32x32/4] {
+0000000003FCCCCCCCCCCF3000000000
+00000000yyCCCCCCCCCCCCyyC0000000
+00000000_yyyy______yyyy_00000000
+0000003FCyymmmmmmmmmmyyCF3000000
+000000__FF333333333333FF__000000
+000000__0000mmmppmmm0000__000000
+0000000_0000000mmmyCFF33_FF30000
+0000000_F00000000000000p_mmm0000
+0000000m_00000000000000_m0000000
+00000000_F333000000333F_00000000
+00000000000mmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSSnapshot, EBSSnapshot)

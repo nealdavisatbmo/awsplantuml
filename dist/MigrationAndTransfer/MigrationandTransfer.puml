@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $MigrationandTransfer [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0________y_F__FFyy________0__0
+__0_____y_p3________F_y_____0__0
+__0_____0_____yppy_____0____0__0
+__0______F_pm0y__y0mppF_____0__0
+__0___________0yy0__________0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(MigrationandTransfer)
+!define MigrationandTransfer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransfer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransferParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)

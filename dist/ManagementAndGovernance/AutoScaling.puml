@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $AutoScaling [32x32/4] {
+________________________________
+________________________________
+_____________ypF0py_____________
+________________3_______________
+_______pm___ym3FF3my___mp_______
+_____FFFC33_0_FF0F_0_33CFFF_____
+_______FF____F3p33F____FF_______
+_____________y__0_y_____________
+______________Fp3F______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(AutoScaling)
+!define AutoScaling(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, AutoScaling, AutoScaling)
+!define AutoScaling(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, AutoScaling, AutoScaling)
+!define AutoScalingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, AutoScaling)
+!define AutoScalingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, AutoScaling, AutoScaling)
+!define AutoScalingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, AutoScaling, AutoScaling)

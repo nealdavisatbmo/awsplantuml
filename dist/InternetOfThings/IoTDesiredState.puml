@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTDesiredState [32x32/4] {
+003F0CCC0CCC0CCC0CCC0CC0CCC0F300
+0pm00000000033333333000000000mp0
+0y0000000000_mmmmmm_0000000000y0
+0y0000000000_000000_0_mmmmmm_0_0
+0_0FFFFFFFF0_000000_0_000000_0F0
+0F0_000000_0_000000_0_000000_0p0
+0p0_000000_0_000000_0_000000_0m0
+0y0_0FyyF0_0_03__30_0_0_mm___0y0
+0_0_0myym0_0_0yyyy0_0_0yyyym_0_0
+0CFpmmmmmmm0mmmmmmmm0mmmmmmmpFC0
+000m0mmm0mm0mmm0mmm0mmm0mmm0m000
+}
+
+AWSEntityColoring(IoTDesiredState)
+!define IoTDesiredState(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredState(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDesiredState, IoTDesiredState)

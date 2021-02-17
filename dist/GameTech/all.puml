@@ -1,0 +1,45 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $GameLift [32x32/4] {
+________________________________
+____________yyyy________________
+_______ympF0F__F3CFpy___________
+______mF_F0FFFFFF0FF_3y_________
+_____0yyyy0yyyyyyy0yyy0_________
+_____Fm___0___yyyp3___Cyyy______
+______Fpmp3Cy0pmpC0FF0_m_Fm_____
+_________F330FppmF___FmppF0_____
+____________FmypF______3ym3_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(GameLift)
+!define GameLift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GameLift, GameLift)
+!define GameLift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GameLift, GameLift)
+!define GameLiftParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GameLift)
+!define GameLiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GameLift, GameLift)
+!define GameLiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GameLift, GameLift)
+
+sprite $GameTech [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0___________yy____________0__0
+__0________yy3______________0__0
+__0_____ypFFpmppppmpFFpy____0__0
+__0_____0_FF_m____m_FF_0____0__0
+__0_____0_FF0______0FF_0____0__0
+__0_____3_pF________Fp_3____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(GameTech)
+!define GameTech(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GameTech, GameTech)
+!define GameTech(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GameTech, GameTech)
+!define GameTechParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, GameTech)
+!define GameTechParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GameTech, GameTech)
+!define GameTechParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GameTech, GameTech)
+

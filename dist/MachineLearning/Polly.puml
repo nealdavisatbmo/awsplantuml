@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Polly [32x32/4] {
+________________________________
+_____yyyyyyyy___________________
+_____0______03my________________
+_____0______3pp33_______________
+_____0_ppp_pp___pFFFFppy________
+_____F_CCCCCCFF_CFCy_m__3y______
+_____0______y___0300_00__0______
+______FFFFFF_3y______F__0_______
+_______________FFppppFFFp3y_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Polly)
+!define Polly(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Polly, Polly)
+!define Polly(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Polly, Polly)
+!define PollyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Polly, Polly)
+!define PollyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Polly, Polly)

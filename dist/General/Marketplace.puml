@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Marketplace [32x32/4] {
+________________________________
+________________________________
+______ymyFFFmmmFFFFmm___________
+______0__F0F_0_FFFF_0___________
+_______FFp0mF_FCmp3F__0_________
+______0___0_F0F______0__________
+______3y___Fp3pFF___y3__________
+_______FCCCCFFFFFCF0F___________
+________3pp3____Fp_3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Marketplace)
+!define Marketplace(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Marketplace, Marketplace)
+!define Marketplace(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Marketplace, Marketplace)
+!define MarketplaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Marketplace, Marketplace)

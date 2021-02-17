@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SecIdentityAndCompliance [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0________yypp__ppyy_______0__0
+__0______0_mpFF__FFpm_0_____0__0
+__0______0_0________0_0_____0__0
+__0______0_0________0_0_____0__0
+__0______3_3y______y3_0_____0__0
+__0_______3yFppyyppFy3______0__0
+__0_________FF____FF________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(SecIdentityAndCompliance)
+!define SecIdentityAndCompliance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndCompliance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)

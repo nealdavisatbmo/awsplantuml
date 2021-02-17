@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $InspectorAgent [32x32/4] {
+00000000333333333000000000000000
+00003Fyymp33333pmmyF300000000000
+00F_m3Fyypm0003pmyF3myF000000000
+0__0F_mCFp_FFF_3000yF0y_00000000
+0_00_0000_p0000m_330_00_00000000
+0y_0y_3ymmyF333Fy00Fy0F_00000000
+00y_3myyF333yyp33Fym3FyF30000000
+0000myFF3pmmmmmp3FF_p300myF30000
+000000000mmmmmmm0000mmyF300my_F0
+000000000000000000000000myF33Fy0
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(InspectorAgent)
+!define InspectorAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, InspectorAgent, InspectorAgent)
+!define InspectorAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, InspectorAgent, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, InspectorAgent, InspectorAgent)
+!define InspectorAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, InspectorAgent, InspectorAgent)

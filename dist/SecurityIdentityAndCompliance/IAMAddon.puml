@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMAddon [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000033333000000000000000000000
+003FyymmmmmmyF300003000030000000
+0F_03FFF300000y_FFymyFFymyFFF300
+0_30_333_00000033333333333333_y0
+0m_30mmm000003_ymmmmmmmmmmmmm000
+000myyFFFFFCym000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IAMAddon)
+!define IAMAddon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAddon, IAMAddon)
+!define IAMAddon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAddon, IAMAddon)
+!define IAMAddonParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMAddon)
+!define IAMAddonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAddon, IAMAddon)
+!define IAMAddonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAddon, IAMAddon)

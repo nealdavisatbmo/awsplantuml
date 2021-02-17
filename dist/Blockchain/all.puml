@@ -1,0 +1,87 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Blockchain [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________________________0__0
+__0_________________________0__0
+__0_____mpppmyppppympppm____0__0
+__0_____03_300____003_30____0__0
+__0_____FFFFF_FFFF_FFFFF____0__0
+__0_________________________0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(Blockchain)
+!define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Blockchain, Blockchain)
+!define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, Blockchain)
+!define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Blockchain, Blockchain)
+!define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Blockchain, Blockchain)
+
+sprite $BlockchainResourceIcon [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+000_mppppm_0_mppppm_0_mppppm_000
+000_0_33_0_y_0_33_0_y_0_33_0_000
+000yCCCCCCy0yCCCCCCy0yCCCCCCy000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(BlockchainResourceIcon)
+!define BlockchainResourceIcon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
+!define BlockchainResourceIcon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
+!define BlockchainResourceIconParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, BlockchainResourceIcon)
+!define BlockchainResourceIconParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
+!define BlockchainResourceIconParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
+
+sprite $ManagedBlockchain [32x32/4] {
+________________________________
+________________________________
+________________________________
+_________yp_FFFFppy_____________
+_____ypm0pmmpmmpypp3pm_y________
+_____0___3003___0_3y3mp3pm______
+______FF3CFFFFFF_FC3FF__________
+__________F_ppppFF______________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
+
+sprite $QuantumLedgerDatabaseQLDB [32x32/4] {
+________________________________
+________________________________
+______mp_FFFFFF_ppy_____________
+______Fp_yyyyyyypp0_____________
+______y___yyyyy_yy0yyyyyyy______
+_______FF_0mFF_m_0F000mFF_______
+______pyy_FppppympmpFFpppp______
+______y____FFF____0_____________
+______FF_pppppp_FF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+

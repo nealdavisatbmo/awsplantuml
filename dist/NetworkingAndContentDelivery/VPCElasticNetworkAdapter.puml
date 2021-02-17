@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VPCElasticNetworkAdapter [32x32/4] {
+0000000000000000000F300000000000
+0000000000000000000_myF300000000
+0Fyyyyyyyyyyyyyyyyyy00myF3000000
+0_0m__0FCCCCCCCCCCCCCCF00y_30000
+0_00__0_00_yyy__yy__00_0000m_300
+0_00__0_00_FFF__FF__00_000003_y0
+0_00__0yFF0000FFFF00FCy0003Fy000
+0_0Cyy00mmmmmmmmmmmmm0003_y00000
+0myyyyyyyyyyyyyyyyy_00F_m0000000
+0000000000000000000_Fym000000000
+0000000000000000000m000000000000
+}
+
+AWSEntityColoring(VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapter(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapter(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)
+!define VPCElasticNetworkAdapterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, VPCElasticNetworkAdapter, VPCElasticNetworkAdapter)

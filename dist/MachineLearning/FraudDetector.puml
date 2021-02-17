@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $FraudDetector [32x32/4] {
+________________________________
+____yppy________________________
+____3yy3py______________________
+_______3y_F0F_0____m___m________
+_____yy_CmFC3F_Fpmpppppmy_F_____
+____0yy0__0C____0y3Fm_FmFm______
+________C3pCmyyy0Cpyyyy3y3______
+_______mFyy3yy0__FFpppp3CFpy____
+____0FF0F________________FFF____
+____FFFF________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FraudDetector)
+!define FraudDetector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #1C7B68, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, FraudDetector, FraudDetector)
+!define FraudDetectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, FraudDetector, FraudDetector)

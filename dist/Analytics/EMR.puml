@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EMR [32x32/4] {
+________________________________
+________________yy______________
+_______________0__0_____________
+________yyyyyymFFF3y__mFFpy_____
+______mF__y__F3yypp30FCpp3______
+_____3y___0____0y___y30_________
+______Fpyyyyym0__FF03p0FF0______
+______________Fmpp0___FFFF______
+_______________3yy3_____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(EMR)
+!define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMR, EMR)
+!define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMR, EMR)
+!define EMRParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMR, EMR)
+!define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMR, EMR)

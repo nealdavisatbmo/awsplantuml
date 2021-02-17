@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SNS [32x32/4] {
+________________________________
+________________________________
+_________yppFFFFFFFFpp_yyy______
+_______mF____________m_0y0______
+_____y0y__30333303___0__yyy_____
+____30y0___Fm__mF____0__0y03____
+______3______y0______0_yyy______
+_______Fpy___________F3yy3______
+__________FFppppppppFF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SNS)
+!define SNS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNS, SNS)
+!define SNS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNS, SNS)
+!define SNSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SNS)
+!define SNSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNS, SNS)
+!define SNSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNS, SNS)

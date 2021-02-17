@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $FSx [32x32/4] {
+________________________________
+________________________________
+________________________________
+_____yyyyyy__yyyyy______________
+_____0______0_______my__mp______
+_____0_______FF3pm___Fp0________
+_____0______yyyyy0FymF_F3y______
+________________________________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FSx)
+!define FSx(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSx, FSx)
+!define FSx(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSx, FSx)
+!define FSxParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, FSx)
+!define FSxParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSx, FSx)
+!define FSxParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSx, FSx)

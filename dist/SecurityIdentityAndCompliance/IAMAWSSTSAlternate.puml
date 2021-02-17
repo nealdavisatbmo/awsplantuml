@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IAMAWSSTSAlternate [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_0000003FCyyyyCF3000000_0000
+0000_00003_m000__000m_30000_0000
+0000_0000__0CCCyy0000__0000_0000
+0000_00000yF30000003Fy00000_0000
+0000_0000000mmyyyymm0000000_0000
+0000_0000000000000000000000_0000
+0000_00000Fmm0mm_mm3_mm0000_0000
+0000_000000mpF00_000mm_0000_0000
+0000_00000mmm000m000mm00000_0000
+0000mmmmmmmmmmmmmmmmmmmmmmmm0000
+}
+
+AWSEntityColoring(IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)
+!define IAMAWSSTSAlternateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAWSSTSAlternate, IAMAWSSTSAlternate)

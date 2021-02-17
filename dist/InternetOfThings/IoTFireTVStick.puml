@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTFireTVStick [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+0_yyyyyyyyyyyyyyyyyyyyyyyy_F3330
+0_003000000000000000CF3000__00_0
+0_000mmCCFFFFFFFCCCmmy0000__00_0
+0_000000000000000000000000__33_0
+0yyyyyyyyyyyyyyyyyyyyyyyyyym0000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTFireTVStick)
+!define IoTFireTVStick(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStick(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)

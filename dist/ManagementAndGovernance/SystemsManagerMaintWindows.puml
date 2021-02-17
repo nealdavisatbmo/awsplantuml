@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SystemsManagerMaintWindows [32x32/4] {
+000000000000FFCCCCFF000000000000
+000003FyFFFCyy0000yyCFFFyF300000
+000C_p0000033FCCCCF3300000p_C000
+0000_y003Fym000__000myF300y_0000
+0_yyy00Fy000000__000000yF00yyy_0
+0_00000_0000000yyCCCC000_00000_0
+0yyy_00m_30000000000003_m00_yyy0
+0000__000myF33000033Fym000__0000
+000myF3033300mmmmmm0033303Fym000
+000000mymmmm__0000__mmmmym000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindows(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindows(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SystemsManagerMaintWindows, SystemsManagerMaintWindows)
+!define SystemsManagerMaintWindowsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SystemsManagerMaintWindows, SystemsManagerMaintWindows)

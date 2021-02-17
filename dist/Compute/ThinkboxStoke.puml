@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxStoke [32x32/4] {
+________________________________
+_______________yy_______________
+_________y_ppm3FF3mpp_y_________
+______m30F_y3______3y_F03m______
+______00_F03__mFFm__30F_00______
+______0__0F_y3____3y_F0__0______
+______0__0__0_y33y_0__0__0______
+______3pmCm3ymF__Fmy3mCmp3______
+__________FF30y__y03FF__________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxStoke)
+!define ThinkboxStoke(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStoke(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxStoke, ThinkboxStoke)
+!define ThinkboxStokeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxStoke, ThinkboxStoke)

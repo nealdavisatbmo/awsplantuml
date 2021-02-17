@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SQSQueue [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+03333333333333333333333333333330
+0_0000000000F00FF00F0000000000_0
+0_0000F30000_00__00_00003F0000_0
+0_0000_p_C00_00__00_00C_p_0000_0
+0_0000ym0000_00__00_0000my0000_0
+0_0000000000y00yy00y0000000000_0
+0yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy0
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SQSQueue)
+!define SQSQueue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SQSQueue, SQSQueue)
+!define SQSQueueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SQSQueue, SQSQueue)

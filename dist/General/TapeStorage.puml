@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $TapeStorage [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+003FC_pmmmyyF300003F__mmmmyCF300
+0F_m00y333000y_00_y00mp33000m_F0
+0_3000y___0mmm_yy_0000___y0mm3_0
+0m_F0Cym00003_y00y_30_y00000F_m0
+000mmyCCCCyyyyyyyyyyyyCCCCymm000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(TapeStorage)
+!define TapeStorage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, TapeStorage, TapeStorage)
+!define TapeStorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, TapeStorage, TapeStorage)

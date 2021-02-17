@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $LocalZones [32x32/4] {
+________________________________
+___________yyppppppy__y_________
+________y3Fyyppppp_ym3Fy________
+_______mF_mFy__yyypF_m_Fm_______
+_______0__y_y_3yy3_y_y__0_______
+________3yFmC3____3CmFy3________
+_________Fm__________mF_________
+___________3m______m3___________
+_____________FmyymF_____________
+_______________FF_______________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(LocalZones)
+!define LocalZones(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, LocalZones, LocalZones)
+!define LocalZones(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, LocalZones, LocalZones)
+!define LocalZonesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, LocalZones)
+!define LocalZonesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, LocalZones, LocalZones)
+!define LocalZonesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, LocalZones, LocalZones)

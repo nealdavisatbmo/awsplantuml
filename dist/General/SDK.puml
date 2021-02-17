@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SDK [32x32/4] {
+00000000000000033000000000000000
+00000000033FCymmmmyCF33000000000
+000033FCymm0000330000mmyCF330000
+0000_yCF3333FymmmmyF3333FCy_0000
+0000_000m_yyF330033Fyy_m000_0000
+0000_0000_0000m__m0000_0000_0000
+0000_0000yF3300__0033Fy0000_0000
+0000_3300000myC__Cym0000033_0000
+000000mmyFF3000__0003FFymm000000
+00000000000mmyC__Cymm00000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(SDK)
+!define SDK(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SDK, SDK)
+!define SDK(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, SDK, SDK)
+!define SDKParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #232F3E, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, SDK, SDK)
+!define SDKParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, SDK, SDK)

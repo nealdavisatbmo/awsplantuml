@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $RoboMakerDevEnvironment [32x32/4] {
+00000033300000000000000000000000
+00yC0y_p_y00yC00____00yy00000000
+3FCF303_300333333333333333000000
+myFym0yCy00_003300000330__000000
+3_yyF03F300_003_y0000mm0__000000
+0myym00m000_000m0mmmm000__000000
+00FC00_p_00_000yy00033FCy_yCF300
+0000003_300_03FCF003_m0C__yC0yF0
+00ym0m_F_y0_0myCym0m_000__000F_0
+00000000000yyyyyyyyymyCF_pFFym00
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironment(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironment(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D6242D, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)

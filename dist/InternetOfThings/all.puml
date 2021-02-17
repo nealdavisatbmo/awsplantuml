@@ -1,0 +1,1263 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $FreeRTOS [32x32/4] {
+________________________________
+________________________________
+_______mppppppppppppppppm_______
+_____CC0______mppm______0CC_____
+_____pp0__yy3F_FF_F3yy__0pp_____
+_______0__0y3_m__m_3y0__0_______
+_____CC0____3p0yy0p3____0CC_____
+_____pp0______F__F______0pp_____
+_______FFFFFFFFFFFFFFFFFF_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(FreeRTOS)
+!define FreeRTOS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FreeRTOS, FreeRTOS)
+!define FreeRTOS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FreeRTOS, FreeRTOS)
+!define FreeRTOSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, FreeRTOS)
+!define FreeRTOSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FreeRTOS, FreeRTOS)
+!define FreeRTOSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FreeRTOS, FreeRTOS)
+
+sprite $InternetofThings [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCCF0
+__0__________________________0__
+__0___________yyyy___________0__
+__0_________ypC__Cpy_________0__
+__0_____yypC___FF___Cpyy_____0__
+__0_____0y_y3______3y_y0_____0__
+__0_______Fpy______ypF_______0__
+__0__________FF__FF__________0__
+__0__________________________0__
+__0yyyyyyyyyyyyyyyyyyyyyyyyyy0__
+0myyyyyyyyyyyyyyyyyyyyyyyyyyyym0
+}
+
+AWSEntityColoring(InternetofThings)
+!define InternetofThings(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThings(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThingsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, InternetofThings, InternetofThings)
+
+sprite $IoT1Click [32x32/4] {
+________________________________
+_______yy_______________________
+______0__0__________mFFCp_______
+_______FFFmyppppyy__m3FF________
+__________0F_____F3F3y__________
+________0F____________Fm________
+________FmmpppppmpppppmF________
+_____m3F0F____ymC______0ppy_____
+______FFF____F3y3______FFF______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoT1Click)
+!define IoT1Click(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoT1Click, IoT1Click)
+!define IoT1Click(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoT1Click, IoT1Click)
+!define IoT1ClickParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoT1Click)
+!define IoT1ClickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoT1Click, IoT1Click)
+!define IoT1ClickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoT1Click, IoT1Click)
+
+sprite $IoTAction [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCymm0000000000mmyCF300000
+0003_m000000yF330000000000m_3000
+00_y0000000000myF30000000000y_00
+0_y00000000000000myF300000000y_0
+0_000000000000000003_y00000000_0
+0y_00000000000003Fym000000000_y0
+00y_3000000003F_m00000000003_y00
+0000yF300000ym000000000003Fy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(IoTAction)
+!define IoTAction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAction, IoTAction)
+!define IoTAction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAction, IoTAction)
+!define IoTActionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAction)
+!define IoTActionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAction, IoTAction)
+!define IoTActionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAction, IoTAction)
+
+sprite $IoTActuator [32x32/4] {
+0000000033FFCCCF3300000000000000
+0000003Fym0000000m_F333300000000
+000003__00000000000m000m_3300000
+000Fymm000000F_yy_F000000mmyF000
+000_000000000myFFym000000000_000
+000myF333333000__000333333Fym000
+0000000mmmmm0my__ym0mmmmm0000000
+00FFCCCCCCCCCCCCCCCCCCCCCCCCFF00
+00__0Fyy_300003__300000_y__0__00
+00__0myyy0000yyyyyy0000yyyy0__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTActuator)
+!define IoTActuator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTActuator, IoTActuator)
+
+sprite $IoTAlexaEnabledDevice [32x32/4] {
+00000000F000F00FF00F00FF00000000
+0000FCCCyCCCyCCyyCCyCCyyCCCF0000
+0333_0000000000000000000000_3330
+0000_0000000000000000000000_0000
+0mmm_0000000000000000000000_mmm0
+0yyy_000000000000003FFCCCFF_yyy0
+0CCC_000000000003FypFyyyyyFpyF30
+0FFF_00000000000_m__0000000y_m_0
+0000_00000000000_Fy_3000000_yF_0
+0000mmmm_mmm_mm__myFp_F3FF__ym00
+00000000m000m00mm000mmmmmmm00000
+}
+
+AWSEntityColoring(IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDevice(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDevice(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+
+sprite $IoTAlexaSkill [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_00000003FCyymmmmyyCF30000000_0
+0_00000Fym3FCymmmmyCF3myF00000_0
+0_0000_y0Fy0000000000yF0y_0000_0
+0_0000_00_000000000000_00_0000_0
+0_0000y_0m_3000000003_y0_y0000_0
+0_00000myF3mmyF0033Fy3Fym00000_0
+0_00000000mmyyyyyyyymm00000000_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(IoTAlexaSkill)
+!define IoTAlexaSkill(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkill(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkillParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAlexaSkill)
+!define IoTAlexaSkillParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkillParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
+
+sprite $IoTAlexaVoiceService [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_00000003FCymmmmmyyFF30000000_0
+0_00000Fym3FyymmmmyF30m_300000_0
+0_0000_m0_y000000000m_F0__0000_0
+0_000y_0y_000000000003_03_0000_0
+0_0000_F0y_3000000003_m3_m0000_0
+0_00000myF3my_F003F_p3Fy000000_0
+0_00000000mmyCyyyyyymm00000000_0
+0yF30000000000000000000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(IoTAlexaVoiceService)
+!define IoTAlexaVoiceService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+
+sprite $IoTAnalytics [32x32/4] {
+________________________________
+_______________yy_______________
+___________yymF_F0___mpFp_______
+_______ymFF__y3FF_FFm0pp3_______
+______mF____mF___ypF__3yyy______
+_____0____y3__ypF___yy0y_C3_____
+_____Fm__mFypF_yyppFF__0F_______
+______0FFpCppFF_____ym3_________
+______Fpp3pppyyymppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTAnalytics)
+!define IoTAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalytics, IoTAnalytics)
+
+sprite $IoTAnalyticsChannel [32x32/4] {
+000000000FCCFF000000000000000000
+00000000m_33F_300000000000000000
+0003_mmyF0000my_3300000000000000
+0000yFFCyyyFF330myF3333333000000
+0000003FFF3000mmyyF_m0000my_0000
+00000y_333_yyyyymmy_0000000_m000
+0000033mmm0333FCyyp_yCFFFCym0000
+0003_mmm_yymm003F_m0000000000000
+0000yCCym3333F_y0000000000000000
+00000000C_00p_000000000000000000
+000000000mmmmm000000000000000000
+}
+
+AWSEntityColoring(IoTAnalyticsChannel)
+!define IoTAnalyticsChannel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+
+sprite $IoTAnalyticsDataSet [32x32/4] {
+0000_yyyyyyyyyyyyyyyyyy_00000000
+0000_003333333333303300_0mm_0000
+0000_000000000000000000_000_0000
+0000_00y0yyy0yyyyyyyy00_000_0000
+0000_00FFFF0FFFFFFFFF00_000_0000
+0000_000000000000000000_000_0000
+0000_00mmmmmmmmmmmmmm00_000_0000
+0000_00CCCCCCCCCC0CCC00_000_0000
+0000_333333333333333333_000_0000
+0000mmmpmmmmmmmmmmmmmmmm000_0000
+0000000yyyyyyyyyyyyyyyyyyyyy0000
+}
+
+AWSEntityColoring(IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+
+sprite $IoTAnalyticsDataStore [32x32/4] {
+00000000333FFFFCCFFFF33300000000
+000000_pm00000000000000mp_000000
+000000_mmyyCCCCCCCCCCyymm_000000
+000000_00F0FFF00000000000_000000
+000000_CF33333000033333FC_000000
+000000_000mmmmmmmmmmmm000_000000
+000000_30m0mmm00000000003_000000
+000000_mmyyCCCFFFFCCCyymm_000000
+000000_00F0FFF00000000000_000000
+000000yCF33333300333333FCy000000
+00000000000mmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+
+sprite $IoTAnalyticsNotebook [32x32/4] {
+00000FFFFFFFFFFFFFFFFFFFFFFFF000
+00033__33003333333333333000__000
+00033__33000000000000000000__000
+000mm__mm00yyyyyyyyyyyyy000__000
+000mm__mm00FFFFFFFFFFFFF000__000
+000yy__yy003333333000000000__000
+000CC__CC00mmmmmmm000000000__000
+000FF__FF000000000000000000__000
+00033__33000000000000000000__000
+00000__33333333333333333333__000
+00000mmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebookParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
+
+sprite $IoTAnalyticsPipeline [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+03333333000000000000000033333330
+0_00000_FFFFFFFFFFFFFFFF_00000_0
+0_00000_0000000yyyyy0yy0_00000_0
+0_00000_0000000000000000_00000_0
+0_00000_3333333333333333_00000_0
+0_33333_mmmmmmmmmmmmmmmm_33333_0
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTAnalyticsPipeline)
+!define IoTAnalyticsPipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
+!define IoTAnalyticsPipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
+!define IoTAnalyticsPipelineParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTAnalyticsPipeline)
+!define IoTAnalyticsPipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
+!define IoTAnalyticsPipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
+
+sprite $IoTBank [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_0000000033333300000000_3330
+0000_00FFCyymm0000mmyyCFF00_0000
+0mmm_00yy_0000FCCF0000_yy00_mmm0
+0yyy_0000_000myCF30000_0000_yyy0
+0CCC_0000_0000CCCym000_0000_CCC0
+0333_000__333333333333__000_3330
+0000_3000000000000000000003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTBank)
+!define IoTBank(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTBank, IoTBank)
+!define IoTBank(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBank, IoTBank)
+!define IoTBankParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTBank)
+!define IoTBankParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTBank, IoTBank)
+!define IoTBankParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTBank, IoTBank)
+
+sprite $IoTBicycle [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000000000000000000_33300
+00mmm_00000FCC000333000000_mmm00
+00mmm_00000___yyy__3000000_mmm00
+00yyy_03FCy_C__FF____yCF30_yyy00
+00CCC_0_30my0p_0m_p0y003_0_CCC00
+00FFF_0myCFFyy0000yyFFCym0_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTBicycle)
+!define IoTBicycle(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTBicycle, IoTBicycle)
+!define IoTBicycle(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBicycle, IoTBicycle)
+!define IoTBicycleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTBicycle)
+!define IoTBicycleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTBicycle, IoTBicycle)
+!define IoTBicycleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTBicycle, IoTBicycle)
+
+sprite $IoTButton [32x32/4] {
+________________________________
+_____yyyyy____________yyyyy_____
+_____0____________________0_____
+_____F_yyyyyyyyyyyyyyyyyy_F_____
+_____mF____________yppppmFm_____
+____3y_________F3F_0____y3y3____
+_____FpyyyyyyyyyyyyyCCCCCpF_____
+_____m____________________m_____
+_____0yyyy____________yyyy0_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTButton)
+!define IoTButton(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTButton, IoTButton)
+!define IoTButton(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTButton, IoTButton)
+!define IoTButtonParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTButton)
+!define IoTButtonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTButton, IoTButton)
+!define IoTButtonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTButton, IoTButton)
+
+sprite $IoTCamera [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000000333330000000_33300
+00mmm_03F___3__mmmm_333330_mmm00
+00mmm_0_0CCC3F_p__pyF000_0_mmm00
+00yyy_0_0000_F_000m___00_0_yyy00
+00CCC_0_0000yFp_FF__ym00_0_CCC00
+00FFF_0yFFFFFFF____FFFFFy0_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTCamera)
+!define IoTCamera(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCamera, IoTCamera)
+!define IoTCamera(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCamera, IoTCamera)
+!define IoTCameraParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCamera)
+!define IoTCameraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCamera, IoTCamera)
+!define IoTCameraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCamera, IoTCamera)
+
+sprite $IoTCar [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000000000000000000_33300
+00mmm_00000003333333330000_mmm00
+00mmm_0000003_m000000y_300_mmm00
+00yyy_0F_yppp000000033pm_F_yyy00
+00CCC_yyy_p3p_CCCCC_p3__yy_CCC00
+00FFF_0000mmm0000000mmm000_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTCar)
+!define IoTCar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCar, IoTCar)
+!define IoTCar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCar, IoTCar)
+!define IoTCarParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCar)
+!define IoTCarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCar, IoTCar)
+!define IoTCarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCar, IoTCar)
+
+sprite $IoTCart [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00330000000000000000_33300
+00mmm_00my_333333333333300_mmm00
+00mmm_0000_F0000000000_y00_mmm00
+00yyy_00000_300000000_y000_yyy00
+00CCC_000000__yyyyy__p0000_CCC00
+00FFF_00000_p__yyyy_p__000_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTCart)
+!define IoTCart(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCart, IoTCart)
+!define IoTCart(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCart, IoTCart)
+!define IoTCartParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCart)
+!define IoTCartParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCart, IoTCart)
+!define IoTCartParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCart, IoTCart)
+
+sprite $IoTCertificateManager [32x32/4] {
+000000000033FFCCCCFF330000000000
+0000003Fymm0000000000mmyF3000000
+00000Fym0333330000000000myF00000
+0000__03_pp30my_3FF3FF3300__0000
+0000__0_p_F_000FFFFFFFF_y0__0000
+0000m_30yyFFFCym0000000003_m0000
+000000y_3000000000000003_y000000
+00000000mmyFF333333FFymm00000000
+00000000000_00000000_00000000000
+00000000000_3FymmyF3_00000000000
+00000000000mm000000mm00000000000
+}
+
+AWSEntityColoring(IoTCertificateManager)
+!define IoTCertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)
+
+sprite $IoTCoffeePot [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_000000333F3300000000_33300
+00mmm_03330F__FFF__F000000_mmm00
+00mmm_0_F_F_m00000y_CF3000_mmm00
+00yyy_00_0y_0000000_00_C00_yyy00
+00CCC_00y_000000000__ym000_CCC00
+00FFF_000m_F00000000_33_y0_FFF00
+00000_33333pppppppppp33pp3_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTCoffeePot)
+!define IoTCoffeePot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePotParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCoffeePot)
+!define IoTCoffeePotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)
+
+sprite $IoTCore [32x32/4] {
+________________________________
+________________________________
+_________ypFFFFF3my_____________
+_______y0_________FF_F0y________
+_____y3F_______ymppy____F3y_____
+_____3y_____ymF_F0F_Fpy__m3_____
+_______Fpp_0yC3pm0_mp0y0________
+_____________3py00y0m3__________
+________________33_3____________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTCore)
+!define IoTCore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCore, IoTCore)
+!define IoTCore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCore, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCore, IoTCore)
+!define IoTCoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCore, IoTCore)
+
+sprite $IoTDesiredState [32x32/4] {
+003F0CCC0CCC0CCC0CCC0CC0CCC0F300
+0pm00000000033333333000000000mp0
+0y0000000000_mmmmmm_0000000000y0
+0y0000000000_000000_0_mmmmmm_0_0
+0_0FFFFFFFF0_000000_0_000000_0F0
+0F0_000000_0_000000_0_000000_0p0
+0p0_000000_0_000000_0_000000_0m0
+0y0_0FyyF0_0_03__30_0_0_mm___0y0
+0_0_0myym0_0_0yyyy0_0_0yyyym_0_0
+0CFpmmmmmmm0mmmmmmmm0mmmmmmmpFC0
+000m0mmm0mm0mmm0mmm0mmm0mmm0m000
+}
+
+AWSEntityColoring(IoTDesiredState)
+!define IoTDesiredState(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredState(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredStateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDesiredState, IoTDesiredState)
+
+sprite $IoTDeviceDefender [32x32/4] {
+________________________________
+________________________________
+_______mppppppFCCFppppppm_______
+_______0______0__0______0_______
+_______3yy____FF0F____yy3_______
+_______0__Cmpm__0_mpmC__0_______
+_______yFFF__0__0_0__FFFy_______
+_______Fpyyy_0__0_0_yyypF_______
+___________FFFpm0pFFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTDeviceDefender)
+!define IoTDeviceDefender(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
+!define IoTDeviceDefender(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
+!define IoTDeviceDefenderParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDeviceDefender)
+!define IoTDeviceDefenderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
+!define IoTDeviceDefenderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
+
+sprite $IoTDeviceGateway [32x32/4] {
+00000000300000000000000300000000
+00003FF__00000000000000__FF30000
+033Fym0__mm0mmm00mmm0mm__0myF330
+0_m0000__0FFFFFFFFFFFF0__0000m_0
+0_00000__0__F_m_FFFF__0__00000_0
+0_00000__0__3pppFFF3__0__00000_0
+0_00000__0__pppp_F____0__00000_0
+0_00000__0mmmmmmmmmmmm0__00000_0
+0yFF300__CC0CCC00CCC0CC__003FFy0
+0000mmy__00000000000000__ymm0000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTDeviceGateway)
+!define IoTDeviceGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
+!define IoTDeviceGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
+!define IoTDeviceGatewayParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDeviceGateway)
+!define IoTDeviceGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
+!define IoTDeviceGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
+
+sprite $IoTDeviceManagement [32x32/4] {
+_____________________________F30
+______________yyyy______________
+_________yyppFFyyFFppyy_________
+______m3F__ypFF__FFpy__F3m______
+______0__ym0FF0CC0FF0my__0______
+______0__0_F0F3yy3F0F_0__0______
+______0__3y_FF3yy3FF_y3__0______
+______F3pyyFFFFFFFFFFyyp3F______
+___________FFppyyppFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTDeviceManagement)
+!define IoTDeviceManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+
+sprite $IoTDoorLock [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00003FCCCCCCCCF30000_33300
+00mmm_0000__0FFyyFF0__0000_mmm00
+00mmm_0000__y_3003_y__0000_mmm00
+00yyy_0000__0mmmmmm0__0000_yyy00
+00CCC_0000__00F__F00__0000_CCC00
+00FFF_0000__000yy000__0000_FFF00
+00000_3333p__________p3333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTDoorLock)
+!define IoTDoorLock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDoorLock, IoTDoorLock)
+
+sprite $IoTEcho [32x32/4] {
+00000000033FFCCCCCFFF33000000000
+00000000__3pp000000333__00000000
+00000000__0mmmmmmmmmm0__00000000
+00000000__000000000000__00000000
+00000000__330000000033__00000000
+00000000__pppppppppppp__00000000
+00000000__0mmmmmmmmmm0__00000000
+00000000__000000000000__00000000
+00000000__000000000000__00000000
+00000000y_F3330000333F_y00000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(IoTEcho)
+!define IoTEcho(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTEcho, IoTEcho)
+!define IoTEcho(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEcho, IoTEcho)
+!define IoTEchoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTEcho)
+!define IoTEchoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTEcho, IoTEcho)
+!define IoTEchoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTEcho, IoTEcho)
+
+sprite $IoTEvents [32x32/4] {
+________________________________
+________________________________
+_________yyy____________________
+_________3ppC_ypCCCyyy__________
+_______y_____3_3CpFFFpC0_m______
+______3y0ppppppm0____mmppm______
+____________y3pCp3CCFFy_F_______
+_________0CCp___FFFFFFF_________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTEvents)
+!define IoTEvents(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTEvents, IoTEvents)
+!define IoTEvents(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEvents, IoTEvents)
+!define IoTEventsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTEvents)
+!define IoTEventsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTEvents, IoTEvents)
+!define IoTEventsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTEvents, IoTEvents)
+
+sprite $IoTFactory [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_03330000000003330000_33300
+00mmm_0__mmyyCFF330___0000_mmm00
+00mmm_0__03330333pmmyyCF30_mmm00
+00yyy_0__0yCy0yyyy00000__0_yyy00
+00CCC_0__0FCF0FFFF0FCF0__0_CCC00
+00FFF_0__3ppp3____3ppp3__0_FFF00
+00000_33ppppppp33ppppppp33_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTFactory)
+!define IoTFactory(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFactory, IoTFactory)
+!define IoTFactory(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFactory, IoTFactory)
+!define IoTFactoryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTFactory)
+!define IoTFactoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFactory, IoTFactory)
+!define IoTFactoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFactory, IoTFactory)
+
+sprite $IoTFireTV [32x32/4] {
+00000000000000000000000000000000
+03333333333333333333333333333330
+0_mmmmmmmmmmmmmmmmmmmmmmmmmmmm_0
+0_0000000000000000000000000000_0
+0_00mmCF333000000000003ppm_m00_0
+0_0000000mmmyyyyyyyymmm000m000_0
+0_0000000000000000000000000000_0
+0yCCCCCCCCCCCCCFFCCCCCCCCCCCCCy0
+000000000000FFF__FFF000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTFireTV)
+!define IoTFireTV(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFireTV, IoTFireTV)
+!define IoTFireTV(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTV, IoTFireTV)
+!define IoTFireTVParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTFireTV)
+!define IoTFireTVParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFireTV, IoTFireTV)
+!define IoTFireTVParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFireTV, IoTFireTV)
+
+sprite $IoTFireTVStick [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+0_yyyyyyyyyyyyyyyyyyyyyyyy_F3330
+0_003000000000000000CF3000__00_0
+0_000mmCCFFFFFFFCCCmmy0000__00_0
+0_000000000000000000000000__33_0
+0yyyyyyyyyyyyyyyyyyyyyyyyyym0000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTFireTVStick)
+!define IoTFireTVStick(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStick(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)
+
+sprite $IoTGeneric [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000000000000000000_33300
+00mmm_000__yy__yyyyyy__000_mmm00
+00mmm_000__F_mp_CCCCC__000_mmm00
+00yyy_000__0mmmmFFCF3__000_yyy00
+00CCC_000__mmmmmyFFym__000_CCC00
+00FFF_000yyyyyyyyyyyyyy000_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTGeneric)
+!define IoTGeneric(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGeneric, IoTGeneric)
+!define IoTGeneric(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGeneric, IoTGeneric)
+!define IoTGenericParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTGeneric)
+!define IoTGenericParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGeneric, IoTGeneric)
+!define IoTGenericParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGeneric, IoTGeneric)
+
+sprite $IoTGreengrass [32x32/4] {
+________________________________
+____________________yy__________
+________ypy________0yy0_________
+_______FpypC_________3_Fm_______
+____________Fpy______3___3y_____
+_______________Fpy___m____0_____
+_____yppm_________Fpym___0______
+_____Fpp3CF_FF__FF_FF_ym3_______
+__________FpppyyyypppFF_________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTGreengrass)
+!define IoTGreengrass(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGreengrass, IoTGreengrass)
+!define IoTGreengrass(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrass, IoTGreengrass)
+!define IoTGreengrassParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTGreengrass)
+!define IoTGreengrassParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGreengrass, IoTGreengrass)
+!define IoTGreengrassParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGreengrass, IoTGreengrass)
+
+sprite $IoTGreengrassConnector [32x32/4] {
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+0000033FFFFFFF0000FFFFFFF3300000
+0000_y000000__3330__000000y_0000
+yyyy_0000000__3330__0000000_yyyy
+0000y_333333__0000__333333_y0000
+0000000mmmmmmm0000mmmmmmm0000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTGreengrassConnector)
+!define IoTGreengrassConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnectorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTGreengrassConnector)
+!define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+
+sprite $IoTHTTP2Protocol [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000y0
+0_00000_mmmmmmmmmmmmmmmmmpmmmm_0
+0_00000_0_0000_000_0_3_0F0m3y0_0
+0yF3000_0y0000y000y0y00Fm0CyC0_0
+000mmm0mmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(IoTHTTP2Protocol)
+!define IoTHTTP2Protocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2Protocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
+
+sprite $IoTHTTPProtocol [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000y0
+0_000000000_mmmmmmmmmmmmmmmmmm_0
+0_000000000_00_00_00000_00_3y0_0
+0yF30000000_00y00y00000y00y000_0
+000mmmmmmm0mmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(IoTHTTPProtocol)
+!define IoTHTTPProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTHTTPProtocol)
+!define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
+
+sprite $IoTHardwareBoard [32x32/4] {
+0000000000003FFCCFF3000000000000
+0000000000CypFCyyCFpyC0000000000
+033333333333p333333p333333333330
+0_00033000_0000000000000000000_0
+0_00myy_30myF33300FFFFFF_mm__0_0
+0_003F30m_F00yyy000mm000yyyyy0_0
+0_00__m00__00000F__CCCCCCCCCCC_0
+0_33__333__3333333333333333333_0
+000000000000F300003F000000000000
+0000000000myFppyyppFym0000000000
+0000000000000mmmmmm0000000000000
+}
+
+AWSEntityColoring(IoTHardwareBoard)
+!define IoTHardwareBoard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoardParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTHardwareBoard)
+!define IoTHardwareBoardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
+
+sprite $IoTHouse [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000000333300000000_33300
+00mmm_000003FymmmmyF300000_mmm00
+00mmm_003Fym00000000myF300_mmm00
+00yyy_0y__033300333330__y0_yyy00
+00CCC_00__0_F_00_00__0__00_CCC00
+00FFF_00__333333_00__3__00_FFF00
+00000_33333333333333333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTHouse)
+!define IoTHouse(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHouse, IoTHouse)
+!define IoTHouse(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHouse, IoTHouse)
+!define IoTHouseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTHouse)
+!define IoTHouseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHouse, IoTHouse)
+!define IoTHouseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHouse, IoTHouse)
+
+sprite $IoTLambdaFunction [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCyp_FFFFF30000mmyCF300000
+0003_m000__00000yF00000000m_3000
+00_y00000mmmm_F00m_300000000y_00
+0_y00000000__3y_000yF00000000y_0
+0_0000000F_mm_Fm_300y_30000000_0
+0y_00000Fy000Fy00yF00m_F33000_y0
+00y_303_m003_y0000y_0000__03_y00
+0000yFpmmmmm0000000mmmmmmpFy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(IoTLambdaFunction)
+!define IoTLambdaFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+
+sprite $IoTLightbulb [32x32/4] {
+00000000330030033003003300000000
+00000333__33_33__33_33__33300000
+00333_00000003333330000000_33300
+00mmm_00003Fym0000myF30000_mmm00
+00mmm_0000_p00000000p_0000_mmm00
+00yyy_0000m_330__033_m0000_yyy00
+00CCC_000000m_3__3_m000000_CCC00
+00FFF_0000000F_yy_F0000000_FFF00
+00000_3333333pppppp3333333_00000
+00000000__00_00__00_00__00000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulbParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLightbulb, IoTLightbulb)
+
+sprite $IoTMQTTProtocol [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000000000000000000000m_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000_0
+0_0000000000000000000000000000y0
+0_000000000_mmmmmmmmmmmmmmmmmm_0
+0_000000000_0_FF_0_00_0_000_00_0
+0yF30000000_0y00y0mCCp0y000y00_0
+000mmmmmmm0mmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(IoTMQTTProtocol)
+!define IoTMQTTProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+
+sprite $IoTMedicalEmergency [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_0000000000000000000000_3330
+0000_0000_mmmmppppmmmm_0000_0000
+0mmm_0000_0333____3330_0000_mmm0
+0yyy_0000_0____33____0_0000_yyy0
+0CCC_0000_0000____0000_0000_CCC0
+0333_0000yCCCCCCCCCCCCy0000_3330
+0000_3000000000000000000003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTMedicalEmergency)
+!define IoTMedicalEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergencyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTMedicalEmergency)
+!define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
+
+sprite $IoTOverTheAirUpdate [32x32/4] {
+00000000000000000000000000000000
+00000000033333333000000000000000
+0000003Fymm0000mmyF3000000000000
+00000Fy000000000000y_ymy_F000000
+0003Fy0000000000000000000yCF3300
+0F_m00000003FCCCCCF3F0000000myF0
+0_F000000F_m00000yyyy000000003_0
+00y_F3330m00000000003F003333Fym0
+000000mm00FFFC00003Fym00mm000000
+0000000000m0mmyyymm0000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+
+sprite $IoTPoliceEmergency [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_0000000000000000000000_3330
+0000_00003FyF3F__F3FyF30000_0000
+0mmm_000myF0000000000Fym000_mmm0
+0yyy_0000Fy0000000000yF0000_yyy0
+0CCC_000y_000000000000_y000_CCC0
+0333_0000mmyCCF33FCCymm0000_3330
+0000_3000000000000000000003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTPoliceEmergency)
+!define IoTPoliceEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+
+sprite $IoTPolicy [32x32/4] {
+00000000000000000000000000000000
+0_mmmmmmmmmmmmmmm_F0000000000000
+0_00m_F_m00000000__0000000000000
+0_00mm0my00000000__0000000000000
+0_00C_FFy00000000yy33FFFFF330000
+0_00CymyC00000003Fym000000mm_F00
+0_0000003F000003_3Fymy_FF3F33y_0
+0_00yFFym000000y_y_pp3FFCCCCy__0
+0yCCCCCCCCCCCCC0m_Fpmm000003Fy00
+000000000000000000mmyyCCyymm0000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTPolicy)
+!define IoTPolicy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPolicy, IoTPolicy)
+
+sprite $IoTReportedState [32x32/4] {
+003FCCCCCCCCCCCCCCCCCCCCCCCCF300
+0_m00000000033333333000000000m_0
+0_0000000000_mmmmmm_0000000000_0
+0_0000000000_000000_0000000000_0
+0_0FFFFFFFF0_000000_0000000000_0
+0_0_000000_0_000000_0000000000_0
+0_0_000000_0_000000_0000000000_0
+0_0_0FyyF0_0_03__30_0000000000_0
+0_0_0myym0_0_0yyyy0_0000000000_0
+0yFpmmmmmmm0mmmmmmmm000000003Fy0
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(IoTReportedState)
+!define IoTReportedState(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTReportedState, IoTReportedState)
+!define IoTReportedState(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTReportedState, IoTReportedState)
+!define IoTReportedStateParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTReportedState)
+!define IoTReportedStateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTReportedState, IoTReportedState)
+!define IoTReportedStateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTReportedState, IoTReportedState)
+
+sprite $IoTRule [32x32/4] {
+0000000FCCCF00000003FCCF30000000
+0000000_333_3000000_3003_0000000
+0000000mmmmmmyCFFCymmmmm00000000
+000000000003333__333300000000000
+00000000033_myF33Fym_33000000000
+00000000__Fp333pp333pF__00000000
+00000000__000mmmmmm0000_00000000
+00000000__0000000000000_00000000
+00000000__0000000000000_00000000
+00000000y_333000000333Fy00000000
+00000000000mmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(IoTRule)
+!define IoTRule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTRule, IoTRule)
+!define IoTRule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTRule, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTRule, IoTRule)
+!define IoTRuleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTRule, IoTRule)
+
+sprite $IoTSensor [32x32/4] {
+0000000003FFCCCF3300000000000000
+0000003Fym000000mm_F333300000000
+000003__00000000000mm00m_3300000
+000Fymm000000000000000000mmyF000
+000_0000000003F__F3000000000_000
+000myF333333330__033333333Fym000
+0000000mmmmmmm0__0mmmmmmm0000000
+00FFCCCCCCCCCCCyyCCCCCCCCCCCFF00
+00__0Fyy_300003__30000000000__00
+00__0myym0000yyyyyy000000000__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTSensor)
+!define IoTSensor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSensor, IoTSensor)
+
+sprite $IoTServo [32x32/4] {
+00000000000000000000000000000000
+03333333333333333333333333333330
+0_mmmmmmmmmmmmmmm_ppmmmmmpp_mm_0
+0_00000000000000000y__y__y0m00_0
+0_00003F3300000330000000000000_0
+0_000y_33_0003_pp_300000000000_0
+0_00000p30330mmmmmm00000000000_0
+0_00F3_yyyyy_33000000000000000_0
+0_FF_FFFFFFFFF_FFFFFFFFFFFFFFF_0
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(IoTServo)
+!define IoTServo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTServo, IoTServo)
+!define IoTServo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTServo, IoTServo)
+!define IoTServoParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTServo)
+!define IoTServoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTServo, IoTServo)
+!define IoTServoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTServo, IoTServo)
+
+sprite $IoTShadow [32x32/4] {
+0000000033FCCCFF3300000000000000
+000000Fym0000000mm_F033300000000
+00000_m000000000000yymmmyF000000
+003Fy_3333333333333333333pyyF300
+0_y00__FCF30003F30000FCF0_000y_0
+0_F00__p__p33_____333___3_000F_0
+00myC__pppppppppppppppppppFCym00
+00FFCCCCCCCCCCCCCCCCCCCCCCCCFF00
+00__0Fyy_30000F__F00000_y__0__00
+00__0myym0000yyyyyy0000yyyy0__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTShadow)
+!define IoTShadow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTShadow, IoTShadow)
+
+sprite $IoTSimulator [32x32/4] {
+0000000033FFCCCF3300000000000000
+0000003Fym000000mmy0003300000000
+000003__000_mpppmmmm_00m_3300000
+000Fymm0000_0yC_ppmm_0000mmyF000
+000_0000000_mmmmyym0_0000000_000
+000myF33333pppppppppp33333Fym000
+0000000mmmpppppppppppmmmm0000000
+0000000000_0Fy_F3333_00000000000
+0000000000_0mmmm3F30_00000000000
+0000000000_mmmmmyCym_00000000000
+0000000000mmmmmmmmmmm00000000000
+}
+
+AWSEntityColoring(IoTSimulator)
+!define IoTSimulator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSimulator, IoTSimulator)
+!define IoTSimulator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSimulator, IoTSimulator)
+!define IoTSimulatorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTSimulator)
+!define IoTSimulatorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSimulator, IoTSimulator)
+!define IoTSimulatorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSimulator, IoTSimulator)
+
+sprite $IoTSiteWise [32x32/4] {
+________________________________
+________________________________
+______________yyyy______________
+____________y3____Fm____________
+___________yp3yyyyp0y___________
+_______mFF0_____0____0FFm_______
+______33C33F__mp3m__F33Cp3______
+_____________33CC33_____________
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTSiteWise)
+!define IoTSiteWise(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWise(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWiseParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTSiteWise)
+!define IoTSiteWiseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWiseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSiteWise, IoTSiteWise)
+
+sprite $IoTThermostat [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FCCCyCCCyCCyyCCyCCCyCCCF0000
+0333_0000033FFCCCCCF3300000_3330
+0000_000Fym00m0330mm0myF000_0000
+0mmm_00_my0000p__00000Cy_00_mmm0
+0yyy_00_000000___0000000_00_yyy0
+0CCC_00yF00000FyyF00000Fy00_CCC0
+0333_000myF330myym033Fym000_3330
+0000_0000000mmmmmmmm0000000_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTThermostat)
+!define IoTThermostat(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostat(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostatParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThermostat, IoTThermostat)
+
+sprite $IoTThingsGraph [32x32/4] {
+________________________________
+________________________________
+__________00CCCCCCCmmy__________
+______mpm_00_00y00y0__3y________
+______3y0F00FF_____pm03C3m______
+______3yypyyF3pp0p_33Cm03p______
+_______0y3_mFFFmFmm__Fy3________
+_______FF0_3pppCp0_ppF__________
+_________F3FFm3_FF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(IoTThingsGraph)
+!define IoTThingsGraph(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraph(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraphParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)
+
+sprite $IoTTopic [32x32/4] {
+0000000000FFFCCCCCCFFF0000000000
+0000000330_mmyF33Fymm_0330000000
+000000_p30y0000mm0000y03p_000000
+000000_0mmmyyyCCCCyyymmm0_000000
+000000_000000000000000000_000000
+000000_000000000000000000_000000
+000000_000000000000000000_000000
+000000_000000000000000000_000000
+000000_000000000000000000_000000
+000000yCF33330000003333FCy000000
+0000000000mmmmmmmmmmmm0000000000
+}
+
+AWSEntityColoring(IoTTopic)
+!define IoTTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTopic, IoTTopic)
+!define IoTTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTopic, IoTTopic)
+!define IoTTopicParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTTopic)
+!define IoTTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTopic, IoTTopic)
+!define IoTTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTopic, IoTTopic)
+
+sprite $IoTTravel [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_0000300033FF0003FCCF00_3330
+0000_00F_ppmyyyy_FFym03_y00_0000
+0mmm_00000mmyCF30000F_m0000_mmm0
+0yyy_0033333F_ypFF30m___y00_yyy0
+0CCC_0yyyy_pmF_y00yF0y_m000_CCC0
+0333_000000m___0000m_3_C000_3330
+0000_3000000yym00000mm00003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTTravel)
+!define IoTTravel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTravel, IoTTravel)
+!define IoTTravel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTravel, IoTTravel)
+!define IoTTravelParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTTravel)
+!define IoTTravelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTravel, IoTTravel)
+!define IoTTravelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTravel, IoTTravel)
+
+sprite $IoTUtility [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_000000FCCCCCCCF0000000_3330
+0000_000000mmmm_mmmm0000000_0000
+0mmm_00_mmmmmmmmmmmmmyF3000_mmm0
+0yyy_00yyyyyyyyyyyy_00m_000_yyy0
+0CCC_00000000000000mmppm000_CCC0
+0333_000000000000000_m_F000_3330
+0000_300000000000000myym003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTUtility)
+!define IoTUtility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTUtility, IoTUtility)
+!define IoTUtility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTUtility, IoTUtility)
+!define IoTUtilityParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTUtility)
+!define IoTUtilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTUtility, IoTUtility)
+!define IoTUtilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTUtility, IoTUtility)
+
+sprite $IoTWindfarm [32x32/4] {
+00000000F000F00FF00F000F00000000
+0000FFCCyCCCyCCyyCCyCCCyCCFF0000
+0333_000000000000000_y00000_3330
+0000_00000000000003_m000000_0000
+0mmm_0003333333FCy_00000000_mmm0
+0yyy_000mmmmmmmmyC_30000000_yyy0
+0CCC_00000000000__0myF30000_CCC0
+0333_00000000000__0000m0000_3330
+0000_30000000000yy000000003_0000
+0000mmmm_mmm_mm__mm_mmm_mmmm0000
+00000000m000m00mm00m000m00000000
+}
+
+AWSEntityColoring(IoTWindfarm)
+!define IoTWindfarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarmParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTWindfarm)
+!define IoTWindfarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTWindfarm, IoTWindfarm)
+

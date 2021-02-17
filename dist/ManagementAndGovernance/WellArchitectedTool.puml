@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $WellArchitectedTool [32x32/4] {
+________________________________
+________________________________
+_______y3C333C3y________________
+______m00_____00m_yyyyyy________
+_______3m3ymp0mFmFmFFFpCm_______
+________y33p33y303y____003______
+______ypC3FFF3m3y3CCCCCmF_______
+______Fm3y___y3m3_______________
+________3p333p3_________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(WellArchitectedTool)
+!define WellArchitectedTool(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedTool(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedToolParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, WellArchitectedTool)
+!define WellArchitectedToolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, WellArchitectedTool, WellArchitectedTool)
+!define WellArchitectedToolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, WellArchitectedTool, WellArchitectedTool)

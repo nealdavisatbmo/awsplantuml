@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $QuickSight [32x32/4] {
+________________________________
+________________________________
+______0FFFFFFFFFFFFFFFFFCCy_____
+______0________yy______y3p3_____
+______0______y3mpF__ypF__0______
+______0___ypF__0yypF_____0______
+_____yCypF____3_p3_______0______
+_____3p3_________________0______
+______3pppppppppppppppppp3______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(QuickSight)
+!define QuickSight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, QuickSight, QuickSight)
+!define QuickSight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, QuickSight, QuickSight)
+!define QuickSightParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, QuickSight)
+!define QuickSightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, QuickSight, QuickSight)
+!define QuickSightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, QuickSight, QuickSight)

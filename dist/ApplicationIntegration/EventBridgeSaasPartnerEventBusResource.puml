@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EventBridgeSaasPartnerEventBusResource [32x32/4] {
+00000000000000300000000000000000
+0000000F300000_00000Fy0000000000
+00000000m_0000m0000mm00003FC0000
+000FF33000033FFyyFF3300mym000000
+00000mm000_y_330033_y_0000333300
+0033330000_000m__m000_0000000000
+0000000000yCF33__33FCy000FF33000
+000003FyC0000mmyymm00030000mm000
+0000mm00000FC0000F0000yF30000000
+0000000000ym00000_000000m0000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)

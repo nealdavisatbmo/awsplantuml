@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ManagedServices [32x32/4] {
+________________________________
+________________________________
+__________yp_FFFFFF_pyy_________
+_______ymF__my3F3ppm__Fp________
+_____pm0p_yCpy3FF3y3py__________
+__________FpmFpyypFp0__30F______
+________py__FpF3_3FCy30ppy______
+__________Fppyyyyy_3y3y0_0p_____
+____________________FF3p3_______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ManagedServices)
+!define ManagedServices(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ManagedServices, ManagedServices)
+!define ManagedServices(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ManagedServices, ManagedServices)
+!define ManagedServicesParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ManagedServices)
+!define ManagedServicesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ManagedServices, ManagedServices)
+!define ManagedServicesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ManagedServices, ManagedServices)

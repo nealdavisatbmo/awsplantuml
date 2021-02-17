@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ThinkboxKrakatoa [32x32/4] {
+________________________________
+______________yyyy______________
+__________ypyyFFFFyypy__________
+______m3yyy__F3yy3F__yyy3m______
+______C____F3my00ym3F____C______
+______Fymppmy_F00F_ymppmyF______
+______0__Fpm_0_00_0_mpF__0______
+______FppppFy0p33p0yFppppF______
+___________FFFFCCFFFF___________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ThinkboxKrakatoa)
+!define ThinkboxKrakatoa(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoa(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxKrakatoa, ThinkboxKrakatoa)
+!define ThinkboxKrakatoaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxKrakatoa, ThinkboxKrakatoa)

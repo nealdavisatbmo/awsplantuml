@@ -1,0 +1,129 @@
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+sprite $Budgets [32x32/4] {
+________________________________
+__________yyyyyyyyyyyy__________
+___________________y____________
+___________________yy___________
+_______ym_______y33____my_______
+______0py___3F33_______yp0______
+______0__F3myy____yym3F__0______
+______0_ypF__FFppFF__Fpy_0______
+______0CCyyyyyyyyyyyyyyCC0______
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(Budgets)
+!define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Budgets, Budgets)
+!define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Budgets, Budgets)
+!define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Budgets, Budgets)
+
+sprite $CostExplorer [32x32/4] {
+________________________________
+_______y____y_____y_____y_______
+_______0____0_____0__ymFFm______
+_______0____0____CyCF__F0_______
+_____y3F0___0__y3F0_____0_______
+______F0FFpm3p0_yppmppy_0_______
+_______0___FmpF0F0F____0F_______
+_______0____0___3yyyyy0py_______
+_______3pppp3pppppppppF3mCp_____
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CostExplorer)
+!define CostExplorer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostExplorer, CostExplorer)
+!define CostExplorer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostExplorer, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostExplorer, CostExplorer)
+!define CostExplorerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostExplorer, CostExplorer)
+
+sprite $CostManagement [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0_________yyyyyy__________0__0
+__0________3p0____0_________0__0
+__0_______0__FFFFFF_________0__0
+__0_______0_pppppppp________0__0
+__0_______0_______0_________0__0
+__0_______0yCyyCCyCCyy______0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(CostManagement)
+!define CostManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostManagement, CostManagement)
+!define CostManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostManagement, CostManagement)
+!define CostManagementParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, CostManagement)
+!define CostManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostManagement, CostManagement)
+!define CostManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostManagement, CostManagement)
+
+sprite $CostandUsageReport [32x32/4] {
+________________________________
+________________________________
+_____mCF0ppm____yyyyyyyy________
+______yC___0__________0yCmy_____
+_____3Cy0pp0_____ppppp__p_0_____
+______yyy__0_____FFF____F_0_____
+_____3my3FF0FFFFFFFFFFFFF_0_____
+_____yypy__0____yyyyyyyyyy0_____
+_____Fpp3FFF____________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(CostandUsageReport)
+!define CostandUsageReport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, CostandUsageReport)
+!define CostandUsageReportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostandUsageReport, CostandUsageReport)
+
+sprite $ReservedInstanceReporting [32x32/4] {
+________________________________
+________________________________
+________y__yyyppppyyy__y________
+________y33y________y33y________
+_______y3___FymppmyF___3y_______
+_______0_____0y__y0_____0_______
+________0__yp_FFFF_py__0________
+________y33yyy____yyy33y________
+______________FFFF______________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ReservedInstanceReporting)
+!define ReservedInstanceReporting(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReporting(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, ReservedInstanceReporting)
+!define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
+
+sprite $SavingsPlans [32x32/4] {
+________________________________
+___________yyyppppyyy___________
+_______ypFF__________F3my_______
+______mF__F3C_3FFpC3F___Fm______
+_____0______mmmmmmmpF3pF__0_____
+_____0____m3F_ympy_Fpy__y_0_____
+_____F___0____30yF___Fm__3pF____
+_________0____m0_0____0_________
+_________F3pyy_3FyyypF__________
+_______________FF_______________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(SavingsPlans)
+!define SavingsPlans(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SavingsPlans, SavingsPlans)
+!define SavingsPlans(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SavingsPlans, SavingsPlans)
+!define SavingsPlansParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, SavingsPlans)
+!define SavingsPlansParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SavingsPlans, SavingsPlans)
+!define SavingsPlansParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SavingsPlans, SavingsPlans)
+

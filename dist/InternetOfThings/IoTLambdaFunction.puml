@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTLambdaFunction [32x32/4] {
+000000000333FFCCCCFF333000000000
+000003FCyp_FFFFF30000mmyCF300000
+0003_m000__00000yF00000000m_3000
+00_y00000mmmm_F00m_300000000y_00
+0_y00000000__3y_000yF00000000y_0
+0_0000000F_mm_Fm_300y_30000000_0
+0y_00000Fy000Fy00yF00m_F33000_y0
+00y_303_m003_y0000y_0000__03_y00
+0000yFpmmmmm0000000mmmmmmpFy0000
+000000mmyFF3330000333FFymm000000
+000000000000mmmmmmmm000000000000
+}
+
+AWSEntityColoring(IoTLambdaFunction)
+!define IoTLambdaFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)

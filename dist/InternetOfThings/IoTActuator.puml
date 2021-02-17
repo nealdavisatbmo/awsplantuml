@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTActuator [32x32/4] {
+0000000033FFCCCF3300000000000000
+0000003Fym0000000m_F333300000000
+000003__00000000000m000m_3300000
+000Fymm000000F_yy_F000000mmyF000
+000_000000000myFFym000000000_000
+000myF333333000__000333333Fym000
+0000000mmmmm0my__ym0mmmmm0000000
+00FFCCCCCCCCCCCCCCCCCCCCCCCCFF00
+00__0Fyy_300003__300000_y__0__00
+00__0myyy0000yyyyyy0000yyyy0__00
+00mmmmmmmmmmmmmmmmmmmmmmmmmmmm00
+}
+
+AWSEntityColoring(IoTActuator)
+!define IoTActuator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuatorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTActuator, IoTActuator)

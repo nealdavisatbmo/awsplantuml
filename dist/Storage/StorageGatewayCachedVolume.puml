@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $StorageGatewayCachedVolume [32x32/4] {
+0000FCCCCCCCCCCCCCCCCCCCCCCF0000
+0000_000CC00F00FCCF00F0CC00_0000
+0000_00y300_0_0_00_00_0mm00_0000
+0000_0000m000000m0000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000000000000000000000_0000
+0000_0000003FFFFFFFF3000000_0000
+0000_000000_00000000_000000_0000
+0000mmmmmmmm00000000mmmmmmmm0000
+}
+
+AWSEntityColoring(StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)

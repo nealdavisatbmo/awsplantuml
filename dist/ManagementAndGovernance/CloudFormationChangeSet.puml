@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $CloudFormationChangeSet [32x32/4] {
+000FFCCCCCCCCCCCCCCCCCCCCCCFF000
+000__0FFFFF00000330000FF000__000
+000__0_000_0yyyy__y0F_mm_30__000
+000__0mmmmm000000000mmmmmm0__000
+000__033F330000000000333330__000
+000__0_p03_0CCCC__F0y_ppp_y__000
+000__00mmm000000mm00000m000__000
+000__03FCF30000000000000000__000
+000__0_000_0FFFF__F00m_F_m0__000
+000__0myCym00000mm000mm0mm0__000
+000mmmmmmmmmmmmmmmmmmmmmmmmmm000
+}
+
+AWSEntityColoring(CloudFormationChangeSet)
+!define CloudFormationChangeSet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSetParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, CloudFormationChangeSet)
+!define CloudFormationChangeSetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, CloudFormationChangeSet, CloudFormationChangeSet)
+!define CloudFormationChangeSetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, CloudFormationChangeSet, CloudFormationChangeSet)

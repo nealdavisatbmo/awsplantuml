@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ApplicationIntegration [32x32/4] {
+0FCCCCCCCCCCCCCCCCCCCCCCCCCCCFF0
+__0_________________________0__0
+__0______yyyyyyyyyyyyyy_____0__0
+__0_____0____ypp_______0____0__0
+__0_____0____Fpp__ypp__0____0__0
+__0_____0____m____F____0____0__0
+__0_____0__FF___Cy3____0____0__0
+__0_____3yyyyyyyyyyyyyy3____0__0
+__0_________________________0__0
+__3ppppppppppppppppppppppppp3__0
+0myyyyyyyyyyyyyyyyyyyyyyyyyyymm0
+}
+
+AWSEntityColoring(ApplicationIntegration)
+!define ApplicationIntegration(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegration(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ApplicationIntegration, ApplicationIntegration)
+!define ApplicationIntegrationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ApplicationIntegration, ApplicationIntegration)

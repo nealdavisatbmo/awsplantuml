@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ElasticBeanstalkApplication [32x32/4] {
+0000000000000033FFFCCCCFF0000000
+00000000003Fymm000000F_m_0000000
+000000003_m00000003Fym00_0000000
+0000000F_0000003Fym0000_m0000000
+0000000_00003Fym00000F_m00000000
+0000000_33Fym00033FCym0000000000
+0000000_yyyyyymmm000000000000000
+0000000_000000000000000000000000
+0000000_000000000000000000000000
+0000000_000000000000000000000000
+0000000m000000000000000000000000
+}
+
+AWSEntityColoring(ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplication(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplication(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElasticBeanstalkApplication, ElasticBeanstalkApplication)
+!define ElasticBeanstalkApplicationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElasticBeanstalkApplication, ElasticBeanstalkApplication)

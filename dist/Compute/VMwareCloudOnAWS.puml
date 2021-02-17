@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $VMwareCloudOnAWS [32x32/4] {
+________________________________
+________________________________
+___________yyyyy_yyy____________
+________ypFmpppmF3m_0___________
+_______y0__0CCC0__F_3_3yy_______
+_____mF____0___0__33pyyy_Fm_____
+_____3my___3ppp3_____033_y3_____
+_______FFFFFFFFFCCCpF_FFF_______
+________________________________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(VMwareCloudOnAWS)
+!define VMwareCloudOnAWS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, VMwareCloudOnAWS, VMwareCloudOnAWS)
+!define VMwareCloudOnAWS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, VMwareCloudOnAWS, VMwareCloudOnAWS)
+!define VMwareCloudOnAWSParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, VMwareCloudOnAWS)
+!define VMwareCloudOnAWSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, VMwareCloudOnAWS, VMwareCloudOnAWS)
+!define VMwareCloudOnAWSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, VMwareCloudOnAWS, VMwareCloudOnAWS)

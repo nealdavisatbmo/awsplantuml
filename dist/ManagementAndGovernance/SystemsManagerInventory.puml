@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $SystemsManagerInventory [32x32/4] {
+000000000000033FF330000000000000
+000000003FFymm0000mmyFF300000000
+0033FCymm00000000000000mmyCF3300
+0_mm333333333333333333333333mm_0
+0_00__0FCFF0FCFF0000000000__00_0
+0_00__0yyyy0yyyy0000000000__00_0
+0_00__0_p__0_p____p_000000__00_0
+0_00__03333033333333033330__00_0
+0_00__0yCyy0yCyyyyCy0yyCy0__00_0
+0_00yyyyyyyyyyyyyyyyyyyyyyyy00_0
+0mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm0
+}
+
+AWSEntityColoring(SystemsManagerInventory)
+!define SystemsManagerInventory(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventory(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventoryParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #CC2264, SystemsManagerInventory)
+!define SystemsManagerInventoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SystemsManagerInventory, SystemsManagerInventory)
+!define SystemsManagerInventoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SystemsManagerInventory, SystemsManagerInventory)

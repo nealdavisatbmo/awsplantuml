@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $EMREngineMapRM5 [32x32/4] {
+00000000000000000000000000000000
+0000000000yyy__yyy00000000000000
+000000000F_yyyyyyyF0000000000000
+0_00_mmmmmm0000000mmmmy_3F_mmy_0
+0_00_000000000000000000mmmm000_0
+0_yy_00_Fy_3F0FC0__y0_yF_0yF00_0
+0_00_00m00mmm0ym0m0m0m00m0mm00_0
+0y00yCCCCCCCFF000000003_my_333_0
+0000000000000yyCCCCCCCym000mmm00
+00000000000000000000000000000000
+00000000000000000000000000000000
+}
+
+AWSEntityColoring(EMREngineMapRM5)
+!define EMREngineMapRM5(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label) AWSParticipant(p_alias, p_label, #693CC5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
+!define EMREngineMapRM5Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)

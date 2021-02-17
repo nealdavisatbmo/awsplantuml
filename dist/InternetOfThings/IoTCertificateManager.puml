@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $IoTCertificateManager [32x32/4] {
+000000000033FFCCCCFF330000000000
+0000003Fymm0000000000mmyF3000000
+00000Fym0333330000000000myF00000
+0000__03_pp30my_3FF3FF3300__0000
+0000__0_p_F_000FFFFFFFF_y0__0000
+0000m_30yyFFFCym0000000003_m0000
+000000y_3000000000000003_y000000
+00000000mmyFF333333FFymm00000000
+00000000000_00000000_00000000000
+00000000000_3FymmyF3_00000000000
+00000000000mm000000mm00000000000
+}
+
+AWSEntityColoring(IoTCertificateManager)
+!define IoTCertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #3F8624, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)

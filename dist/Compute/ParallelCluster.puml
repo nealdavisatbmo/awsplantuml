@@ -1,0 +1,22 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $ParallelCluster [32x32/4] {
+________________________________
+________________________________
+________0FFF0___________________
+_____0__3ppp3___________________
+_____3ppp3_Fpmy___yppFFFFFpy____
+____0_________F0mC_________0____
+_____3myyyyyypF__F3py_mpppm_____
+___________________0FFF0_y0_____
+___________________3___3________
+________________________________
+yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+}
+
+AWSEntityColoring(ParallelCluster)
+!define ParallelCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ParallelCluster, ParallelCluster)
+!define ParallelCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ParallelCluster, ParallelCluster)
+!define ParallelClusterParticipant(p_alias, p_label) AWSParticipant(p_alias, p_label, #D86613, ParallelCluster)
+!define ParallelClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ParallelCluster, ParallelCluster)
+!define ParallelClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ParallelCluster, ParallelCluster)
